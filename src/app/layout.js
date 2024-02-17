@@ -4,20 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./_styles/default.css";
 import "./_styles/styles.css";
 
-import {NavBar, TopBar} from "@/components/sections";
+import {Footer, NavBar, PageTitle, TopBar} from "@/components/sections";
+
+import DATA from "../data/data.json";
 
 const inter = Raleway({ subsets: ["latin-ext"] });
 
-export const metadata = {
-  // TODO: alternates
-  title: "Master Steel House | Hafif Çelik Ev, Hafif Çelik Yapı",
-  description: "Master Steel House, mükemmel tasarımı ve dayanıklılığı, hafif çelik ev ve hafif çelik yapı çeşitlerinde bir araya getirir. Maksimum kalite ve uygun hafif çelik ev fiyatları için doğru adrestesiniz.",
-  keywords: ['hafif çelik', 'hafif çelik ev'],
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+// TODO: alternates meta
+export const metadata = DATA.metadata;
 
 export default function RootLayout({ children }) {
   return (
@@ -25,7 +19,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <TopBar />
         <NavBar />
+        <PageTitle />
         {children}
+        <Footer />
       </body>
     </html>
   );

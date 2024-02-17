@@ -18,36 +18,13 @@ import Col from "react-bootstrap/Col";
 import {HoverControlledDropdown} from "@/components/ui";
 import {usePathname, useRouter} from "next/navigation";
 
-const MENU_CONFIG = [
-    { name: 'Ana Sayfa', href: '/' },
-    { name: 'Hakkimizda', href: '/hakkimizda' },
-    {
-        name: 'Hizmetler', href: '/hizmetler', align: 'start',
-        children: [
-            { name: 'Konut', href: '/konut' },
-            { name: 'Villa', href: '/villa' },
-            { name: 'Ofis', href: '/ofis' },
-            { name: 'Tiny House', href: '/tiny-house' },
-            { name: 'Bungalov', href: '/bungalov' }
-        ]
-    },
-    {
-        name: 'Nedir?', href: '/nedir', align: 'end',
-        children: [
-            { name: 'Çelik Ev Nedir?', href: '/celik-ev-nedir' },
-            { name: 'Çelik Yapıların Avantajı Nedir?', href: '/celik-yapilarin-avantaji-nedir' },
-            { name: 'Prefabrik ve Çelik Evlerin Farkı Nedir?', href: '/prefabrik-ve–celik-evlerin–farki-nedir' },
-            { name: 'Neden Master Steel House?', href: '/neden-master-steel-house' },
-            { name: 'Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?', href: '/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor' },
-            { name: 'Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?', href: '/diger-i̇nsaat-malzemelerine-gore-nasil-karsilaştirilir' },
-        ]
-    },
-    { name: 'Iletisim', href: '/iletisim' },
-];
+import DATA from "../../../data/data.json";
 
 const NavBar = () => {
     const pathname = usePathname();
     const router = useRouter()
+
+    const { menu } = DATA;
 
     const handleDropdownToggleClick = ({ event, href }) => {
         if (href && event.target.classList.contains('dropdown-toggle')) {
@@ -70,7 +47,7 @@ const NavBar = () => {
                             <NavbarCollapse id="bs-example-navbar-collapse-1" className="justify-content-end">
                                 <Nav as="ul" className="nav navbar-nav navbar-right navbar-links-custom">
                                     {
-                                        MENU_CONFIG.map(({ name, href, children, align }) => {
+                                        menu.map(({ name, href, children, align }) => {
                                             if (children) {
                                                 return (
                                                     <HoverControlledDropdown

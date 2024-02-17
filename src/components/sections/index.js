@@ -1,3 +1,9 @@
 export { TopBar } from './TopBar';
 export { NavBar } from './NavBar';
 export { CarouselHero } from './CarouselHero';
+export { AboutHero } from './AboutHero';
+export { ServicesHero } from './ServicesHero';
+export { PostsHero } from './PostsHero';
+export { ProjectsHero } from './ProjectsHero';
+export { Footer } from './Footer';
+export { PageTitle } from './PageTitle';

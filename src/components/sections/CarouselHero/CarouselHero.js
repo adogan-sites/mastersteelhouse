@@ -11,37 +11,29 @@ import image4 from './images/IMG-20200629-WA0016.png';
 import image5 from './images/master99.png';
 import image6 from './images/mastr.png';
 
+import DATA from "../../../data/data.json";
+
 import './styles.scss';
 
 const CarouselHero = () => {
-    const SLIDES = [
-        {
-            image: image1,
-            imgAlt: 'Tiny House',
-            title: 'asdasd',
-            description: 'asdasdadwerewrwerwer we wer wer we rdadsd'
-        },
-        {
-            image: image2,
-            imgAlt: 'ASJKDH:ASKJHD lAKLJSD ',
-            title: 'ASJKDH:ASKJHD lAKLJSD ',
-            description: 'asdasdadwerewrwerwer we wer wer we rdadsd'
-        },
-        {
-            image: image3,
-            imgAlt: 'ALJKSDHSD :AKLSD H:LKAS J',
-            title: 'ALJKSDHSD :AKLSD H:LKAS J',
-            description: 'asdasdadwerewrwerwer we wer wer we rdadsd'
-        }
-    ];
+    const { slides } = DATA.carouselHero;
+
+    const IMAGES = {
+        image1,
+        image2,
+        image3,
+        image4,
+        image5,
+        image6
+    };
 
     return (
         <Carousel className="carousel-hero">
             {
-                SLIDES.map(({ image, imgAlt, title, description }) => (
+                slides.map(({ image, imgAlt, title, description }) => (
                     <Carousel.Item key={title}>
                         <Image
-                            src={image}
+                            src={IMAGES[image]}
                             alt={imgAlt}
                             fill
                             sizes="100vw"

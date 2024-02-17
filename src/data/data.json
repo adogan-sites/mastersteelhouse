@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "title": "Master Steel House | Hafif Çelik Ev, Hafif Çelik Yapı",
+    "description": "Master Steel House, mükemmel tasarımı ve dayanıklılığı, hafif çelik ev ve hafif çelik yapı çeşitlerinde bir araya getirir. Maksimum kalite ve uygun hafif çelik ev fiyatları için doğru adrestesiniz.",
+    "keywords": [
+      "hafif çelik",
+      "hafif çelik ev"
+    ],
+    "robots": {
+      "index": true,
+      "follow": true
+    }
+  },
+  "companyInfo": {
+    "workingHours": "Haftaiçi: 9:00-20:00, Cumartesi: 9:30-22:00",
+    "phoneNumber": "+90 533 490 31 50",
+    "email": "info@mastersteelhouse.com",
+    "facebookPage": "https://www.facebook.com/mastersteelhous/",
+    "twitterPage": "https://twitter.com/mastersteelhous",
+    "instagramPage": "https://www.instagram.com/mastersteelhouse/"
+  },
+  "menu": [
+    {
+      "name": "Ana Sayfa",
+      "href": "/"
+    },
+    {
+      "name": "Hakkimizda",
+      "href": "/hakkimizda"
+    },
+    {
+      "name": "Hizmetler",
+      "href": "/hizmetler",
+      "align": "start",
+      "children": [
+        {
+          "name": "Konut",
+          "href": "/konut"
+        },
+        {
+          "name": "Villa",
+          "href": "/villa"
+        },
+        {
+          "name": "Ofis",
+          "href": "/ofis"
+        },
+        {
+          "name": "Tiny House",
+          "href": "/tiny-house"
+        },
+        {
+          "name": "Bungalov",
+          "href": "/bungalov"
+        }
+      ]
+    },
+    {
+      "name": "Nedir?",
+      "href": "/nedir",
+      "align": "end",
+      "children": [
+        {
+          "name": "Çelik Ev Nedir?",
+          "href": "/celik-ev-nedir"
+        },
+        {
+          "name": "Çelik Yapıların Avantajı Nedir?",
+          "href": "/celik-yapilarin-avantaji-nedir"
+        },
+        {
+          "name": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
+          "href": "/prefabrik-ve–celik-evlerin–farki-nedir"
+        },
+        {
+          "name": "Neden Master Steel House?",
+          "href": "/neden-master-steel-house"
+        },
+        {
+          "name": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
+          "href": "/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+        },
+        {
+          "name": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
+          "href": "/diger-i̇nsaat-malzemelerine-gore-nasil-karsilaştirilir"
+        }
+      ]
+    },
+    {
+      "name": "Iletisim",
+      "href": "/iletisim"
+    }
+  ],
+  "aboutHero": {
+    "title": "Master Steel House",
+    "description": "Hayalini kurduğunuz mükemmel yaşam alanı için bize ulaşın ve Master Steel House farkını keşfedin!",
+    "paragraphs": [
+      "Master Steel House, modern ve sürdürülebilir yaşam alanları sunan öncü bir hafif çelik villa inşaat firmasıdır. Biz, hafif çelik yapı teknolojisini kullanarak müşterilerimize kaliteli, estetik ve dayanıklı villa projeleri sunmayı hedefleyen bir ekibiz.",
+      "Hafif çelik yapılarımız, hızlı ve kolay bir şekilde inşa edilebilir özelliklere sahiptir. Prefabrik ve modüler üretim yöntemleri sayesinde, projelerimizde zamandan ve maliyetten tasarruf sağlarken, kalite ve dayanıklılığı da garanti ediyoruz.",
+      "Master Steel House olarak, deneyimli ve uzman bir ekiple çalışıyoruz. Müşterilerimize kararlılıkla destek sağlıyor, projelerimizin her aşamasında şeffaf bir iletişim sürdürüyoruz. Yüksek kalite standartlarımızı ve zamanında teslimat politikamızı koruyarak müşteri memnuniyetini en üst düzeyde tutmayı hedefliyoruz."
+    ]
+  },
+  "carouselHero": {
+    "slides": [
+      {
+        "image": "image1",
+        "imgAlt": "Tiny House",
+        "title": "asdasd",
+        "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
+      },
+      {
+        "image": "image2",
+        "imgAlt": "ASJKDH:ASKJHD lAKLJSD ",
+        "title": "ASJKDH:ASKJHD lAKLJSD ",
+        "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
+      },
+      {
+        "image": "image3",
+        "imgAlt": "ALJKSDHSD :AKLSD H:LKAS J",
+        "title": "ALJKSDHSD :AKLSD H:LKAS J",
+        "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
+      }
+    ]
+  },
+  "postsHero": {
+    "posts": [
+      {
+        "title": "Çelik Ev Nedir?",
+        "description": "Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
+        "image": "",
+        "href": "/celik-ev-nedir"
+      },
+      {
+        "title": "Çelik Yapıların Avantajı Nedir?",
+        "description": "Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
+        "image": "",
+        "href": "/celik-yapilarin-avantaji-nedir"
+      },
+      {
+        "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
+        "description": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
+        "image": "",
+        "href": "/prefabrik-ve–celik-evlerin–farki-nedir"
+      },
+      {
+        "title": "Neden Master Steel House?",
+        "description": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
+        "image": "",
+        "href": "/neden-master-steel-house"
+      },
+      {
+        "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
+        "description": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
+        "image": "",
+        "href": "/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+      },
+      {
+        "title": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
+        "description": "Hafif çelik yapı, çelik çerçeveler ve diğer hafif çelik elemanları kullanılarak inşa edilen bir yapı türüdür.",
+        "image": "",
+        "href": "/diger-i̇nsaat-malzemelerine-gore-nasil-karsilaştirilir"
+      }
+    ],
+    "title": "Sikca Sorulan Sorular",
+    "description": "Sikca sorulan sorulan sorular ve hafif celik yapilar hakkinda merak edilen konular hakkindaki yazilar."
+  },
+  "projectsHero": {
+    "title": "Projelerimiz",
+    "description": "20\u0027den fazla yillik tecrubemiz ile tamamladigimiz projelerimiz ile portfoyumuzu kesfedin.",
+    "projects": [
+      {
+        "title": "Celik Konut Projemiz",
+        "image": "",
+        "href": ""
+      },
+      {
+        "title": "Bungalov Projemiz",
+        "image": "",
+        "href": ""
+      },
+      {
+        "title": "Celik Villa Projemiz",
+        "image": "",
+        "href": ""
+      }
+    ]
+  },
+  "servicesHero": {
+    "title": "Ayrıcalıklı Hizmetler",
+    "services": [
+      {
+        "title": "Konut",
+        "description": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
+        "href": "/hizmetler/konut",
+        "image": "konut"
+      },
+      {
+        "title": "Villa",
+        "description": "Çelik bir yapı betonarmeye göre çok daha elastik, depreme karşı yüksek dayanımlı ve imalat kontrolü kolay bir yapıdır.",
+        "href": "/hizmetler/villa",
+        "image": "villa"
+      },
+      {
+        "title": "Ofis",
+        "description": "Çelik ofis yapıları, son dönemde yapı sektörü içerisinde gelişimin birçok kanattan hızla sürdüğü bir alan olarak öne çıkmaktadır.",
+        "href": "/hizmetler/ofis",
+        "image": "ofis"
+      },
+      {
+        "title": "Tiny House",
+        "description": "iny House , şehirlerde ve nehir kenarlarında, kumsallarda,dağlarda veya ormanda kalabalığın olmadığı, hiç bir şeyin anın güzelliğini bozamadığı her yerde My Way için bir yer var.",
+        "href": "/hizmetler/tiny-house",
+        "image": "tiny"
+      },
+      {
+        "title": "Bungalov",
+        "description": "Çelik Bungalov evler, sahip oldukları yükseklik nedeniyle ağaç boyunun yetersiz kalmasından dolayı iskeletin çelik olarak kullanıldığı lüks üçgen evlerdir.",
+        "href": "/hizmetler/bungalov",
+        "image": "bungalov"
+      }
+    ]
+  }
+}

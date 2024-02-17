@@ -1,1 +1,2 @@
-export { default as HoverControlledDropdown } from "@/components/ui/HoverControlledDropdown";
+export { default as HoverControlledDropdown } from "./HoverControlledDropdown";
+export { default as Section } from "./Section";
