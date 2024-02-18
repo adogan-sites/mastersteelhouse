@@ -76,13 +76,13 @@ jobs:
         run: pnpm build
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "./out/" | while read line; do
+          chmod -c -R +rX "/home/runner/work/mastersteelhouse/mastersteelhouse/out" | while read line; do
           echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: /home/runner/work/mastersteelhouse/mastersteelhouse/out
 
   # Deployment job
   deploy:
