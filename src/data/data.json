@@ -57,7 +57,7 @@
     },
     {
       "name": "Nedir?",
-      "href": "/nedir",
+      "href": "/blog",
       "align": "end",
       "children": [
         {
@@ -103,19 +103,19 @@
   "carouselHero": {
     "slides": [
       {
-        "image": "image1",
+        "image": "/images/carousel/villa.png",
         "imgAlt": "Tiny House",
         "title": "asdasd",
         "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
       },
       {
-        "image": "image2",
+        "image": "/images/carousel/tiny-house.png",
         "imgAlt": "ASJKDH:ASKJHD lAKLJSD ",
         "title": "ASJKDH:ASKJHD lAKLJSD ",
         "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
       },
       {
-        "image": "image3",
+        "image": "/images/carousel/bungalov.png",
         "imgAlt": "ALJKSDHSD :AKLSD H:LKAS J",
         "title": "ALJKSDHSD :AKLSD H:LKAS J",
         "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
@@ -192,31 +192,31 @@
         "title": "Konut",
         "description": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
         "href": "/hizmetler/konut",
-        "image": "konut"
+        "image": "/images/services/konut.png"
       },
       {
         "title": "Villa",
         "description": "Çelik bir yapı betonarmeye göre çok daha elastik, depreme karşı yüksek dayanımlı ve imalat kontrolü kolay bir yapıdır.",
         "href": "/hizmetler/villa",
-        "image": "villa"
+        "image": "/images/services/villa.png"
       },
       {
         "title": "Ofis",
         "description": "Çelik ofis yapıları, son dönemde yapı sektörü içerisinde gelişimin birçok kanattan hızla sürdüğü bir alan olarak öne çıkmaktadır.",
         "href": "/hizmetler/ofis",
-        "image": "ofis"
+        "image": "/images/services/ofis.png"
       },
       {
         "title": "Tiny House",
         "description": "iny House , şehirlerde ve nehir kenarlarında, kumsallarda,dağlarda veya ormanda kalabalığın olmadığı, hiç bir şeyin anın güzelliğini bozamadığı her yerde My Way için bir yer var.",
         "href": "/hizmetler/tiny-house",
-        "image": "tiny"
+        "image": "/images/services/tiny.png"
       },
       {
         "title": "Bungalov",
         "description": "Çelik Bungalov evler, sahip oldukları yükseklik nedeniyle ağaç boyunun yetersiz kalmasından dolayı iskeletin çelik olarak kullanıldığı lüks üçgen evlerdir.",
         "href": "/hizmetler/bungalov",
-        "image": "bungalov"
+        "image": "/images/services/bungalov.png"
       }
     ]
   }
