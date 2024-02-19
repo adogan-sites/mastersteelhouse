@@ -19,6 +19,7 @@ import {HoverControlledDropdown} from "@/components/ui";
 import {usePathname, useRouter} from "next/navigation";
 
 import DATA from "../../../data/data.json";
+import Image from "next/image";
 
 const NavBar = () => {
     const pathname = usePathname();
@@ -39,7 +40,9 @@ const NavBar = () => {
                     <Row className="flex-fill">
                         <Col xs={2} className='navbar-header navbar-header-custom'>
                             <NavbarBrand href="index.html">
-                                MASTER STEEL HOUSE
+                                <Link href="/">
+                                    <Image width="168" height="70" src="/images/logo.png" alt="footer-logo"/>
+                                </Link>
                             </NavbarBrand>
                             <NavbarToggle aria-controls="bs-example-navbar-collapse-1" className="menu-icon"/>
                         </Col>

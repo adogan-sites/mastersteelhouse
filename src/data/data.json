@@ -12,7 +12,7 @@
     }
   },
   "companyInfo": {
-    "workingHours": "Haftaiçi: 9:00-20:00, Cumartesi: 9:30-22:00",
+    "workingHours": "Haftaiçi: 9:00-18:00, Cumartesi: 9:30-14:00",
     "phoneNumber": "+90 533 490 31 50",
     "email": "info@mastersteelhouse.com",
     "facebookPage": "https://www.facebook.com/mastersteelhous/",
@@ -25,38 +25,11 @@
       "href": "/"
     },
     {
-      "name": "Hakkimizda",
+      "name": "Hakkımızda",
       "href": "/hakkimizda"
     },
     {
-      "name": "Hizmetler",
-      "href": "/hizmetler",
-      "align": "start",
-      "children": [
-        {
-          "name": "Konut",
-          "href": "/konut"
-        },
-        {
-          "name": "Villa",
-          "href": "/villa"
-        },
-        {
-          "name": "Ofis",
-          "href": "/ofis"
-        },
-        {
-          "name": "Tiny House",
-          "href": "/tiny-house"
-        },
-        {
-          "name": "Bungalov",
-          "href": "/bungalov"
-        }
-      ]
-    },
-    {
-      "name": "Nedir?",
+      "name": "Blog",
       "href": "/blog",
       "align": "end",
       "children": [
@@ -87,7 +60,34 @@
       ]
     },
     {
-      "name": "Iletisim",
+      "name": "Hizmetlerimiz",
+      "href": "/hizmetler",
+      "align": "start",
+      "children": [
+        {
+          "name": "Konut",
+          "href": "/konut"
+        },
+        {
+          "name": "Villa",
+          "href": "/villa"
+        },
+        {
+          "name": "Ofis",
+          "href": "/ofis"
+        },
+        {
+          "name": "Tiny House",
+          "href": "/tiny-house"
+        },
+        {
+          "name": "Bungalov",
+          "href": "/bungalov"
+        }
+      ]
+    },
+    {
+      "name": "İletisim",
       "href": "/iletisim"
     }
   ],
@@ -105,9 +105,9 @@
     "slides": [
       {
         "image": "/images/carousel/celik-iskelet.png",
-        "title": "Master Steel House",
+        "title": "Hayallerinizi inşa ediyoruz",
         "imgAlt": "Hayallerinizi insa editoruz",
-        "description": "Hayallerinizi insa editoruz"
+        "description": "Var olan projelerinizi ..."
       },
       {
         "image": "/images/carousel/villalar.png",

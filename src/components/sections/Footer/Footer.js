@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -9,7 +11,9 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-4 col-xs-12">
                             <div className="footer-content inner-footer">
                                 <h3 className="mb-25">A Bit About Company</h3>
-                                <a href="index.html"><img src="img/logos/logo-2.png" alt="footer-logo"/></a>
+                                <Link href="/">
+                                    <Image width="168" height="70" src="/images/logoWhite.png" alt="footer-logo"/>
+                                </Link>
                                 <p className="mt-20">
                                     There are many variations of passages of Lorem Ipsum available, but the majority
                                     have suffered alteration in some form, by injected humour.
