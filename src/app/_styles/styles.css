@@ -381,6 +381,15 @@ TABLE OF CONTENT
 	padding: 25px 0px 25px 0px;
 }
 
+@media screen and (max-width:767px) {
+	.navbar-header-custom{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+}
+
 .navbar-logo img{
 	max-width: 100%;
 	margin-left: 15px;
@@ -536,7 +545,7 @@ TABLE OF CONTENT
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
+    .collapse.in, .collapse.show{
         display:block !important;
     }
     .navbar-links-custom{
