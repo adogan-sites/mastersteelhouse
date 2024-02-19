@@ -39,11 +39,9 @@ const NavBar = () => {
                 <Container>
                     <Row className="flex-fill">
                         <Col xs={2} className='navbar-header navbar-header-custom'>
-                            <NavbarBrand href="index.html">
-                                <Link href="/">
-                                    <Image width="168" height="70" src="/images/logo.png" alt="footer-logo"/>
-                                </Link>
-                            </NavbarBrand>
+                            <Link href="/">
+                                <Image width="168" height="70" src="/images/logo.png" alt="footer-logo"/>
+                            </Link>
                             <NavbarToggle aria-controls="bs-example-navbar-collapse-1" className="menu-icon"/>
                         </Col>
                         <Col>
