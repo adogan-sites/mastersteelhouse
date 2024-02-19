@@ -44,7 +44,7 @@ const Footer = () => {
                                 <ul>
                                     {
                                         menu.map(({name, href}) => (
-                                            <li><Link href={href}>{name}</Link></li>
+                                            <li key={name}><Link href={href}>{name}</Link></li>
                                         ))
                                     }
                                 </ul>
@@ -55,7 +55,7 @@ const Footer = () => {
                                             .find(m => m.href === '/hizmetler')
                                             .children
                                             .map(({name, href}) => (
-                                                <li><Link href={`/hizmetler${href}`}>{name}</Link></li>
+                                                <li key={name}><Link href={`/hizmetler${href}`}>{name}</Link></li>
                                             ))
                                     }
                                 </ul>
