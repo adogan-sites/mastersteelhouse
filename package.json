@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "watch-export": "watch 'next build' src public",
     "serve": "http-server ./out"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "http-server": "^14.1.1",
-    "sass": "^1.70.0"
+    "sass": "^1.70.0",
+    "watch": "^1.0.2"
   }
 }

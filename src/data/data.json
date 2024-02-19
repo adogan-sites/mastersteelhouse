@@ -94,6 +94,7 @@
   "aboutHero": {
     "title": "Master Steel House",
     "description": "Hayalini kurduğunuz mükemmel yaşam alanı için bize ulaşın ve Master Steel House farkını keşfedin!",
+    "image": "/images/carousel/villalar.png",
     "paragraphs": [
       "Master Steel House, modern ve sürdürülebilir yaşam alanları sunan öncü bir hafif çelik villa inşaat firmasıdır. Biz, hafif çelik yapı teknolojisini kullanarak müşterilerimize kaliteli, estetik ve dayanıklı villa projeleri sunmayı hedefleyen bir ekibiz.",
       "Hafif çelik yapılarımız, hızlı ve kolay bir şekilde inşa edilebilir özelliklere sahiptir. Prefabrik ve modüler üretim yöntemleri sayesinde, projelerimizde zamandan ve maliyetten tasarruf sağlarken, kalite ve dayanıklılığı da garanti ediyoruz.",
@@ -103,26 +104,46 @@
   "carouselHero": {
     "slides": [
       {
+        "image": "/images/carousel/celik-iskelet.png",
+        "title": "Master Steel House",
+        "imgAlt": "Hayallerinizi insa editoruz",
+        "description": "Hayallerinizi insa editoruz"
+      },
+      {
+        "image": "/images/carousel/villalar.png",
+        "title": "Master Steel House",
+        "imgAlt": "Villa",
+        "description": "Villa",
+        "href": "/hizmetler/konut"
+      },
+      {
         "image": "/images/carousel/villa.png",
-        "imgAlt": "Tiny House",
-        "title": "asdasd",
-        "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
+        "title": "Master Steel House",
+        "imgAlt": "Konut",
+        "description": "Konut"
       },
       {
         "image": "/images/carousel/tiny-house.png",
-        "imgAlt": "ASJKDH:ASKJHD lAKLJSD ",
-        "title": "ASJKDH:ASKJHD lAKLJSD ",
-        "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
+        "title": "Master Steel House",
+        "imgAlt": "Ofis",
+        "description": "Ofis"
       },
       {
         "image": "/images/carousel/bungalov.png",
-        "imgAlt": "ALJKSDHSD :AKLSD H:LKAS J",
-        "title": "ALJKSDHSD :AKLSD H:LKAS J",
-        "description": "asdasdadwerewrwerwer we wer wer we rdadsd"
+        "title": "Master Steel House",
+        "imgAlt": "Bungalov",
+        "description": "Bungalov"
+      },
+      {
+        "image": "/images/carousel/tiny-house2.png",
+        "title": "Master Steel House",
+        "imgAlt": "Tiny House",
+        "description": "Tiny House"
       }
     ]
   },
   "postsHero": {
+    "image": "/images/carousel/celik-iskelet.png",
     "posts": [
       {
         "title": "Çelik Ev Nedir?",

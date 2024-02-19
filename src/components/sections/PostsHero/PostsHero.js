@@ -1,11 +1,14 @@
 import React from 'react';
 import {Section} from "@/components/ui";
 import Link from "next/link";
+import Image from "next/image";
 
 import DATA from "../../../data/data.json";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faQuestion} from "@fortawesome/free-solid-svg-icons";
 
 const PostsHero = () => {
-    const { posts, title, description } = DATA.postsHero;
+    const { posts, title, description, image } = DATA.postsHero;
 
     return (
         <Section
@@ -14,7 +17,13 @@ const PostsHero = () => {
         >
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-12">
-                    <img src="http://via.placeholder.com/555x370" className="rounded-border shadow-primary" alt="team"/>
+                    <Image
+                        src={image}
+                        alt="celik yapilar"
+                        width={555}
+                        height={370}
+                        className="rounded-border shadow-primary"
+                    />
                 </div>
 
                 <div className="col-md-6 col-sm-6 col-xs-12">
@@ -23,7 +32,9 @@ const PostsHero = () => {
                             return (
                                 <div key={title} className="feature-block clearfix">
                                     <div className="feature-icon">
-                                        <i className="icon-wallpaper"></i>
+                                        <i className="icon-wallpaper">
+                                            <FontAwesomeIcon className="icon-wallpaper" icon={faQuestion}/>
+                                        </i>
                                     </div>
                                     <div className="feature-content feature-block-inner">
                                         <h4>{title}</h4>

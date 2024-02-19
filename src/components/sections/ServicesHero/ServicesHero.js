@@ -3,6 +3,9 @@ import Image from 'next/image'
 import {Section} from "@/components/ui";
 
 import DATA from "../../../data/data.json";
+import Link from "next/link";
+import {faPlus} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const ServicesHero = () => {
     const { title, services } = DATA.servicesHero;
@@ -26,11 +29,13 @@ const ServicesHero = () => {
                                     <Image
                                         src={image}
                                         alt={title}
+                                        width={358}
+                                        height={240}
                                     />
                                     <div className="service-grid-inner content-holder">
                                         <h4>{title}</h4>
                                         <p>{description}</p>
-                                        <a href={href}>Detaylı Bilgi</a>
+                                        <Link href={href}>Detaylı Bilgi<FontAwesomeIcon icon={faPlus}/></Link>
                                     </div>
                                 </div>
                             </div>
