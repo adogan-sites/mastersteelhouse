@@ -1,49 +1,25 @@
 import React from 'react';
+import DATA from "@/data/data.json";
+import {faBriefcaseClock, faPhone, faMap} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
+    const {
+        metadata: {
+            description
+        },
+        companyInfo: {
+            name,
+            address,
+            phoneNumber,
+            workingHours,
+            email
+        },
+        menu
+    } = DATA;
+
     return (
         <div className="section-block">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-4 col-sx-4 col-xs-12">
-                        <div className="contact-box clearfix">
-                            <div className="contact-icon">
-                                <i className="icon-map"></i>
-                            </div>
-                            <div className="contact-info">
-                                <h4>Our Address</h4>
-                                <p>West road, London, England <br/> Seram 113</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-4 col-sx-4 col-xs-12">
-                        <div className="contact-box clearfix">
-                            <div className="contact-icon">
-                                <i className="icon-phone-reciever"></i>
-                            </div>
-                            <div className="contact-info">
-                                <h4>Phone & Email</h4>
-                                <p>(+123) 123456789 <br/> example@gmail.com</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-4 col-sx-4 col-xs-12">
-                        <div className="contact-box clearfix">
-                            <div className="contact-icon">
-                                <i className="icon-wall-clock"></i>
-                            </div>
-                            <div className="contact-info">
-                                <h4>Working Bours</h4>
-                                <p>Time: Tusday-Monday <br/> 9:00am - 6:00pm</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-sx-6 col-xs-12">
@@ -81,6 +57,53 @@ const Contact = () => {
                                 </div>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4 col-sx-4 col-xs-12">
+                        <div className="contact-box clearfix">
+                            <div className="contact-icon">
+                                <i className="icon-map">
+                                    <FontAwesomeIcon icon={faMap}/>
+                                </i>
+                            </div>
+                            <div className="contact-info">
+                                <h4>Adresimiz</h4>
+                                <p>{address}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-sx-4 col-xs-12">
+                        <div className="contact-box clearfix">
+                            <div className="contact-icon">
+                                <i className="icon-phone-reciever">
+                                    <FontAwesomeIcon icon={faPhone}/>
+                                </i>
+                            </div>
+                            <div className="contact-info">
+                                <h4>Telefon & Email</h4>
+                                <p>{phoneNumber}<br/>{email}</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-sx-4 col-xs-12">
+                        <div className="contact-box clearfix">
+                            <div className="contact-icon">
+                                <i className="icon-wall-clock">
+                                    <FontAwesomeIcon icon={faBriefcaseClock}/>
+                                </i>
+                            </div>
+                            <div className="contact-info">
+                                <h4>Calisma Saatleri</h4>
+                                <p>{workingHours}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

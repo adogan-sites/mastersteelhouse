@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import DATA from "../../../data/data.json";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faQuestion} from "@fortawesome/free-solid-svg-icons";
+import {faPlus, faQuestion} from "@fortawesome/free-solid-svg-icons";
 
 const PostsHero = () => {
     const { posts, title, description, image } = DATA.postsHero;
@@ -39,7 +39,10 @@ const PostsHero = () => {
                                     <div className="feature-content feature-block-inner">
                                         <h4>{title}</h4>
                                         <p>{description}</p>
-                                        <Link href={href}>Read More...</Link>
+                                        <Link href={href}>
+                                            Detayli Bilgi
+                                            <FontAwesomeIcon icon={faPlus}/>
+                                        </Link>
                                     </div>
                                 </div>
                             );

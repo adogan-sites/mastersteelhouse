@@ -632,6 +632,8 @@ TABLE OF CONTENT
 .project-item{
 	position: relative;
 	margin-top: 30px;
+	width: 380px;
+	height: 253px;
 }
 .project-item img{
 	display: block;
@@ -858,6 +860,10 @@ e) Color Control
 	float: left;	
 	width: 30%;
 	text-align: center;
+
+	svg {
+		width: 32px;
+	}
 }
 .feature-content{
 	float: left;	
@@ -910,6 +916,20 @@ e) Color Control
 .feature-content-sm{
 	float: left;	
 	width: 75%;	
+}
+.feature-block a{
+	font-size: 14px;
+	font-weight: 500;
+	color: #1c303e;
+	text-decoration: none;
+	line-height: 170%;
+}
+.feature-block a svg{
+	width: 14px;
+	padding-left: 5px;
+}
+.feature-block a:hover{
+	color: #ffc527;
 }
 
 
@@ -1972,7 +1992,7 @@ e) Color Control
 	float: left;
 	text-align: center;
 	padding: 0px 15px 10px 0px;
-	width: 25%;
+	width: 64px;
 }
 
 .contact-icon i{
@@ -1983,7 +2003,8 @@ e) Color Control
 
 .contact-info{
 	float: left;
-	width: 75%;
+	width: 60%;
+	height: 140px;
 }
 
 .contact-info h4{
@@ -2379,11 +2400,17 @@ e) Color Control
     font-weight: 500;
     color: #e8e8e8;	
 	padding-top: 15px;
+	display: flex;
+	align-items: center;
 }
 .footer-contact ul li i{
     font-size: 18px;
     color: #ffc527;	
     padding-right: 15px;
+
+	svg {
+		height: 18px;
+	}
 }
 
 .inner-footer{

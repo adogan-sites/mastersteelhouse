@@ -8,6 +8,8 @@ import DATA from "../../../data/data.json";
 
 import './styles.scss';
 import Link from "next/link";
+import {faPlus} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const CarouselHero = () => {
     const {slides} = DATA.carouselHero;
@@ -15,8 +17,8 @@ const CarouselHero = () => {
     return (
         <Carousel className="carousel-hero pogoSlider">
             {
-                slides.map(({image, imgAlt, title, description, href}) => (
-                    <Carousel.Item key={title} className="pogoSlider-slide">
+                slides.map(({image, imgAlt, title, description, href}, index) => (
+                    <Carousel.Item key={`${title}-${index}`} className="pogoSlider-slide">
                         <div className="slide-image">
                             <Image
                                 src={image}
@@ -37,8 +39,10 @@ const CarouselHero = () => {
                                         <p className="pogoSlider-slide-element hidde" data-in="slideRight"
                                            data-out="slideUp" data-duration="850" data-delay="1000">{description}</p>
                                         {href && (
-                                            <Link href={href}
-                                                  className="button-lg primary-button mt-30 pogoSlider-slide-element">
+                                            <Link
+                                                href={href}
+                                                className="button-lg primary-button mt-30 pogoSlider-slide-element"
+                                            >
                                                 Detayli Bilgi
                                             </Link>
                                         )}

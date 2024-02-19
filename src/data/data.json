@@ -12,6 +12,8 @@
     }
   },
   "companyInfo": {
+    "name": "Master Steel House",
+    "address": "Saray mahallesi, Gökkuşağı caddesi 16/B Kahramankazan/Ankara",
     "workingHours": "Haftaiçi: 9:00-18:00, Cumartesi: 9:30-14:00",
     "phoneNumber": "+90 533 490 31 50",
     "email": "info@mastersteelhouse.com",
@@ -191,17 +193,17 @@
     "projects": [
       {
         "title": "Celik Konut Projemiz",
-        "image": "",
+        "image": "/images/projects/ev.jpg",
         "href": ""
       },
       {
         "title": "Bungalov Projemiz",
-        "image": "",
+        "image": "/images/projects/super.jpg",
         "href": ""
       },
       {
         "title": "Celik Villa Projemiz",
-        "image": "",
+        "image": "/images/projects/celik-villa-tekirdag.jpg",
         "href": ""
       }
     ]
