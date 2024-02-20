@@ -40,7 +40,7 @@ const PostsHero = () => {
                                         <h4>{title}</h4>
                                         <p>{description}</p>
                                         <Link href={href}>
-                                            Detayli Bilgi
+                                            Detaylı Bilgi
                                             <FontAwesomeIcon icon={faPlus}/>
                                         </Link>
                                     </div>

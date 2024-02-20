@@ -996,11 +996,8 @@ e) Color Control
 	text-decoration: none;
 	line-height: 170%;
 }
-.blog-inner a:after{
-	content: ' \f067';
-	font-family: FontAwesome;
-	font-size: 10px;
-	font-weight: 100;
+.blog-inner a svg{
+	width: 14px;
 	padding-left: 5px;
 }
 .blog-inner a:hover{

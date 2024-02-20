@@ -43,7 +43,7 @@ const CarouselHero = () => {
                                                 href={href}
                                                 className="button-lg primary-button mt-30 pogoSlider-slide-element"
                                             >
-                                                Detayli Bilgi
+                                                Detaylı Bilgi
                                             </Link>
                                         )}
                                     </div>

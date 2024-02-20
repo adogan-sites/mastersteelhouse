@@ -1,11 +1,7 @@
 import React from 'react';
 
-const Services = () => {
-    return (
-        <div>
-            ddddddddddddd
-        </div>
-    );
-};
+import ServicesHero from "../../components/sections/ServicesHero/ServicesHero";
+
+const Services = () => <ServicesHero />;
 
 export default Services;

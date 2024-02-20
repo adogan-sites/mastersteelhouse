@@ -55,15 +55,15 @@ const NavBar = () => {
                                                         key={name}
                                                         as="li"
                                                         title={name}
-                                                        className={(pathname === href) || children.map(c => `${href}${c.href}`).includes(pathname) ? 'active-link' : ''}
+                                                        className={(pathname === href) || children.map(c => c.href).includes(pathname) ? 'active-link' : ''}
                                                         onClick={event => handleDropdownToggleClick({ href, event })}
                                                         align={align}
                                                     >
                                                         {
                                                             children.map(childItem => {
                                                                 return (
-                                                                    <NavDropdown.Item as="div" key={name} className={(pathname === `${href}${childItem.href}`) ? 'active-link' : ''}>
-                                                                        <Link href={`${href}${childItem.href}`} className="nav-link">
+                                                                    <NavDropdown.Item as="div" key={name} className={(pathname === childItem.href) ? 'active-link' : ''}>
+                                                                        <Link href={childItem.href} className="nav-link">
                                                                             {childItem.name}
                                                                         </Link>
                                                                     </NavDropdown.Item>

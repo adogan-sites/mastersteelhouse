@@ -13,7 +13,7 @@ const findPageFromMenuByPathname = (
 ) => {
     for (let i = 0; i < menu.length; i++) {
         const item = menu[i];
-        if (`${currentMenuPath}${item.href}` === targetPathname) {
+        if (item.href === targetPathname) {
             pageStack.push(item);
             return pageStack;
         }

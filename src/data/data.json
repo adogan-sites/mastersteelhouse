@@ -37,27 +37,27 @@
       "children": [
         {
           "name": "Çelik Ev Nedir?",
-          "href": "/celik-ev-nedir"
+          "href": "/blog/celik-ev-nedir"
         },
         {
           "name": "Çelik Yapıların Avantajı Nedir?",
-          "href": "/celik-yapilarin-avantaji-nedir"
+          "href": "/blog/celik-yapilarin-avantaji-nedir"
         },
         {
           "name": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
-          "href": "/prefabrik-ve–celik-evlerin–farki-nedir"
+          "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
         },
         {
           "name": "Neden Master Steel House?",
-          "href": "/neden-master-steel-house"
+          "href": "/blog/neden-master-steel-house"
         },
         {
           "name": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-          "href": "/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+          "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
         },
         {
           "name": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
-          "href": "/diger-i̇nsaat-malzemelerine-gore-nasil-karsilaştirilir"
+          "href": "/blog/diger-insaat-malzemelerine-gore-nasil-karsilastirilir"
         }
       ]
     },
@@ -68,23 +68,23 @@
       "children": [
         {
           "name": "Konut",
-          "href": "/konut"
+          "href": "/hizmetler/konut"
         },
         {
           "name": "Villa",
-          "href": "/villa"
+          "href": "/hizmetler/villa"
         },
         {
           "name": "Ofis",
-          "href": "/ofis"
+          "href": "/hizmetler/ofis"
         },
         {
           "name": "Tiny House",
-          "href": "/tiny-house"
+          "href": "/hizmetler/tiny-house"
         },
         {
           "name": "Bungalov",
-          "href": "/bungalov"
+          "href": "/hizmetler/bungalov"
         }
       ]
     },
@@ -151,37 +151,37 @@
         "title": "Çelik Ev Nedir?",
         "description": "Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
         "image": "",
-        "href": "/celik-ev-nedir"
+        "href": "/blog/celik-ev-nedir"
       },
       {
         "title": "Çelik Yapıların Avantajı Nedir?",
         "description": "Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
         "image": "",
-        "href": "/celik-yapilarin-avantaji-nedir"
+        "href": "/blog/celik-yapilarin-avantaji-nedir"
       },
       {
         "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
         "description": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
         "image": "",
-        "href": "/prefabrik-ve–celik-evlerin–farki-nedir"
+        "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
       },
       {
         "title": "Neden Master Steel House?",
         "description": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
         "image": "",
-        "href": "/neden-master-steel-house"
+        "href": "/blog/neden-master-steel-house"
       },
       {
         "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
         "description": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
         "image": "",
-        "href": "/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+        "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
       },
       {
         "title": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
         "description": "Hafif çelik yapı, çelik çerçeveler ve diğer hafif çelik elemanları kullanılarak inşa edilen bir yapı türüdür.",
         "image": "",
-        "href": "/diger-i̇nsaat-malzemelerine-gore-nasil-karsilaştirilir"
+        "href": "/blog/diger-insaat-malzemelerine-gore-nasil-karsilastirilir"
       }
     ],
     "title": "Sikca Sorulan Sorular",
@@ -194,17 +194,17 @@
       {
         "title": "Celik Konut Projemiz",
         "image": "/images/projects/ev.jpg",
-        "href": ""
+        "href": "/projeler/celik-konut-projesi"
       },
       {
         "title": "Bungalov Projemiz",
         "image": "/images/projects/super.jpg",
-        "href": ""
+        "href": "/projeler/bungalov-projesi"
       },
       {
         "title": "Celik Villa Projemiz",
         "image": "/images/projects/celik-villa-tekirdag.jpg",
-        "href": ""
+        "href": "/projeler/celik-villa-projesi"
       }
     ]
   },
