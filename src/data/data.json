@@ -16,6 +16,7 @@
     "address": "Saray mahallesi, Gökkuşağı caddesi 16/B Kahramankazan/Ankara",
     "workingHours": "Haftaiçi: 9:00-18:00, Cumartesi: 9:30-14:00",
     "phoneNumber": "+90 533 490 31 50",
+    "phoneNumber2": "+90 532 603 34 66",
     "email": "info@mastersteelhouse.com",
     "facebookPage": "https://www.facebook.com/mastersteelhous/",
     "twitterPage": "https://twitter.com/mastersteelhous",
@@ -42,6 +43,10 @@
         {
           "name": "Çelik Yapıların Avantajı Nedir?",
           "href": "/blog/celik-yapilarin-avantaji-nedir"
+        },
+        {
+          "name": "Betonarme ve Çelik Evlerin Farkı Nedir?",
+          "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
         },
         {
           "name": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
@@ -96,7 +101,7 @@
   "aboutHero": {
     "title": "Master Steel House",
     "description": "Hayalini kurduğunuz mükemmel yaşam alanı için bize ulaşın ve Master Steel House farkını keşfedin!",
-    "image": "/images/carousel/villalar.png",
+    "image": "/images/carousel/celik-iskelet.png",
     "paragraphs": [
       "Master Steel House, modern ve sürdürülebilir yaşam alanları sunan öncü bir hafif çelik villa inşaat firmasıdır. Biz, hafif çelik yapı teknolojisini kullanarak müşterilerimize kaliteli, estetik ve dayanıklı villa projeleri sunmayı hedefleyen bir ekibiz.",
       "Hafif çelik yapılarımız, hızlı ve kolay bir şekilde inşa edilebilir özelliklere sahiptir. Prefabrik ve modüler üretim yöntemleri sayesinde, projelerimizde zamandan ve maliyetten tasarruf sağlarken, kalite ve dayanıklılığı da garanti ediyoruz.",
@@ -106,46 +111,50 @@
   "carouselHero": {
     "slides": [
       {
-        "image": "/images/carousel/celik-iskelet.png",
+        "image": "/images/carousel/homePic1.png",
         "title": "Hayallerinizi inşa ediyoruz",
         "imgAlt": "Hayallerinizi inşa ediyoruz",
-        "description": "Yenilikçi yaklaşımımızla, hafif çelik ev ve yapı projelerinizi gerçeğe dönüştürüyoruz. Hafif çelik ev fiyatları konusunda da titizlikle çalışarak en uygun çözümleri sunuyoruz. Tecrübeli mühendis ekiplerimizle, anahtar teslim hafif çelik ev projelerinizi ya da sadece hafif çelik yapılarınızı üreterek hayata geçiriyoruz. Üstelik, yüksek üretim kapasitemizle, dayanıklı ve estetik çözümlerimizi hızla sunuyoruz. Sizler için özel üretim tesisimizde kaliteli işçilik ve profesyonel hizmet garantisiyle buluşuyoruz."
-      },
-      {
-        "image": "/images/carousel/villalar.png",
-        "title": "Master Steel House",
-        "imgAlt": "Villa",
-        "description": "Villa",
-        "href": "/hizmetler/konut"
+        "description": "Tecrübeli mühendis ekiplerimizle, anahtar teslim ev projelerinizi ya da sadece hafif çelik yapılarınızı üreterek hayata geçiriyoruz. Üstelik, yüksek üretim kapasitemizle, dayanıklı ve estetik çözümlerimizi hızla sunuyoruz. Sizler için özel üretim tesisimizde kaliteli işçilik ve profesyonel hizmet garantisiyle buluşuyoruz."
       },
       {
         "image": "/images/carousel/villa.png",
         "title": "Master Steel House",
-        "imgAlt": "Konut",
-        "description": "Konut"
+        "imgAlt": "Villa",
+        "description": "Villa",
+        "href": "/hizmetler/villa"
       },
       {
-        "image": "/images/carousel/tiny-house.png",
+        "image": "/images/carousel/konut.png",
+        "title": "Master Steel House",
+        "imgAlt": "Konut",
+        "description": "Konut",
+        "href": "/hizmetler/konut"
+      },
+      {
+        "image": "/images/carousel/ofis.png",
         "title": "Master Steel House",
         "imgAlt": "Ofis",
-        "description": "Ofis"
+        "description": "Ofis",
+        "href": "/hizmetler/ofis"
       },
       {
         "image": "/images/carousel/bungalov.png",
         "title": "Master Steel House",
         "imgAlt": "Bungalov",
-        "description": "Bungalov"
+        "description": "Bungalov",
+        "href": "/hizmetler/bungalov"
       },
       {
-        "image": "/images/carousel/tiny-house2.png",
+        "image": "/images/carousel/tiny-house.png",
         "title": "Master Steel House",
         "imgAlt": "Tiny House",
-        "description": "Tiny House"
+        "description": "Tiny House",
+        "href": "/hizmetler/tiny-house"
       }
     ]
   },
   "postsHero": {
-    "image": "/images/carousel/celik-iskelet.png",
+    "image": "/images/carousel/homePic1.png",
     "posts": [
       {
         "title": "Çelik Ev Nedir?",
@@ -158,6 +167,12 @@
         "description": "Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
         "image": "",
         "href": "/blog/celik-yapilarin-avantaji-nedir"
+      },
+      {
+        "title": "Betonarme ve Çelik Evlerin Farkı Nedir?",
+        "description": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
+        "image": "",
+        "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
       },
       {
         "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
@@ -184,16 +199,16 @@
         "href": "/blog/diger-insaat-malzemelerine-gore-nasil-karsilastirilir"
       }
     ],
-    "title": "Sikca Sorulan Sorular",
-    "description": "Sikca sorulan sorulan sorular ve hafif celik yapilar hakkinda merak edilen konular hakkindaki yazilar."
+    "title": "Sıkca Sorulan Sorular",
+    "description": "Bize en çok gelen ve herkesin merak ettiği soruları burada bulabilirsiniz"
   },
   "projectsHero": {
-    "title": "Projelerimiz",
-    "description": "20\u0027den fazla yillik tecrubemiz ile tamamladigimiz projelerimiz ile portfoyumuzu kesfedin.",
+    "title": "Projelerimizden örnekler",
+    "description": "26 yıllık makine üretimi ve hafif çelik yapı tasarım-üretim-uygulama deneyimimizle yaptığımız projelerin bir kısmını buradan görebilirsiniz.",
     "projects": [
       {
         "title": "Celik Konut Projemiz",
-        "image": "/images/projects/ev.jpg",
+        "image": "/images/projects/celik-villa2.jpg",
         "href": "/projeler/celik-konut-projesi"
       },
       {
@@ -205,11 +220,16 @@
         "title": "Celik Villa Projemiz",
         "image": "/images/projects/celik-villa-tekirdag.jpg",
         "href": "/projeler/celik-villa-projesi"
+      },
+      {
+        "title": "Celik Villa Projemiz",
+        "image": "/images/projects/celik-villa.jpg",
+        "href": "/projeler/celik-villa-projesi"
       }
     ]
   },
   "servicesHero": {
-    "title": "Ayrıcalıklı Hizmetler",
+    "title": "Hizmetlerimiz",
     "services": [
       {
         "title": "Konut",

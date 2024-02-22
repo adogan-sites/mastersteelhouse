@@ -12,6 +12,7 @@ const Contact = () => {
             name,
             address,
             phoneNumber,
+            phoneNumber2,
             workingHours,
             email
         },
@@ -92,7 +93,7 @@ const Contact = () => {
                             </div>
                             <div className="contact-info">
                                 <h4>Telefon & Email</h4>
-                                <p>{phoneNumber}<br/>{email}</p>
+                                <p>{phoneNumber}<br/>{phoneNumber2}<br/>{email}</p>
 
                             </div>
                         </div>

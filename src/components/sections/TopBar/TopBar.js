@@ -7,7 +7,7 @@ import { faFacebook, faXTwitter, faInstagram, faYoutube } from '@fortawesome/fre
 import DATA from "../../../data/data.json";
 
 const TopBar = () => {
-    const { workingHours, phoneNumber, email, facebookPage, twitterPage, instagramPage } = DATA.companyInfo;
+    const { workingHours, phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage } = DATA.companyInfo;
 
     return (
         <div id="top-bar">
@@ -15,8 +15,8 @@ const TopBar = () => {
                 <Row className="d-none d-md-flex">
                     <Col md={9} sm={8}>
                         <ul className="top-bar-info">
-                            <li><i><FontAwesomeIcon icon={faClock}/></i>{workingHours}</li>
                             <li><i><FontAwesomeIcon icon={faPhone}/></i>{phoneNumber}</li>
+                            <li><i><FontAwesomeIcon icon={faPhone}/></i>{phoneNumber2}</li>
                             <li><i><FontAwesomeIcon icon={faEnvelope}/></i>{email}</li>
                         </ul>
                     </Col>

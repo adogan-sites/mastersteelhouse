@@ -4,7 +4,7 @@ import React from 'react';
 import {usePathname} from "next/navigation";
 
 import DATA from "../../../data/data.json";
-
+//import pageTitleBackground from "public/images/pageTitleBackground.png";
 const findPageFromMenuByPathname = (
     targetPathname,
     currentMenuPath,
@@ -45,6 +45,7 @@ const PageTitle = () => {
                 className="page-title"
                 style={{
                     backgroundImage: "url(http://via.placeholder.com/1520x264)",
+                    //backgroundImage: `url(${pageTitleBackground})`,
                     backgroundPosition: "center"
                 }}
             >
