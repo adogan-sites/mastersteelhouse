@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import DATA from "../../../data/data.json";
-import {faMapMarker, faPhone, faClock, faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
+import {faMapMarker, faPhone, faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
             name,
             address,
             phoneNumber,
-            workingHours,
+            phoneNumber2,
             email
         },
         menu
@@ -80,10 +80,10 @@ const Footer = () => {
                                             Telefon: {phoneNumber}
                                         </li>
                                         <li>
-                                            <i className="fa fa-clock-o">
-                                                <FontAwesomeIcon icon={faClock}/>
-                                            </i>
-                                            {workingHours}
+                                        <i className="fa fa-phone">
+                                            <FontAwesomeIcon icon={faPhone}/>
+                                        </i>
+                                        Telefon: {phoneNumber2}
                                         </li>
                                         <li>
                                             <i className="fa fa-envelope-o">

@@ -7,7 +7,7 @@ import { faFacebook, faXTwitter, faInstagram, faYoutube } from '@fortawesome/fre
 import DATA from "../../../data/data.json";
 
 const TopBar = () => {
-    const { workingHours, phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage } = DATA.companyInfo;
+    const { phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage } = DATA.companyInfo;
 
     return (
         <div id="top-bar">
