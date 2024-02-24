@@ -8,7 +8,10 @@ import {faPlus} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const ServicesHero = () => {
-    const { title, services } = DATA.servicesHero;
+    const {
+        servicesHero: { title },
+        services
+    } = DATA;
 
     return (
         <Section
@@ -19,22 +22,22 @@ const ServicesHero = () => {
                 {
                     services.map(({
                          title,
-                         description,
+                         heroDescription,
                          href,
-                         image
+                         heroImage
                      }) => {
                         return (
                             <div className="col-md-4 col-sm-4 col-xs-12" key={title}>
                                 <div className="service-grid clearfix">
                                     <Image
-                                        src={image}
+                                        src={heroImage}
                                         alt={title}
                                         width={358}
                                         height={240}
                                     />
                                     <div className="service-grid-inner content-holder">
                                         <h4>{title}</h4>
-                                        <p>{description}</p>
+                                        <p>{heroDescription}</p>
                                         <Link href={href}>Detaylı Bilgi<FontAwesomeIcon icon={faPlus}/></Link>
                                     </div>
                                 </div>

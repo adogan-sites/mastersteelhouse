@@ -4,23 +4,23 @@ import Image from 'next/image'
 const Konut = ({service}) => {
     return (
         <div className="row">
-            <div className="row">
-                <div className="col-md-6 col-sm-6 col-xs-12">
+            <div className="row justify-content-start w-100">
+                <div style={{ width: "410px", height: "273px" }}>
                     <Image
                         src="/images/services/konut-409-272.webp"
                         alt="konut hizmeti 1"
                         width={410}
                         height={273}
-                        className="full-width rounded-border"
+                        className="rounded-border"
                     />
                 </div>
-                <div className="col-md-6 col-sm-6 col-xs-12">
+                <div style={{ width: "410px", height: "273px" }}>
                     <Image
                         src="/images/services/konut2-409-272.webp"
                         alt="konut hizmeti 1"
                         width={410}
                         height={273}
-                        className="full-width rounded-border"
+                        className="rounded-border"
                     />
                 </div>
             </div>

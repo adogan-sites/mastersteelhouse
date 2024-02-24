@@ -12,6 +12,7 @@
     }
   },
   "companyInfo": {
+    "baseUrl": "https://www.mastersteelhouse.com",
     "name": "Master Steel House",
     "address": "Saray mahallesi, Gökkuşağı caddesi 16/B Kahramankazan/Ankara",
     "workingHours": "Haftaiçi: 9:00-18:00, Cumartesi: 9:30-14:00",
@@ -96,6 +97,57 @@
     {
       "name": "İletisim",
       "href": "/iletisim"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Çelik Ev Nedir?",
+      "heroDescription": "Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
+      "heroImage": "",
+      "contentComponent": "CelikEvNedir",
+      "href": "/blog/celik-ev-nedir"
+    },
+    {
+      "title": "Çelik Yapıların Avantajı Nedir?",
+      "heroDescription": "Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
+      "heroImage": "",
+      "contentComponent": "CelikAvantaj",
+      "href": "/blog/celik-yapilarin-avantaji-nedir"
+    },
+    {
+      "title": "Betonarme ve Çelik Evlerin Farkı Nedir?",
+      "heroDescription": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
+      "heroImage": "",
+      "contentComponent": "BetonarmeCelikFarki",
+      "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
+    },
+    {
+      "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
+      "heroDescription": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
+      "heroImage": "",
+      "contentComponent": "PrefabrikCelikFarki",
+      "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
+    },
+    {
+      "title": "Neden Master Steel House?",
+      "heroDescription": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
+      "heroImage": "",
+      "contentComponent": "NedenMasterSteelHouse",
+      "href": "/blog/neden-master-steel-house"
+    },
+    {
+      "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
+      "heroDescription": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
+      "heroImage": "",
+      "contentComponent": "NedenHafifCelik",
+      "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+    },
+    {
+      "title": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
+      "heroDescription": "Hafif çelik yapı, çelik çerçeveler ve diğer hafif çelik elemanları kullanılarak inşa edilen bir yapı türüdür.",
+      "heroImage": "",
+      "contentComponent": "DigerMalzemelerleKarsilastir",
+      "href": "/blog/diger-insaat-malzemelerine-gore-nasil-karsilastirilir"
     }
   ],
   "services": [
@@ -192,50 +244,6 @@
   },
   "postsHero": {
     "image": "/images/carousel/homePic1.png",
-    "posts": [
-      {
-        "title": "Çelik Ev Nedir?",
-        "description": "Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
-        "image": "",
-        "href": "/blog/celik-ev-nedir"
-      },
-      {
-        "title": "Çelik Yapıların Avantajı Nedir?",
-        "description": "Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
-        "image": "",
-        "href": "/blog/celik-yapilarin-avantaji-nedir"
-      },
-      {
-        "title": "Betonarme ve Çelik Evlerin Farkı Nedir?",
-        "description": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
-        "image": "",
-        "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
-      },
-      {
-        "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
-        "description": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
-        "image": "",
-        "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
-      },
-      {
-        "title": "Neden Master Steel House?",
-        "description": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
-        "image": "",
-        "href": "/blog/neden-master-steel-house"
-      },
-      {
-        "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-        "description": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
-        "image": "",
-        "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
-      },
-      {
-        "title": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
-        "description": "Hafif çelik yapı, çelik çerçeveler ve diğer hafif çelik elemanları kullanılarak inşa edilen bir yapı türüdür.",
-        "image": "",
-        "href": "/blog/diger-insaat-malzemelerine-gore-nasil-karsilastirilir"
-      }
-    ],
     "title": "Sıkca Sorulan Sorular",
     "description": "Bize en çok gelen ve herkesin merak ettiği soruları burada bulabilirsiniz"
   },
@@ -266,38 +274,6 @@
     ]
   },
   "servicesHero": {
-    "title": "Hizmetlerimiz",
-    "services": [
-      {
-        "title": "Konut",
-        "description": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
-        "href": "/hizmetler/konut",
-        "image": "/images/services/konut.png"
-      },
-      {
-        "title": "Villa",
-        "description": "Çelik bir yapı betonarmeye göre çok daha elastik, depreme karşı yüksek dayanımlı ve imalat kontrolü kolay bir yapıdır.",
-        "href": "/hizmetler/villa",
-        "image": "/images/services/villa.png"
-      },
-      {
-        "title": "Ofis",
-        "description": "Çelik ofis yapıları, son dönemde yapı sektörü içerisinde gelişimin birçok kanattan hızla sürdüğü bir alan olarak öne çıkmaktadır.",
-        "href": "/hizmetler/ofis",
-        "image": "/images/services/ofis.png"
-      },
-      {
-        "title": "Tiny House",
-        "description": "iny House , şehirlerde ve nehir kenarlarında, kumsallarda,dağlarda veya ormanda kalabalığın olmadığı, hiç bir şeyin anın güzelliğini bozamadığı her yerde My Way için bir yer var.",
-        "href": "/hizmetler/tiny-house",
-        "image": "/images/services/tiny.png"
-      },
-      {
-        "title": "Bungalov",
-        "description": "Çelik Bungalov evler, sahip oldukları yükseklik nedeniyle ağaç boyunun yetersiz kalmasından dolayı iskeletin çelik olarak kullanıldığı lüks üçgen evlerdir.",
-        "href": "/hizmetler/bungalov",
-        "image": "/images/services/bungalov.png"
-      }
-    ]
+    "title": "Hizmetlerimiz"
   }
 }

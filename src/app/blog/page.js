@@ -9,7 +9,7 @@ import {faPlus} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const BlogPosts = () => {
-    const { posts } = DATA.postsHero;
+    const { posts } = DATA;
     return (
         <Section
             title='Son Yazılar'
@@ -19,7 +19,7 @@ const BlogPosts = () => {
                 {
                     posts.map(({
                        title,
-                       description,
+                       herodescription,
                        image,
                        href
                     }) => (
@@ -33,7 +33,7 @@ const BlogPosts = () => {
                                 />
                                 <div className="blog-inner">
                                     <h4>{title}</h4>
-                                    <p>{description}</p>
+                                    <p>{herodescription}</p>
                                     <Link href={href}>
                                         Detaylı Bilgi
                                         <FontAwesomeIcon icon={faPlus}/>

@@ -8,7 +8,10 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlus, faQuestion} from "@fortawesome/free-solid-svg-icons";
 
 const PostsHero = () => {
-    const { posts, title, description, image } = DATA.postsHero;
+    const {
+        posts,
+        postsHero: { title, description, image }
+    } = DATA;
 
     return (
         <Section
@@ -28,17 +31,17 @@ const PostsHero = () => {
 
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     {
-                        posts.map(({title, description, image, href}) => {
+                        posts.map(({title: heroTitle, heroDescription, image: heroImage, href}) => {
                             return (
-                                <div key={title} className="feature-block clearfix">
+                                <div key={heroTitle} className="feature-block clearfix">
                                     <div className="feature-icon">
                                         <i className="icon-wallpaper">
                                             <FontAwesomeIcon className="icon-wallpaper" icon={faQuestion}/>
                                         </i>
                                     </div>
                                     <div className="feature-content feature-block-inner">
-                                        <h4>{title}</h4>
-                                        <p>{description}</p>
+                                        <h4>{heroTitle}</h4>
+                                        <p>{heroDescription}</p>
                                         <Link href={href}>
                                             Detaylı Bilgi
                                             <FontAwesomeIcon icon={faPlus}/>

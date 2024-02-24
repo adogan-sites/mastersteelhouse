@@ -1,20 +1,23 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import {notFound} from 'next/navigation'
+import Image from 'next/image'
+import Link from "next/link";
 
 import DATA from "../../../data/data.json";
 
-export const generateStaticParams = () => {
-    const posts = DATA.menu.find(m => m.href === "/blog").children;
+import * as contentComponents from '../_contentComponents';
 
-    return posts.map((post) => ({
-        post: post.href.split('/').pop(),
-    }))
-}
+export const generateStaticParams = () => DATA.posts.map((post) => ({
+    post: post.href.split('/').pop(),
+}))
 
 const Post = ({params}) => {
-    const {post} = params;
+    const {post: postName} = params;
+    const post = DATA.posts.find(({href}) => href.includes(postName));
+    const {contentComponent, title} = post;
+    const ContentComponent = contentComponents[contentComponent];
 
-    if (post === "asdasd") {
+    if (!ContentComponent) {
         return notFound();
     }
 
@@ -22,30 +25,37 @@ const Post = ({params}) => {
         <div className="section-block">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-9 col-sm-9 col-xs-12">
-                        <div className="blog-post">
-                            <img src="http://via.placeholder.com/848x449" alt="blog-img"/>
-                            <h4>Methodology of road traffic crash</h4>
-                            <div className="blog-post-info">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero at justo
-                                    euismod ullamcorper nec vitae velit. Aliquam erat volutpat.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero at justo
-                                    euismod ullamcorper nec vitae velit. Aliquam erat volutpat. Nullam accumsan lorem
-                                    erat, nec porta erat mattis nec. Nam convallis vehicula purus eget tempor. Nulla
-                                    porttitor ex ut odio ultricies, id commodo nibh rhoncus. In mattis scelerisque magna
-                                    eu porttitor. Nulla ac laoreet nulla, at vehicula ante. Sed eget orci id ligula
-                                    venenatis lobortis sit amet ut purus. Morbi sem enim, lacinia vitae nibh vel,
-                                    faucibus vestibulum sapien. Aenean sit amet elementum justo. Fusce blandit nisl
-                                    quam, fringilla ultricies ligula efficitur non. Nunc sit amet ex at felis
-                                    pellentesque dictum. Nunc molestie vehicula ligula. Maecenas faucibus tortor sit
-                                    amet nisl luctus, ac volutpat lectus ultrices.</p>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget libero at justo
-                                    euismod ullamcorper nec vitae velit. Aliquam erat volutpat. Nullam accumsan lorem
-                                    erat, nec porta erat mattis nec. Nam convallis vehicula purus eget tempor. Nulla
-                                    porttitor ex ut odio ultricies, id commodo nibh rhoncus. In mattis scelerisque magna
-                                    eu porttitor. Nulla ac laoreet nulla, at vehicula ante.</p>
+                    <Suspense fallback={<span>Yükleniyor...</span>}>
+                        <ContentComponent post={post}/>
+                    </Suspense>
+                    <div className="col-md-3 col-sm-3 col-xs-12">
+                        <div className="blog-post-right">
+                            <div className="heading-sm mt-0">
+                                <h5>Diğer Yazılar</h5>
                             </div>
+                            {
+                                DATA
+                                    .posts
+                                    .filter(post_ => post_.title !== title)
+                                    .map(otherPost => (
+                                        <div className="latest-posts" key={otherPost.title}>
+                                            <div className="row">
+                                                <div className="col-md-5 col-sm-5 col-xs-4 latest-posts-img">
+                                                    <Image
+                                                        src="http://via.placeholder.com/92x92"
+                                                        alt={otherPost.title}
+                                                        width={92}
+                                                        height={92}
+                                                    />
+                                                </div>
+
+                                                <div className="col-md-7 col-sm-7 col-xs-8 latest-posts-text pl-0">
+                                                    <Link href="#">{otherPost.title}</Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))
+                            }
                         </div>
                     </div>
                 </div>
