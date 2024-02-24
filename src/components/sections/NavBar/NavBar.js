@@ -37,7 +37,7 @@ const NavBar = () => {
         <header>
             <Navbar className="navbar-default navbar-custom" sticky="top" data-offset-top="50" expand="md">
                 <Container>
-                    <Row className="flex-fill">
+                    <Row className="flex-fill align-items-center">
                         <Col xs={2} className='navbar-header navbar-header-custom'>
                             <Link href="/">
                                 <Image width="168" height="70" src="/images/logo.png" alt="footer-logo"/>

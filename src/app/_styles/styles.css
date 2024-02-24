@@ -463,9 +463,9 @@ TABLE OF CONTENT
 	border-radius: 0px;
 	margin-left: 5px;
 	margin-top: 0;
-	-webkit-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.15);
-	-moz-box-shadow:    0px 5px 9px 0px rgba(50, 50, 50, 0.15);
-	box-shadow:         0px 5px 9px 0px rgba(50, 50, 50, 0.15);	
+	-webkit-box-shadow: 0 8px 12px 0 rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    0 8px 12px 0 rgba(50, 50, 50, 0.3);
+	box-shadow:         0 8px 12px 0 rgba(50, 50, 50, 0.3);
 }
 
 .navbar-links-custom .dropdown ul li, .navbar-links-custom .dropdown .dropdown-menu li{
@@ -1940,24 +1940,20 @@ e) Color Control
 24. Scroll To Top Button
 -------------------------------------------*/
 .scroll-to-top{
-	font-size: 20px;  
+	font-size: 16px;
 	padding: 6px; 
 	text-align:center; 
 	color: #fff;
 	text-decoration: none;
-	position:fixed;
-	bottom:80px;
-	right: 10px;
-	display:none;
 	border-radius: 50%;
 	background: #1c303e;
-	width: 40px;
-	height: 40px;  
-	z-index: 9999;
 	outline: none;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;   
+	width: 38px;
+	display: flex;
+	height: 38px;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 15%);
 }
 .scroll-to-top i{
 	color: #fff;

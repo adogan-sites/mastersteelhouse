@@ -1,10 +1,14 @@
+'use client'
+
 import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
+import ScrollToTop from "react-scroll-up";
+import {FloatingWhatsApp} from "react-floating-whatsapp";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faMapMarker, faPhone, faEnvelopeOpen, faChevronUp} from "@fortawesome/free-solid-svg-icons";
 
 import DATA from "../../../data/data.json";
-import {faMapMarker, faPhone, faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     const {
@@ -102,6 +106,31 @@ const Footer = () => {
             <div className="footer-bottom center-holder">
                 <h6>© Copyright {year} Master Steel House - Tüm Hakları Saklıdır</h6>
             </div>
+            <ScrollToTop
+                showUnder={160}
+                style={{
+                    position: 'fixed',
+                    bottom: 112,
+                    right: 44,
+                    cursor: 'pointer',
+                    transitionDuration: '0.2s',
+                    transitionTimingFunction: 'linear',
+                    transitionDelay: '0s'
+                }}
+            >
+                <a className='scroll-to-top'>
+                    <i>
+                        <FontAwesomeIcon icon={faChevronUp} />
+                    </i>
+                </a>
+            </ScrollToTop>
+            <FloatingWhatsApp
+                accountName="Furkan"
+                phoneNumber="+905334903150"
+                statusMessage="Genellikle 1 saat içinde yanıt verir"
+                chatMessage="Merhabalar! Nasıl yardımcı olabiliriz? 🤝"
+                placeholder="Bir mesaj yazın..."
+            />
         </footer>
     );
 };

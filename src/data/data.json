@@ -244,51 +244,6 @@
   },
   "postsHero": {
     "image": "/images/carousel/celik-iskelet.png",
-    "posts": [
-      {
-        "title": "Çelik Ev Nedir?",
-        "description": "Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
-        "image": "",
-        "href": "/blog/celik-ev-nedir"
-      },
-      {
-        "title": "Çelik Yapıların Avantajı Nedir?",
-        "description": "Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
-        "image": "",
-        "href": "/blog/celik-yapilarin-avantaji-nedir"
-      },
-      {
-        "title": "Betonarme ve Çelik Evlerin Farkı Nedir?",
-        "description": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
-        "image": "",
-        "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
-      },
-      {
-        "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
-        "description": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
-        "image": "",
-        "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
-      },
-      {
-        "title": "Neden Master Steel House?",
-        "description": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
-        "image": "",
-        "href": "/blog/neden-master-steel-house"
-      },
-      {
-        "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-        "description": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
-        "image": "",
-        "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
-      },
-      {
-        "title": "Diğer İnşaat Malzemelerine Göre Nasıl Karşılaştırılır?",
-        "description": "Hafif çelik yapı, çelik çerçeveler ve diğer hafif çelik elemanları kullanılarak inşa edilen bir yapı türüdür.",
-        "image": "",
-        "href": "/blog/diger-insaat-malzemelerine-gore-nasil-karsilastirilir"
-      }
-    ],
-    "image": "/images/carousel/celik-iskelet.png",
     "title": "Sıkca Sorulan Sorular",
     "description": "Bize en çok gelen ve herkesin merak ettiği soruları burada bulabilirsiniz"
   },
@@ -312,7 +267,7 @@
         "href": "/projeler/celik-villa-projesi"
       },
       {
-        "title": "Celik Villa Projemiz",
+        "title": "Celik Villa Projemiz 2",
         "image": "/images/projects/celik-villa.jpg",
         "href": "/projeler/celik-villa-projesi"
       }
