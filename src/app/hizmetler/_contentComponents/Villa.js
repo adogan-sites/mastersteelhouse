@@ -7,8 +7,8 @@ const Villa = ({service}) => {
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     <Image
-                        src="/images/services/konut.png"
-                        alt="konut hizmeti 1"
+                        src="/images/services/villa-409-272.webp"
+                        alt="villa hizmeti 1"
                         width={410}
                         height={273}
                         className="full-width rounded-border"
@@ -16,8 +16,8 @@ const Villa = ({service}) => {
                 </div>
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     <Image
-                        src="/images/services/konut.png"
-                        alt="konut hizmeti 1"
+                        src="/images/services/villa2-409-272.webp"
+                        alt="villa hizmeti 2"
                         width={410}
                         height={273}
                         className="full-width rounded-border"

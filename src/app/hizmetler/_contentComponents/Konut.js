@@ -17,7 +17,7 @@ const Konut = ({service}) => {
                 <div style={{ width: "410px", height: "273px" }}>
                     <Image
                         src="/images/services/konut2-409-272.webp"
-                        alt="konut hizmeti 1"
+                        alt="konut hizmeti 2"
                         width={410}
                         height={273}
                         className="rounded-border"

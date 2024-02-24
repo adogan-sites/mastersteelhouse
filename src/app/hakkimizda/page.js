@@ -7,13 +7,13 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-6 col-xs-12">
-                            <img src="http://via.placeholder.com/555x370" className="rounded-border shadow-primary"
+                            <img src="/images/hakkimizda-555-370.webp" className="rounded-border shadow-primary"
                                  alt="about"/>
                         </div>
 
                         <div className="col-md-6 col-sm-6 col-xs-12">
                             <div className="section-heading-left">
-                                <h2>Hakkimizda</h2>
+                                <h2>Hakkımızda</h2>
                                 <div className="text-content">
                                     <p>Merhaba! Master Steel House, modern ve sürdürülebilir yaşam alanları sunan öncü
                                         bir hafif çelik villa inşaat firmasıdır. Biz, hafif çelik yapı teknolojisini
@@ -69,8 +69,8 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-12">
-                            <img src="http://via.placeholder.com/555x370" className="rounded-border shadow-primary"
-                                 alt="about"/>
+                            <img src="/images/hakkimizda2-555-370.webp" className="rounded-border shadow-primary"
+                                 alt="about2"/>
                         </div>
                     </div>
                 </div>

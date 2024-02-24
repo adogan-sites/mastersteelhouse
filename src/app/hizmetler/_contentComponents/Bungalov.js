@@ -7,8 +7,8 @@ const Bungalov = ({service}) => {
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     <Image
-                        src="/images/services/konut.png"
-                        alt="konut hizmeti 1"
+                        src="/images/services/bungalov-409-272.webp"
+                        alt="bungalov hizmeti 1"
                         width={410}
                         height={273}
                         className="full-width rounded-border"
@@ -16,8 +16,8 @@ const Bungalov = ({service}) => {
                 </div>
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     <Image
-                        src="/images/services/konut.png"
-                        alt="konut hizmeti 1"
+                        src="/images/services/bungalov2-409-272.webp"
+                        alt="bungalov hizmeti 2"
                         width={410}
                         height={273}
                         className="full-width rounded-border"
@@ -25,7 +25,7 @@ const Bungalov = ({service}) => {
                 </div>
             </div>
             <div className="heading-sm">
-                <h4>Sustainable Construction</h4>
+                <h4>Hafif Çelik ile Bungalov Ev Yapımı</h4>
             </div>
             <div className="text-content">
                 <p>Başlıca hedefimiz, modern ve dayanıklı evlerin inşası için en son teknolojileri kullanarak

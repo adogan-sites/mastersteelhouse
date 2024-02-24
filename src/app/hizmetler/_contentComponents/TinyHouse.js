@@ -7,8 +7,8 @@ const TinyHouse = ({service}) => {
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     <Image
-                        src="/images/services/konut.png"
-                        alt="konut hizmeti 1"
+                        src="/images/services/tinyhouse-409-272.webp"
+                        alt="tiny house hizmeti 1"
                         width={410}
                         height={273}
                         className="full-width rounded-border"
@@ -16,8 +16,8 @@ const TinyHouse = ({service}) => {
                 </div>
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     <Image
-                        src="/images/services/konut.png"
-                        alt="konut hizmeti 1"
+                        src="/images/services/tinyhouse2-409-272.webp"
+                        alt="tiny house hizmeti 2"
                         width={410}
                         height={273}
                         className="full-width rounded-border"
@@ -25,7 +25,7 @@ const TinyHouse = ({service}) => {
                 </div>
             </div>
             <div className="heading-sm">
-                <h4>Sustainable Construction</h4>
+                <h4>Hafif Çelik ile Tiny House Yapımı</h4>
             </div>
             <div className="text-content">
                 <p>Günümüzde, küçük evlerin popülaritesi giderek artıyor ve bu eğilimle birlikte hafif çelikten yapılmış
