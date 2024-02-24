@@ -98,6 +98,43 @@
       "href": "/iletisim"
     }
   ],
+  "services": [
+    {
+      "title": "Konut",
+      "heroDescription": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
+      "heroImage": "/images/services/konut.png",
+      "contentComponent": "Konut",
+      "href": "/hizmetler/konut"
+    },
+    {
+      "title": "Villa",
+      "heroDescription": "Çelik bir yapı betonarmeye göre çok daha elastik, depreme karşı yüksek dayanımlı ve imalat kontrolü kolay bir yapıdır.",
+      "heroImage": "/images/services/villa.png",
+      "contentComponent": "Villa",
+      "href": "/hizmetler/villa"
+    },
+    {
+      "title": "Ofis",
+      "heroDescription": "Çelik ofis yapıları, son dönemde yapı sektörü içerisinde gelişimin birçok kanattan hızla sürdüğü bir alan olarak öne çıkmaktadır.",
+      "heroImage": "/images/services/ofis.png",
+      "contentComponent": "Ofis",
+      "href": "/hizmetler/ofis"
+    },
+    {
+      "title": "Tiny House",
+      "heroDescription": "Tiny House , şehirlerde ve nehir kenarlarında, kumsallarda,dağlarda veya ormanda kalabalığın olmadığı, hiç bir şeyin anın güzelliğini bozamadığı her yerde My Way için bir yer var.",
+      "heroImage": "/images/services/tiny.png",
+      "contentComponent": "TinyHouse",
+      "href": "/hizmetler/tiny-house"
+    },
+    {
+      "title": "Bungalov",
+      "heroDescription": "Çelik Bungalov evler, sahip oldukları yükseklik nedeniyle ağaç boyunun yetersiz kalmasından dolayı iskeletin çelik olarak kullanıldığı lüks üçgen evlerdir.",
+      "heroImage": "/images/services/bungalov.png",
+      "contentComponent": "Bungalov",
+      "href": "/hizmetler/bungalov"
+    }
+  ],
   "aboutHero": {
     "title": "Master Steel House",
     "description": "Hayalini kurduğunuz mükemmel yaşam alanı için bize ulaşın ve Master Steel House farkını keşfedin!",

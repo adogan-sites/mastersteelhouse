@@ -52,17 +52,18 @@ const NavBar = () => {
                                             if (children) {
                                                 return (
                                                     <HoverControlledDropdown
-                                                        key={name}
+                                                        key={`menu-${name}`}
                                                         as="li"
                                                         title={name}
                                                         className={(pathname === href) || children.map(c => c.href).includes(pathname) ? 'active-link' : ''}
                                                         onClick={event => handleDropdownToggleClick({ href, event })}
                                                         align={align}
+                                                        autoClose={false}
                                                     >
                                                         {
                                                             children.map(childItem => {
                                                                 return (
-                                                                    <NavDropdown.Item as="div" key={name} className={(pathname === childItem.href) ? 'active-link' : ''}>
+                                                                    <NavDropdown.Item as="div" key={`menu-${name}-${childItem.name}`} className={(pathname === childItem.href) ? 'active-link' : ''}>
                                                                         <Link href={childItem.href} className="nav-link">
                                                                             {childItem.name}
                                                                         </Link>
@@ -74,7 +75,7 @@ const NavBar = () => {
                                                 )
                                             } else {
                                                 return (
-                                                    <NavItem key={name} as="li" className={pathname === href ? 'active-link' : ''}>
+                                                    <NavItem key={`menu-${name}`} as="li" className={pathname === href ? 'active-link' : ''}>
                                                         <Link href={href} className="nav-link">
                                                             {name}
                                                         </Link>
