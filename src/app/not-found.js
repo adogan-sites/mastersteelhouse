@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const NotFound = () => {
     return (
@@ -10,7 +11,7 @@ const NotFound = () => {
                         <h2>Sayfa bulunamadı</h2>
                         <h4>Üzgünüz, ancak aradığınız sayfa mevcut değil.</h4>
 
-                        <a href="index.html" className="button-xs dark-button mt-20 mb-15">Ana Sayfaya Dön</a>
+                        <Link href="/" className="button-xs dark-button mt-20 mb-15">Ana Sayfaya Dön</Link>
                     </div>
                 </div>
             </div>

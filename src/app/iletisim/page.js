@@ -1,22 +1,22 @@
 import React from 'react';
-import DATA from "@/data/data.json";
 import {faBriefcaseClock, faPhone, faMap} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
+import DATA from "@/data/data.json";
+
+import {getMetaByPage} from "@/utils";
+
+export const metadata = getMetaByPage({ href: '/iletisim' });
+
 const Contact = () => {
     const {
-        metadata: {
-            description
-        },
         companyInfo: {
-            name,
             address,
             phoneNumber,
             phoneNumber2,
             workingHours,
             email
-        },
-        menu
+        }
     } = DATA;
 
     return (
@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-6 col-sx-6 col-xs-12">
                         <div className="heading-sm">
-                            <h5>Our Location</h5>
+                            <h5>Konumumuz</h5>
                         </div>
                         <div id="map">
                             <iframe
@@ -107,7 +107,7 @@ const Contact = () => {
                                 </i>
                             </div>
                             <div className="contact-info">
-                                <h4>Calisma Saatleri</h4>
+                                <h4>Çalışma Saatleri</h4>
                                 <p>{workingHours}</p>
                             </div>
                         </div>

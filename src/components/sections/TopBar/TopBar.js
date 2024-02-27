@@ -1,13 +1,14 @@
 import React from 'react';
+import Link from "next/link";
 import {Col, Container, Row} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faClock, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faXTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faFacebook, faXTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 import DATA from "../../../data/data.json";
 
 const TopBar = () => {
-    const { phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage } = DATA.companyInfo;
+    const {phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage} = DATA.companyInfo;
 
     return (
         <div id="top-bar">
@@ -30,11 +31,11 @@ const TopBar = () => {
                                 </a>
                             </li>
                             <li>
-                            <a href={twitterPage} target='_blank'>
+                                <Link href={twitterPage} target='_blank'>
                                     <i>
                                         <FontAwesomeIcon icon={faXTwitter}/>
                                     </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <a href={instagramPage} target='_blank'>
@@ -51,25 +52,25 @@ const TopBar = () => {
                     <Col>
                         <ul className="social-icons float-start">
                             <li>
-                                <a href={facebookPage} target='_blank'>
+                                <Link href={facebookPage} target='_blank'>
                                     <i>
                                         <FontAwesomeIcon icon={faFacebook}/>
                                     </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href={twitterPage} target='_blank'>
+                                <Link href={twitterPage} target='_blank'>
                                     <i>
                                         <FontAwesomeIcon icon={faXTwitter}/>
                                     </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href={instagramPage} target='_blank'>
+                                <Link href={instagramPage} target='_blank'>
                                     <i>
                                         <FontAwesomeIcon icon={faInstagram}/>
                                     </i>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </Col>

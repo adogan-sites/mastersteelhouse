@@ -5,11 +5,7 @@
     "keywords": [
       "hafif çelik",
       "hafif çelik ev"
-    ],
-    "robots": {
-      "index": true,
-      "follow": true
-    }
+    ]
   },
   "companyInfo": {
     "baseUrl": "https://www.mastersteelhouse.com",
@@ -26,7 +22,15 @@
   "menu": [
     {
       "name": "Ana Sayfa",
-      "href": "/"
+      "href": "/",
+      "meta": {
+        "title": "Master Steel House | Hafif Çelik Ev, Hafif Çelik Yapı",
+        "description": "Master Steel House, mükemmel tasarımı ve dayanıklılığı, hafif çelik ev ve hafif çelik yapı çeşitlerinde bir araya getirir. Maksimum kalite ve uygun hafif çelik ev fiyatları için doğru adrestesiniz.",
+        "keywords": [
+          "hafif çelik",
+          "hafif çelik ev"
+        ]
+      }
     },
     {
       "name": "Hakkımızda",

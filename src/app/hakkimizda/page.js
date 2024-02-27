@@ -1,5 +1,9 @@
 import React from 'react';
 
+import {getMetaByPage} from "@/utils";
+
+export const metadata = getMetaByPage({ href: '/hakkimizda' });
+
 const About = () => {
     return (
         <>

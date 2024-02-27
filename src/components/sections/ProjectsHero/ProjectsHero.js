@@ -30,7 +30,7 @@ const ProjectsHero = () => {
                                     <div className="project-item-overlay">
                                         <div className="project-item-content">
                                             <h6>{title}</h6>
-                                            {/*<a href={href}>Detaylı Bilgi</a>*/}
+                                            {/*<Link scroll={false} href={href}>Detaylı Bilgi</Link>*/}
                                         </div>
                                     </div>
                                 </div>

@@ -39,7 +39,7 @@ const NavBar = () => {
                 <Container>
                     <Row className="flex-fill align-items-center">
                         <Col xs={2} className='navbar-header navbar-header-custom'>
-                            <Link href="/">
+                            <Link scroll={false} href="/">
                                 <Image width="168" height="70" src="/images/logo.png" alt="footer-logo"/>
                             </Link>
                             <NavbarToggle aria-controls="bs-example-navbar-collapse-1" className="menu-icon"/>
@@ -64,7 +64,7 @@ const NavBar = () => {
                                                             children.map(childItem => {
                                                                 return (
                                                                     <NavDropdown.Item as="div" key={`menu-${name}-${childItem.name}`} className={(pathname === childItem.href) ? 'active-link' : ''}>
-                                                                        <Link href={childItem.href} className="nav-link">
+                                                                        <Link scroll={false} href={childItem.href} className="nav-link">
                                                                             {childItem.name}
                                                                         </Link>
                                                                     </NavDropdown.Item>
@@ -76,7 +76,7 @@ const NavBar = () => {
                                             } else {
                                                 return (
                                                     <NavItem key={`menu-${name}`} as="li" className={pathname === href ? 'active-link' : ''}>
-                                                        <Link href={href} className="nav-link">
+                                                        <Link scroll={false} href={href} className="nav-link">
                                                             {name}
                                                         </Link>
                                                     </NavItem>

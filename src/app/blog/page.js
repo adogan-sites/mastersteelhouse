@@ -7,6 +7,9 @@ import {Section} from "@/components/ui";
 import DATA from '../../data/data.json';
 import {faPlus} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {getMetaByPage} from "@/utils";
+
+export const metadata = getMetaByPage({ href: '/blog' });
 
 const BlogPosts = () => {
     const { posts } = DATA;

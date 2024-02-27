@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {usePathname} from "next/navigation";
+import Link from "next/link";
 
 import DATA from "../../../data/data.json";
 const findPageFromMenuByPathname = (
@@ -56,7 +57,7 @@ const PageTitle = () => {
                             <ul>
                                 {
                                     pageStack.map(({name, href}) => (
-                                        <li key={name}><a href={href}>{name}</a></li>
+                                        <li key={name}><Link scroll={false} href={href}>{name}</Link></li>
                                     ))
                                 }
                             </ul>

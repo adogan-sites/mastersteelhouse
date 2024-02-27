@@ -7,12 +7,7 @@ import "./_styles/styles.css";
 
 import {Footer, NavBar, PageTitle, TopBar} from "@/components/sections";
 
-import DATA from "../data/data.json";
-
 const inter = Raleway({ subsets: ["latin-ext"] });
-
-// TODO: alternates meta
-export const metadata = DATA.metadata;
 
 export default function RootLayout({ children }) {
   return (
