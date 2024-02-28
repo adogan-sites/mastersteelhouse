@@ -229,7 +229,7 @@
       "heroDescription": "Hafif Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
       "heroImage": "",
       "image": "/images/services/blog-1-846-448.webp",
-      "miniImage": "/images/services/blog-1-846-448.webp",
+      "miniImage": "/images/services/blog-1-92-92.webp",
       "contentComponent": "HafifCelikEvNedir",
       "href": "/blog/hafif-celik-ev-nedir"
     },
@@ -238,7 +238,7 @@
       "heroDescription": "Hafif Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
       "heroImage": "",
       "image": "/images/services/blog-2-846-448.webp",
-      "miniImage": "/images/services/blog-2-846-448.webp",
+      "miniImage": "/images/services/blog-2-92-92.webp",
       "contentComponent": "HafifCelikYapiAvantaji",
       "href": "/blog/hafif-celik-yapilarin-avantaji"
     },
@@ -247,7 +247,7 @@
       "heroDescription": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
       "heroImage": "",
       "image": "/images/services/blog-3-846-448.webp",
-      "miniImage": "/images/services/blog-3-846-448.webp",
+      "miniImage": "/images/services/blog-3-92-92.webp",
       "contentComponent": "BetonarmeCelikFarki",
       "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
     },
@@ -256,7 +256,7 @@
       "heroDescription": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
       "heroImage": "",
       "image": "/images/services/blog-4-846-448.webp",
-      "miniImage": "/images/services/blog-4-846-448.webp",
+      "miniImage": "/images/services/blog-4-92-92.webp",
       "contentComponent": "PrefabrikCelikFarki",
       "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
     },
@@ -265,7 +265,7 @@
       "heroDescription": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
       "heroImage": "",
       "image": "/images/services/blog-5-846-448.webp",
-      "miniImage": "/images/services/blog-5-846-448.webp",
+      "miniImage": "/images/services/blog-5-92-92.webp",
       "contentComponent": "NedenMasterSteelHouse",
       "href": "/blog/neden-master-steel-house"
     },
@@ -274,7 +274,7 @@
       "heroDescription": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
       "heroImage": "",
       "image": "/images/services/blog-6-846-448.webp",
-      "miniImage": "/images/services/blog-6-846-448.webp",
+      "miniImage": "/images/services/blog-6-92-92.webp",
       "contentComponent": "NedenHafifCelik",
       "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
     }
@@ -349,7 +349,7 @@
   "carouselHero": {
     "slides": [
       {
-        "image": "/images/carousel/homePic1.png",
+        "image": "/images/carousel/homePic1-v2.webp",
         "title": "Hayallerinizi inşa ediyoruz",
         "imgAlt": "Hayallerinizi inşa ediyoruz",
         "description": "Tecrübeli mühendis ekiplerimizle, anahtar teslim ev projelerinizi ya da sadece hafif çelik yapılarınızı üreterek hayata geçiriyoruz. Üstelik, yüksek üretim kapasitemizle, dayanıklı ve estetik çözümlerimizi hızla sunuyoruz. Sizler için özel üretim tesisimizde kaliteli işçilik ve profesyonel hizmet garantisiyle buluşuyoruz."
