@@ -25,78 +25,202 @@
       "href": "/",
       "meta": {
         "title": "Master Steel House | Hafif Çelik Ev, Hafif Çelik Yapı",
-        "description": "Master Steel House, mükemmel tasarımı ve dayanıklılığı, hafif çelik ev ve hafif çelik yapı çeşitlerinde bir araya getirir. Maksimum kalite ve uygun hafif çelik ev fiyatları için doğru adrestesiniz.",
+        "description": "Master Steel House olarak hafif çelik ev, yapı ve villalarınız için çözümler sunuyoruz. Uygun fiyatlarla hafif çelik profillerimiz ve konstrüksiyon sistemlerimizle kaliteli ve dayanıklı yapılar inşa ediyoruz. Hafif çelik ev fiyatları ve çeşitli projelerimiz hakkında daha fazla bilgi için sitemizi ziyaret edin.",
         "keywords": [
-          "hafif çelik",
-          "hafif çelik ev"
+          "hafif çelik ev fiyatları",
+          "hafif çelik ev",
+          "hafif celik yapı"
         ]
       }
     },
     {
       "name": "Hakkımızda",
-      "href": "/hakkimizda"
+      "href": "/hakkimizda",
+      "meta": {
+        "title": "Master Steel House | Hakkımızda",
+        "description": "Firmamız Master Steel House hakkında bilgi alın.",
+        "keywords": [
+          "master steel house hakkımızda",
+          "master steel house"
+        ]
+      }
     },
     {
       "name": "Blog",
       "href": "/blog",
+      "meta": {
+        "title": "Master Steel House | Blog",
+        "description": "Firmamız Master Steel House tarafından yazılan blogları okuyun, bilmediklerinizi öğrenin",
+        "keywords": [
+          "master steel house blog",
+          "master steel house"
+        ]
+      },
       "align": "end",
       "children": [
         {
           "name": "Hafif Çelik Ev Nedir?",
-          "href": "/blog/hafif-celik-ev-nedir"
+          "href": "/blog/hafif-celik-ev-nedir",
+          "meta": {
+            "title": "Master Steel House | Hafif Çelik Ev Nedir?",
+            "description": "Hafif çelik nedir, nerelerde kullanılır, ne gibi yapılar yapılır ? ",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Çelik Yapıların Avantajı Nedir?",
-          "href": "/blog/hafif-celik-yapilarin-avantaji"
+          "href": "/blog/hafif-celik-yapilarin-avantaji",
+          "meta": {
+            "title": "Master Steel House | Çelik Yapıların Avantajı Nedir?",
+            "description": "Hafif çelik yapıların avantajı nedir, ne gibi avantajları vardır? ",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Betonarme ve Çelik Evlerin Farkı Nedir?",
-          "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir"
+          "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir",
+          "meta": {
+            "title": "Master Steel House | Betonarme ve Çelik Evlerin Farkı Nedir?",
+            "description": "Hafif çelik ve betonarme yapılar arasındaki farklar nedir, ne gibi avantajları/dezavantajları vardır? ",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
-          "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir"
+          "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir",
+          "meta": {
+            "title": "Master Steel House | Prefabrik ve Çelik Evlerin Farkı Nedir?",
+            "description": "Hafif çelik ve prefabrik yapılar arasındaki farklar nedir, ne gibi avantajları/dezavantajları vardır?",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Neden Master Steel House?",
-          "href": "/blog/neden-master-steel-house"
+          "href": "/blog/neden-master-steel-house",
+          "meta": {
+            "title": "Master Steel House | Neden Master Steel House?",
+            "description": "Kaliteli kadrosu, yüksek üretim kapasitesi, mühendis çizim takımı, satış sonrası desteği ve daha fazlası için bizi tercih edebilirsiniz.",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı",
+              "master steel house"
+            ]
+          }
         },
         {
           "name": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-          "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+          "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor",
+          "meta": {
+            "title": "Master Steel House | Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
+            "description": "Hafif çelik profil nedir, ne gibi avantajları/dezavantajları vardır?",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı",
+              "master steel house"
+            ]
+          }
         }
       ]
     },
     {
       "name": "Hizmetlerimiz",
       "href": "/hizmetler",
+      "meta": {
+        "title": "Master Steel House | Hizmetlerimiz",
+        "description": "Hafif çelik yapılarla yaptığım hizmetleri buradan görebilirsiniz.",
+        "keywords": [
+          "hafif çelik ev",
+          "hafif çelik yapı"
+        ]
+      },
       "align": "start",
       "children": [
         {
           "name": "Konut",
-          "href": "/hizmetler/konut"
+          "href": "/hizmetler/konut",
+          "meta": {
+            "title": "Master Steel House | Konut",
+            "description": "Hafif çelik yapılarla yaptığımız konut hizmetinin detayları ve daha fazlası",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Villa",
-          "href": "/hizmetler/villa"
+          "href": "/hizmetler/villa",
+          "meta": {
+            "title": "Master Steel House | Villa",
+            "description": "Hafif çelik yapılarla yaptığımız villa hizmetinin detayları ve daha fazlası",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Ofis",
-          "href": "/hizmetler/ofis"
+          "href": "/hizmetler/ofis",
+          "meta": {
+            "title": "Master Steel House | Ofis",
+            "description": "Hafif çelik yapılarla yaptığımız ofis hizmetinin detayları ve daha fazlası",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Tiny House",
-          "href": "/hizmetler/tiny-house"
+          "href": "/hizmetler/tiny-house",
+          "meta": {
+            "title": "Master Steel House | Tiny House",
+            "description": "Hafif çelik yapılarla yaptığımız tiny house hizmetinin detayları ve daha fazlası",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         },
         {
           "name": "Bungalov",
-          "href": "/hizmetler/bungalov"
+          "href": "/hizmetler/bungalov",
+          "meta": {
+            "title": "Master Steel House | Bungalov",
+            "description": "Hafif çelik yapılarla yaptığımız bungalov hizmetinin detayları ve daha fazlası",
+            "keywords": [
+              "hafif çelik ev",
+              "hafif çelik yapı"
+            ]
+          }
         }
       ]
     },
     {
       "name": "İletisim",
-      "href": "/iletisim"
+      "href": "/iletisim",
+      "meta": {
+        "title": "Master Steel House | İletişim",
+        "description": "Bizimle iletişime geçerek en uygun hafif celik fiyatları ve kaliteli hafif çelik yapı hizmetlerimizden faydalanabilirsiniz",
+        "keywords": [
+          "hafif çelik ev",
+          "hafif çelik fiyatları",
+          "master steel house"
+        ]
+      }
     }
   ],
   "posts": [
@@ -245,7 +369,7 @@
         "href": "/hizmetler/konut"
       },
       {
-        "image": "/images/carousel/ofis.png",
+        "image": "/images/carousel/ofis-1520-527.webp",
         "title": "Master Steel House",
         "imgAlt": "Ofis",
         "description": "Ofis",
@@ -259,7 +383,7 @@
         "href": "/hizmetler/bungalov"
       },
       {
-        "image": "/images/carousel/tiny-house.png",
+        "image": "/images/carousel/tiny-house-1520-528.webp",
         "title": "Master Steel House",
         "imgAlt": "Tiny House",
         "description": "Tiny House",
