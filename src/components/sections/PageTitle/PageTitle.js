@@ -44,8 +44,9 @@ const PageTitle = () => {
             <div
                 className="page-title"
                 style={{
-                    backgroundImage: "url(http://via.placeholder.com/1520x264)",
-                    backgroundPosition: "center"
+                    backgroundImage: "url(/images/carousel/homePic1.png)",
+                    backgroundPosition: "center",
+                    textShadow: "rgba(28, 48, 62, 0.6) 0px 1px 8px"
                 }}
             >
                 <div className="container">
