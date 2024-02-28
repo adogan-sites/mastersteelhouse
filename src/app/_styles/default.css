@@ -24,7 +24,7 @@ TABLE OF CONTENT
 html, body {
   font-family: 'Raleway', sans-serif;
   color: #1c303e;        
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 }

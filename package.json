@@ -22,6 +22,7 @@
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18",
     "react-floating-whatsapp": "^5.0.8",
+    "react-responsive": "^9.0.2",
     "react-scroll-up": "^1.4.0"
   },
   "devDependencies": {

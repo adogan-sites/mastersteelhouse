@@ -2,17 +2,21 @@
 
 import React from 'react';
 import Image from 'next/image'
-import {Carousel} from "react-bootstrap";
+
+import Carousel from "react-bootstrap/Carousel";
 
 import DATA from "../../../data/data.json";
 
 import './styles.scss';
 import Link from "next/link";
-import {faPlus} from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {useMediaQuery} from "react-responsive";
 
 const CarouselHero = () => {
     const {slides} = DATA.carouselHero;
+
+    const isMobile = useMediaQuery({
+        query: '(max-width: 768px)'
+    })
 
     return (
         <Carousel className="carousel-hero pogoSlider">
@@ -30,7 +34,7 @@ const CarouselHero = () => {
                                 }}
                             />
                         </div>
-                        <Carousel.Caption className="container text-start">
+                        <Carousel.Caption className={`container text-start ${isMobile ? 'start-0 end-0' :''}`}>
                             <div className="slider-content">
                                 <div className="row">
                                     <div className="col-md-8 col-sm-12 col-xs-12">

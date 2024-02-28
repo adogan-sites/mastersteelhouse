@@ -1,20 +1,28 @@
 'use client'
 
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 import {usePathname, useRouter} from "next/navigation";
+import {useMediaQuery} from "react-responsive";
 
 const HoverControlledDropdown = ({
     item,
     ...props
 }) => {
     const [isOpened, setIsOpened] = useState(false);
-
     const pathname = usePathname();
-    const router = useRouter()
+    const router = useRouter();
+    const isMobile = useMediaQuery({
+        query: '(max-width: 768px)'
+    })
 
     const handleDropdownToggleClick = ({ event }) => {
+        if (isMobile) {
+            setIsOpened(prev => !prev);
+            return;
+        }
+
         if (item.href && event.target.classList.contains('dropdown-toggle')) {
             router.push(item.href);
             setIsOpened(false);
@@ -25,12 +33,16 @@ const HoverControlledDropdown = ({
         setIsOpened(false);
     };
 
+    useEffect(() => {
+        setIsOpened(false);
+    }, [pathname]);
+
     return (
         <NavDropdown
             {...props}
             onClick={event => handleDropdownToggleClick({ event })}
-            onMouseEnter={() => setIsOpened(true)}
-            onMouseLeave={() => setIsOpened(false)}
+            onMouseEnter={() => !isMobile && setIsOpened(true)}
+            onMouseLeave={() => !isMobile && setIsOpened(false)}
             show={props.show || isOpened}
         >
             {
@@ -42,7 +54,7 @@ const HoverControlledDropdown = ({
                             className={(pathname === childItem.href) ? 'active-link' : ''}
                             onClick={handleItemClick}
                         >
-                            <Link scroll={false} href={childItem.href} className="nav-link">
+                            <Link scroll={false} href={childItem.href} className="nav-link text-wrap">
                                 {childItem.name}
                             </Link>
                         </NavDropdown.Item>

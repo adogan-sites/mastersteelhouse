@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from "next/link";
-import {Col, Container, Row} from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faFacebook, faXTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
