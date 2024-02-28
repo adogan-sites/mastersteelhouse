@@ -23,15 +23,8 @@ import Image from "next/image";
 
 const NavBar = () => {
     const pathname = usePathname();
-    const router = useRouter()
 
     const { menu } = DATA;
-
-    const handleDropdownToggleClick = ({ event, href }) => {
-        if (href && event.target.classList.contains('dropdown-toggle')) {
-            router.push(href);
-        }
-    };
 
     return (
         <header>
@@ -48,7 +41,8 @@ const NavBar = () => {
                             <NavbarCollapse id="bs-example-navbar-collapse-1" className="justify-content-end">
                                 <Nav as="ul" className="nav navbar-nav navbar-right navbar-links-custom">
                                     {
-                                        menu.map(({ name, href, children, align }) => {
+                                        menu.map(item => {
+                                            const { name, href, children, align } = item;
                                             if (children) {
                                                 return (
                                                     <HoverControlledDropdown
@@ -56,22 +50,10 @@ const NavBar = () => {
                                                         as="li"
                                                         title={name}
                                                         className={(pathname === href) || children.map(c => c.href).includes(pathname) ? 'active-link' : ''}
-                                                        onClick={event => handleDropdownToggleClick({ href, event })}
                                                         align={align}
                                                         autoClose={false}
-                                                    >
-                                                        {
-                                                            children.map(childItem => {
-                                                                return (
-                                                                    <NavDropdown.Item as="div" key={`menu-${name}-${childItem.name}`} className={(pathname === childItem.href) ? 'active-link' : ''}>
-                                                                        <Link scroll={false} href={childItem.href} className="nav-link">
-                                                                            {childItem.name}
-                                                                        </Link>
-                                                                    </NavDropdown.Item>
-                                                                )
-                                                            })
-                                                        }
-                                                    </HoverControlledDropdown>
+                                                        item={item}
+                                                    />
                                                 )
                                             } else {
                                                 return (
