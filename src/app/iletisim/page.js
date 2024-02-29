@@ -71,15 +71,15 @@ const Contact = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 col-sx-6 col-xs-12">
+                    <div className="col-md-6 col-sx-6 col-xs-12 mb-40">
                         <div className="heading-sm">
                             <h5>Konumumuz</h5>
                         </div>
                         <div id="map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.602759652033!2d32.62475387732155!3d40.03964767150261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345b12ce21b31%3A0xb6dc4bd1748db29a!2sMaster%20Steel%20House%20Hafif%20%C3%87elik%20Sistemleri!5e0!3m2!1str!2str!4v1708372694868!5m2!1str!2str"
-                                width="555"
-                                height="330"
+                                width="100%"
+                                height="380"
                                 style={{border: "0"}}
                                 allowFullScreen=""
                                 loading="lazy"

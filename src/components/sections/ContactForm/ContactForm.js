@@ -132,7 +132,7 @@ const ContactForm = () => {
         <Container>
             <Form onSubmit={handleSubmit}>
                 <Row className="pb-3">
-                    <Col md={12} className="mb-3 mb-md-0">
+                    <Col md={6} className="mb-3 mb-md-0">
                         <Form.Group>
                             <Form.Control
                                 type="text"
@@ -160,7 +160,7 @@ const ContactForm = () => {
                     </Col>
                 </Row>
                 <Row className="pb-3">
-                    <Col md={12} className="mb-3 mb-md-0">
+                    <Col md={6} className="mb-3 mb-md-0">
                         <Form.Group>
                             <Form.Control
                                 type="text"
