@@ -7,3 +7,4 @@ export { PostsHero } from './PostsHero';
 export { ProjectsHero } from './ProjectsHero';
 export { Footer } from './Footer';
 export { PageTitle } from './PageTitle';
+export { ContactForm } from './ContactForm';
