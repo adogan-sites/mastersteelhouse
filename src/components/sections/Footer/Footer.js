@@ -45,7 +45,7 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-4 col-xs-12">
                             <div className="footer-content clearfix">
                                 <h3>Sayfalar</h3>
-                                <ul>
+                                <ul className="pages">
                                     {
                                         menu.map(({name, href}) => (
                                             <li key={name}><Link href={href}>{name}</Link></li>
@@ -53,7 +53,7 @@ const Footer = () => {
                                     }
                                 </ul>
 
-                                <ul>
+                                <ul className="pages">
                                     {
                                         menu
                                             .find(m => m.href === '/hizmetler')
@@ -81,19 +81,24 @@ const Footer = () => {
                                             <i className="fa fa-phone">
                                                 <FontAwesomeIcon icon={faPhone}/>
                                             </i>
-                                            Telefon: {phoneNumber}
+                                            Telefon:
+                                            <Link style={{marginLeft: "4px"}}
+                                                  href={`tel:${phoneNumber.replace(/ /g, '')}`}>{phoneNumber}</Link>
                                         </li>
                                         <li>
-                                        <i className="fa fa-phone">
-                                            <FontAwesomeIcon icon={faPhone}/>
-                                        </i>
-                                        Telefon: {phoneNumber2}
+                                            <i className="fa fa-phone">
+                                                <FontAwesomeIcon icon={faPhone}/>
+                                            </i>
+                                            Telefon:
+                                            <Link style={{marginLeft: "4px"}}
+                                                  href={`tel:${phoneNumber2.replace(/ /g, '')}`}>{phoneNumber2}</Link>
                                         </li>
                                         <li>
                                             <i className="fa fa-envelope-o">
                                                 <FontAwesomeIcon icon={faEnvelopeOpen}/>
                                             </i>
-                                            {email}
+                                            <Link style={{marginLeft: "4px"}}
+                                                  href={`mailto:${email.replace(/ /g, '')}`}>{email}</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -120,16 +125,17 @@ const Footer = () => {
             >
                 <a className='scroll-to-top'>
                     <i>
-                        <FontAwesomeIcon icon={faChevronUp} />
+                        <FontAwesomeIcon icon={faChevronUp}/>
                     </i>
                 </a>
             </ScrollToTop>
             <FloatingWhatsApp
-                accountName="Furkan"
+                accountName="Master Steel House"
                 phoneNumber="+905334903150"
                 statusMessage="Genellikle 1 saat içinde yanıt verir"
                 chatMessage="Merhabalar! Nasıl yardımcı olabiliriz? 🤝"
                 placeholder="Bir mesaj yazın..."
+                avatar="/images/avatar.png"
             />
         </footer>
     );

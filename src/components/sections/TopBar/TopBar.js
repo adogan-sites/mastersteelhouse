@@ -18,9 +18,21 @@ const TopBar = () => {
                 <Row className="d-none d-md-flex">
                     <Col md={9} sm={8}>
                         <ul className="top-bar-info">
-                            <li><i><FontAwesomeIcon icon={faPhone}/></i>{phoneNumber}</li>
-                            <li><i><FontAwesomeIcon icon={faPhone}/></i>{phoneNumber2}</li>
-                            <li><i><FontAwesomeIcon icon={faEnvelope}/></i>{email}</li>
+                            <li>
+                                <i><FontAwesomeIcon icon={faPhone}/></i>
+                                <Link style={{marginLeft: "4px"}}
+                                      href={`tel:${phoneNumber.replace(/ /g, '')}`}>{phoneNumber}</Link>
+                            </li>
+                            <li>
+                                <i><FontAwesomeIcon icon={faPhone}/></i>
+                                <Link style={{marginLeft: "4px"}}
+                                      href={`tel:${phoneNumber2.replace(/ /g, '')}`}>{phoneNumber2}</Link>
+                            </li>
+                            <li>
+                                <i><FontAwesomeIcon icon={faEnvelope}/></i>
+                                <Link style={{marginLeft: "4px"}}
+                                      href={`mailto:${email.replace(/ /g, '')}`}>{email}</Link>
+                            </li>
                         </ul>
                     </Col>
                     <Col md={3} sm={4}>

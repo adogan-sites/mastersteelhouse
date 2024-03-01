@@ -6,6 +6,7 @@ import DATA from "@/data/data.json";
 
 import {getMetaByPage} from "@/utils";
 import {ContactForm} from "@/components/sections";
+import Link from "next/link";
 
 export const metadata = getMetaByPage({ href: '/iletisim' });
 
@@ -47,7 +48,16 @@ const Contact = () => {
                             </div>
                             <div className="contact-info">
                                 <h4>Telefon & Email</h4>
-                                <p>{phoneNumber}<br/>{phoneNumber2}<br/>{email}</p>
+                                <p>
+                                    <Link style={{marginLeft: "4px"}}
+                                          href={`tel:${phoneNumber.replace(/ /g, '')}`}>{phoneNumber}</Link>
+                                    <br/>
+                                    <Link style={{marginLeft: "4px"}}
+                                          href={`tel:${phoneNumber2.replace(/ /g, '')}`}>{phoneNumber2}</Link>
+                                    <br/>
+                                    <Link style={{marginLeft: "4px"}}
+                                          href={`mailto:${email.replace(/ /g, '')}`}>{email}</Link>
+                                </p>
 
                             </div>
                         </div>

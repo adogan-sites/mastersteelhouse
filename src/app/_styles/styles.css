@@ -313,6 +313,10 @@ TABLE OF CONTENT
 	min-height: 50px;
 }
 
+#top-bar .top-bar-info a {
+	color: white;
+}
+
 .top-bar-info {
 	padding: 0px;
 }
@@ -2017,7 +2021,7 @@ e) Color Control
 
 .contact-info p{
 	font-size: 15px;
-	color: #979797;
+	color: #1c303e;
 	line-height: 170%;
 	margin-top: 15px;
 }
@@ -2383,7 +2387,7 @@ e) Color Control
     font-weight: 500;
     color: #e8e8e8;
 }
-.footer-content ul li a:before{
+.footer-content ul.pages li a:before{
 	content: ' +';
 	font-family: FontAwesome;
 	font-size: 17px;
