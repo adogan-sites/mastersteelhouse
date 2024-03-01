@@ -45,7 +45,6 @@ const PageTitle = () => {
                 className="page-title"
                 style={{
                     backgroundImage: "url(/images/carousel/homePic1.webp)",
-                    backgroundPosition: "center",
                     textShadow: "rgba(28, 48, 62, 0.6) 0px 1px 8px"
                 }}
             >
