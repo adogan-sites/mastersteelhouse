@@ -40,7 +40,7 @@ const BlogPostLayout = ({ children, params: {post: postName} }) => {
                                         <div className="latest-posts" key={otherPost.title}>
                                             <div className="row">
                                                 { otherPost.miniImage && (
-                                                    <div className="col-md-5 col-sm-5 col-xs-4 latest-posts-img">
+                                                    <div className="col-4 latest-posts-img">
                                                         <Image
                                                             src={otherPost.miniImage}
                                                             alt={otherPost.title}
@@ -49,7 +49,7 @@ const BlogPostLayout = ({ children, params: {post: postName} }) => {
                                                         />
                                                     </div>
                                                 )}
-                                                <div className="col-md-7 col-sm-7 col-xs-8 latest-posts-text pl-0">
+                                                <div className="col-8 latest-posts-text pl-0">
                                                     <Link scroll={false} href={otherPost.href}>{otherPost.title}</Link>
                                                 </div>
                                             </div>

@@ -31,7 +31,7 @@ const PostsHero = () => {
 
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     {
-                        posts.map(({title: heroTitle, heroDescription, image: heroImage, miniImage, href}) => {
+                        posts.map(({title: heroTitle, description, miniImage, href}) => {
                             return (
                                 <div key={heroTitle} className="feature-block clearfix">
                                     <div className="feature-icon">
@@ -46,7 +46,7 @@ const PostsHero = () => {
                                     </div>
                                     <div className="feature-content feature-block-inner">
                                         <h4>{heroTitle}</h4>
-                                        <p>{heroDescription}</p>
+                                        <p>{description}</p>
                                         <Link href={href}>
                                             Detaylı Bilgi
                                             <FontAwesomeIcon icon={faPlus}/>

@@ -22,7 +22,7 @@ const BlogPosts = () => {
                 {
                     posts.map(({
                        title,
-                       herodescription,
+                       description,
                        image,
                        href
                     }) => (
@@ -36,7 +36,7 @@ const BlogPosts = () => {
                                 />
                                 <div className="blog-inner">
                                     <h4>{title}</h4>
-                                    <p>{herodescription}</p>
+                                    <p>{description}</p>
                                     <Link href={href}>
                                         Detaylı Bilgi
                                         <FontAwesomeIcon icon={faPlus}/>

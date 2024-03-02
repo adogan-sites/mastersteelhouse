@@ -226,8 +226,7 @@
   "posts": [
     {
       "title": "Hafif Çelik Ev Nedir?",
-      "heroDescription": "Hafif Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
-      "heroImage": "",
+      "description": "Hafif Çelik ev, günümüzde modern yaşamın ihtiyaçlarına uygun olarak tasarlanmış, hafif çelik konstrüksiyon sistemleri kullanılarak inşa edilen konutlardır.",
       "image": "/images/services/blog-1-846-448.webp",
       "miniImage": "/images/services/blog-1-92-92.webp",
       "contentComponent": "HafifCelikEvNedir",
@@ -235,8 +234,7 @@
     },
     {
       "title": "Hafif Çelik Yapıların Avantajı Nedir?",
-      "heroDescription": "Hafif Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
-      "heroImage": "",
+      "description": "Hafif Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
       "image": "/images/services/blog-2-846-448.webp",
       "miniImage": "/images/services/blog-2-92-92.webp",
       "contentComponent": "HafifCelikYapiAvantaji",
@@ -244,8 +242,7 @@
     },
     {
       "title": "Betonarme ve Çelik Evlerin Farkı Nedir?",
-      "heroDescription": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
-      "heroImage": "",
+      "description": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
       "image": "/images/services/blog-3-846-448.webp",
       "miniImage": "/images/services/blog-3-92-92.webp",
       "contentComponent": "BetonarmeCelikFarki",
@@ -253,8 +250,7 @@
     },
     {
       "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
-      "heroDescription": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
-      "heroImage": "",
+      "description": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
       "image": "/images/services/blog-4-846-448.webp",
       "miniImage": "/images/services/blog-4-92-92.webp",
       "contentComponent": "PrefabrikCelikFarki",
@@ -262,8 +258,7 @@
     },
     {
       "title": "Neden Master Steel House?",
-      "heroDescription": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
-      "heroImage": "",
+      "description": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
       "image": "/images/services/blog-5-846-448.webp",
       "miniImage": "/images/services/blog-5-92-92.webp",
       "contentComponent": "NedenMasterSteelHouse",
@@ -271,8 +266,7 @@
     },
     {
       "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-      "heroDescription": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
-      "heroImage": "",
+      "description": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
       "image": "/images/services/blog-6-846-448.webp",
       "miniImage": "/images/services/blog-6-92-92.webp",
       "contentComponent": "NedenHafifCelik",
