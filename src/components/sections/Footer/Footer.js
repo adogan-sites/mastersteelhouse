@@ -123,11 +123,11 @@ const Footer = () => {
                     transitionDelay: '0s'
                 }}
             >
-                <a className='scroll-to-top'>
+                <div className='scroll-to-top'>
                     <i>
                         <FontAwesomeIcon icon={faChevronUp}/>
                     </i>
-                </a>
+                </div>
             </ScrollToTop>
             <FloatingWhatsApp
                 accountName="Master Steel House"

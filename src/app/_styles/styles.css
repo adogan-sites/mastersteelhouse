@@ -852,7 +852,11 @@ e) Color Control
 	font-size: 40px;
 	border-radius: 15px;
 	border: 2px solid #f1f1f1;
-	padding: 25px;
+	padding: 8px;
+}
+
+.feature-block .icon-wallpaper img{
+	border-radius: 8px;
 }
 
 .feature-block h4{

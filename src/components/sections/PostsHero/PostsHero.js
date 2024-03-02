@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import DATA from "../../../data/data.json";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPlus, faQuestion} from "@fortawesome/free-solid-svg-icons";
+import {faPlus} from "@fortawesome/free-solid-svg-icons";
 
 const PostsHero = () => {
     const {
@@ -31,12 +31,17 @@ const PostsHero = () => {
 
                 <div className="col-md-6 col-sm-6 col-xs-12">
                     {
-                        posts.map(({title: heroTitle, heroDescription, image: heroImage, href}) => {
+                        posts.map(({title: heroTitle, heroDescription, image: heroImage, miniImage, href}) => {
                             return (
                                 <div key={heroTitle} className="feature-block clearfix">
                                     <div className="feature-icon">
                                         <i className="icon-wallpaper">
-                                            <FontAwesomeIcon className="icon-wallpaper" icon={faQuestion}/>
+                                            <Image
+                                                src={miniImage}
+                                                alt={heroTitle}
+                                                width={92}
+                                                height={92}
+                                            />
                                         </i>
                                     </div>
                                     <div className="feature-content feature-block-inner">
