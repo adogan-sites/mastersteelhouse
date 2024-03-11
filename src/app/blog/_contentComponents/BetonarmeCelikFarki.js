@@ -36,8 +36,7 @@ const BetonarmeCelikFarki = () => (
                 edenler için büyük bir avantajdır.</p>
 
             <p>Sonuç olarak, her iki yapı türü de kendi avantajlarına sahiptir. Ancak hafif çelik evler, modern tasarım,
-                hızlı montaj ve ekonomik fiyat avantajlarıyla öne çıkar, bu nedenle çoğu durumda tercih edilebilirler.
-            </p>
+                hızlı montaj ve ekonomik fiyat avantajlarıyla öne çıkar, bu nedenle çoğu durumda tercih edilebilirler.</p>
         </div>
     </>
 );

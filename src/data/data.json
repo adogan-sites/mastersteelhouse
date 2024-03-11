@@ -148,6 +148,18 @@
       "align": "start",
       "children": [
         {
+          "name": "Hafif Çelik Profil Üretimi",
+          "href": "/hizmetler/hafif-celik-profil",
+          "meta": {
+            "title": "Master Steel House | Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi",
+            "description": "Master Steel House, hafif çelik profil ve hafif çelik konstrüksiyon proje tasarım ve üretiminde öne çıkan bir firmadır. En uygun hafif çelik profil fiyatları ve en üst düzey kalitesi ile ihtiyaçlarınıza çözüm sunuyoruz.",
+            "keywords": [
+              "hafif çelik profil",
+              "hafif çelik profil üretimi"
+            ]
+          }
+        },
+        {
           "name": "Konut",
           "href": "/hizmetler/konut",
           "meta": {
@@ -274,6 +286,17 @@
     }
   ],
   "services": [
+    {
+      "title": "Hafif Çelik Profil Üretimi",
+      "heroDescription": "Master Steel House, hafif çelik profil ve konstrüksiyon projelerinde öncü bir firma olarak bilinir. En uygun hafif çelik profil fiyatlarıyla yüksek kaliteli çözümler sunuyoruz.",
+      "heroImage": "/images/services/konut.png",
+      "images": [
+        "/images/services/konut-409-272.webp",
+        "/images/services/konut2-409-272.webp"
+      ],
+      "contentComponent": "HafifCelikProfil",
+      "href": "/hizmetler/hafif-celik-profil"
+    },
     {
       "title": "Konut",
       "heroDescription": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
