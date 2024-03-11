@@ -16,10 +16,13 @@ const extractMenuHrefs = ({ menu }) => {
 }
 
 export default function sitemap() {
-    const { menu, companyInfo: { baseUrl } } = DATA;
+    const { menu, companyInfo: { baseUrl }, posts } = DATA;
     const list = extractMenuHrefs({ menu });
 
-    return list.map((url) => ({
+    return [
+        ...posts.map(({ href }) => href),
+        ...list
+    ].map((url) => ({
         url: baseUrl + url,
         lastModified: new Date(),
         changeFrequency: 'weekly',

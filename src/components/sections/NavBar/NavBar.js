@@ -45,7 +45,7 @@ const NavBar = () => {
                             <Nav as="ul" className="nav navbar-nav navbar-right navbar-links-custom flex-nowrap" navbarScroll>
                                 {
                                     menu.map(item => {
-                                        const {name, href, children, align} = item;
+                                        const {name, href, target, children, align} = item;
                                         if (children) {
                                             return (
                                                 <HoverControlledDropdown
@@ -62,7 +62,12 @@ const NavBar = () => {
                                             return (
                                                 <NavItem key={`menu-${name}`} as="li"
                                                          className={pathname === href ? 'active-link' : ''}>
-                                                    <Link scroll={false} href={href} className="nav-link">
+                                                    <Link
+                                                        scroll={false}
+                                                        href={href}
+                                                        className="nav-link"
+                                                        target={target}
+                                                    >
                                                         {name}
                                                     </Link>
                                                 </NavItem>

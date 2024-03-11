@@ -24,7 +24,7 @@
       "name": "Ana Sayfa",
       "href": "/",
       "meta": {
-        "title": "Master Steel House | Hafif Çelik Ev, Hafif Çelik Yapı",
+        "title": "Hafif Çelik Ev, Hafif Çelik Yapı | Master Steel House",
         "description": "Master Steel House olarak hafif çelik ev, yapı ve villalarınız için çözümler sunuyoruz. Uygun fiyatlarla hafif çelik profillerimiz ve konstrüksiyon sistemlerimizle kaliteli ve dayanıklı yapılar inşa ediyoruz. Hafif çelik ev fiyatları ve çeşitli projelerimiz hakkında daha fazla bilgi için sitemizi ziyaret edin.",
         "keywords": [
           "hafif çelik ev fiyatları",
@@ -37,7 +37,7 @@
       "name": "Hakkımızda",
       "href": "/hakkimizda",
       "meta": {
-        "title": "Master Steel House | Hakkımızda",
+        "title": "Hakkımızda | Master Steel House",
         "description": "Firmamız Master Steel House hakkında bilgi alın.",
         "keywords": [
           "master steel house hakkımızda",
@@ -49,96 +49,20 @@
       "name": "Blog",
       "href": "/blog",
       "meta": {
-        "title": "Master Steel House | Blog",
+        "title": "Blog | Master Steel House",
         "description": "Firmamız Master Steel House tarafından yazılan blogları okuyun, bilmediklerinizi öğrenin",
         "keywords": [
           "master steel house blog",
           "master steel house"
         ]
       },
-      "align": "end",
-      "children": [
-        {
-          "name": "Hafif Çelik Ev Nedir?",
-          "href": "/blog/hafif-celik-ev-nedir",
-          "meta": {
-            "title": "Master Steel House | Hafif Çelik Ev Nedir?",
-            "description": "Hafif çelik nedir, nerelerde kullanılır, ne gibi yapılar yapılır ? ",
-            "keywords": [
-              "hafif çelik ev",
-              "hafif çelik yapı"
-            ]
-          }
-        },
-        {
-          "name": "Çelik Yapıların Avantajı Nedir?",
-          "href": "/blog/hafif-celik-yapilarin-avantaji",
-          "meta": {
-            "title": "Master Steel House | Çelik Yapıların Avantajı Nedir?",
-            "description": "Hafif çelik yapıların avantajı nedir, ne gibi avantajları vardır? ",
-            "keywords": [
-              "hafif çelik ev",
-              "hafif çelik yapı"
-            ]
-          }
-        },
-        {
-          "name": "Betonarme ve Çelik Evlerin Farkı Nedir?",
-          "href": "/blog/betonarme-ve-celik-evlerin-farki-nedir",
-          "meta": {
-            "title": "Master Steel House | Betonarme ve Çelik Evlerin Farkı Nedir?",
-            "description": "Hafif çelik ve betonarme yapılar arasındaki farklar nedir, ne gibi avantajları/dezavantajları vardır? ",
-            "keywords": [
-              "hafif çelik ev",
-              "hafif çelik yapı"
-            ]
-          }
-        },
-        {
-          "name": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
-          "href": "/blog/prefabrik-ve-celik-evlerin-farki-nedir",
-          "meta": {
-            "title": "Master Steel House | Prefabrik ve Çelik Evlerin Farkı Nedir?",
-            "description": "Hafif çelik ve prefabrik yapılar arasındaki farklar nedir, ne gibi avantajları/dezavantajları vardır?",
-            "keywords": [
-              "hafif çelik ev",
-              "hafif çelik yapı"
-            ]
-          }
-        },
-        {
-          "name": "Neden Master Steel House?",
-          "href": "/blog/neden-master-steel-house",
-          "meta": {
-            "title": "Master Steel House | Neden Master Steel House?",
-            "description": "Kaliteli kadrosu, yüksek üretim kapasitesi, mühendis çizim takımı, satış sonrası desteği ve daha fazlası için bizi tercih edebilirsiniz.",
-            "keywords": [
-              "hafif çelik ev",
-              "hafif çelik yapı",
-              "master steel house"
-            ]
-          }
-        },
-        {
-          "name": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-          "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor",
-          "meta": {
-            "title": "Master Steel House | Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
-            "description": "Hafif çelik profil nedir, ne gibi avantajları/dezavantajları vardır?",
-            "keywords": [
-              "hafif çelik ev",
-              "hafif çelik yapı",
-              "master steel house"
-            ]
-          }
-        }
-      ]
+      "align": "end"
     },
     {
       "name": "Hizmetlerimiz",
       "href": "/hizmetler",
       "meta": {
-        "title": "Master Steel House | Hizmetlerimiz",
+        "title": "Hizmetlerimiz | Master Steel House",
         "description": "Hafif çelik yapılarla yaptığım hizmetleri buradan görebilirsiniz.",
         "keywords": [
           "hafif çelik ev",
@@ -151,7 +75,7 @@
           "name": "Hafif Çelik Profil Üretimi",
           "href": "/hizmetler/hafif-celik-profil",
           "meta": {
-            "title": "Master Steel House | Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi",
+            "title": "Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi | Master Steel House",
             "description": "Master Steel House, hafif çelik profil ve hafif çelik konstrüksiyon proje tasarım ve üretiminde öne çıkan bir firmadır. En uygun hafif çelik profil fiyatları ve en üst düzey kalitesi ile ihtiyaçlarınıza çözüm sunuyoruz.",
             "keywords": [
               "hafif çelik profil",
@@ -163,7 +87,7 @@
           "name": "Konut",
           "href": "/hizmetler/konut",
           "meta": {
-            "title": "Master Steel House | Konut",
+            "title": "Konut | Master Steel House",
             "description": "Hafif çelik yapılarla yaptığımız konut hizmetinin detayları ve daha fazlası",
             "keywords": [
               "hafif çelik ev",
@@ -175,7 +99,7 @@
           "name": "Villa",
           "href": "/hizmetler/villa",
           "meta": {
-            "title": "Master Steel House | Villa",
+            "title": "Villa | Master Steel House",
             "description": "Hafif çelik yapılarla yaptığımız villa hizmetinin detayları ve daha fazlası",
             "keywords": [
               "hafif çelik ev",
@@ -187,7 +111,7 @@
           "name": "Ofis",
           "href": "/hizmetler/ofis",
           "meta": {
-            "title": "Master Steel House | Ofis",
+            "title": "Ofis | Master Steel House",
             "description": "Hafif çelik yapılarla yaptığımız ofis hizmetinin detayları ve daha fazlası",
             "keywords": [
               "hafif çelik ev",
@@ -199,7 +123,7 @@
           "name": "Tiny House",
           "href": "/hizmetler/tiny-house",
           "meta": {
-            "title": "Master Steel House | Tiny House",
+            "title": "Tiny House | Master Steel House",
             "description": "Hafif çelik yapılarla yaptığımız tiny house hizmetinin detayları ve daha fazlası",
             "keywords": [
               "hafif çelik ev",
@@ -211,7 +135,7 @@
           "name": "Bungalov",
           "href": "/hizmetler/bungalov",
           "meta": {
-            "title": "Master Steel House | Bungalov",
+            "title": "Bungalov | Master Steel House",
             "description": "Hafif çelik yapılarla yaptığımız bungalov hizmetinin detayları ve daha fazlası",
             "keywords": [
               "hafif çelik ev",
@@ -222,10 +146,26 @@
       ]
     },
     {
+      "name": "Katalog",
+      "href": "/Master Steel House Hafif Çelik Sistemleri Katalog.pdf",
+      "target": "_blank",
+      "meta": {
+        "title": "Katalog | Master Steel House",
+        "description": "Bizimle iletişime geçerek en uygun hafif celik fiyatları ve kaliteli hafif çelik yapı hizmetlerimizden faydalanabilirsiniz",
+        "keywords": [
+          "hafif çelik ev",
+          "hafif çelik profil",
+          "hafif çelik katalog",
+          "hafif çelik fiyatları",
+          "master steel house"
+        ]
+      }
+    },
+    {
       "name": "İletisim",
       "href": "/iletisim",
       "meta": {
-        "title": "Master Steel House | İletişim",
+        "title": "İletişim | Master Steel House",
         "description": "Bizimle iletişime geçerek en uygun hafif celik fiyatları ve kaliteli hafif çelik yapı hizmetlerimizden faydalanabilirsiniz",
         "keywords": [
           "hafif çelik ev",
