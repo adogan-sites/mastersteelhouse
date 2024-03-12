@@ -5,12 +5,12 @@ import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import {faFacebook, faXTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {faFacebook, faXTwitter, faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons';
 
 import DATA from "../../../data/data.json";
 
 const TopBar = () => {
-    const {phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage} = DATA.companyInfo;
+    const {phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage, youtubePage} = DATA.companyInfo;
 
     return (
         <div id="top-bar">
@@ -58,6 +58,13 @@ const TopBar = () => {
                                     </i>
                                 </a>
                             </li>
+                            <li>
+                                <a href={youtubePage} target='_blank'>
+                                    <i>
+                                        <FontAwesomeIcon icon={faYoutube}/>
+                                    </i>
+                                </a>
+                            </li>
                         </ul>
                     </Col>
                 </Row>
@@ -83,6 +90,13 @@ const TopBar = () => {
                                 <Link href={instagramPage} target='_blank'>
                                     <i>
                                         <FontAwesomeIcon icon={faInstagram}/>
+                                    </i>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={youtubePage} target='_blank'>
+                                    <i>
+                                        <FontAwesomeIcon icon={faYoutube}/>
                                     </i>
                                 </Link>
                             </li>
