@@ -14,8 +14,7 @@ const HafifCelikProfil = () => (
                 düşüren ve inşaat süreçlerini hızlandıran bir yapı malzemesi olarak öne çıkmaktadır. Master
                 Steel
                 House
-                olarak, hafif çelik profillerin üretimi, panel haline getirilmesi ve müşterilere anahtar teslimi
-                olarak
+                olarak, hafif çelik profillerin üretimi ve panel haline getirilmesi olarak
                 hizmet veriyoruz.</p>
 
             <h5>Hafif Çelik Profil Tasarımı, Üretimi, Uygulaması ve daha fazlası !</h5>
@@ -41,9 +40,7 @@ const HafifCelikProfil = () => (
 
             <p>Master Steel House olarak, müşterilerimize hafif çelik profil kurulum hizmeti de sunmaktayız. Deneyimli
                 ve uzman ekibimiz, hafif çelik profillerin montajını titizlikle gerçekleştirir ve
-                müşterilerin ihtiyaçlarına uygun çözümler sunar. Anahtar teslimi hizmetimiz sayesinde,
-                müşterilerimiz inşaat sürecinin her aşamasında bizimle iletişimde kalabilir ve projelerini güvenle
-                tamamlayabilirler.</p>
+                müşterilerin ihtiyaçlarına uygun çözümler sunar. </p>
 
             <h5>Hafif Çelik Profil Fiyatları ve Ekonomik Avantajlar</h5>
 
