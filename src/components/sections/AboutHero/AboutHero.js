@@ -5,7 +5,7 @@ import {Section} from "@/components/ui";
 
 import DATA from "../../../data/data.json";
 
-const AboutHero = () => {
+const AboutHero = ({isDark}) => {
     const {
         title,
         description,
@@ -17,6 +17,7 @@ const AboutHero = () => {
         <Section
             title={title}
             description={description}
+            isDark={isDark}
         >
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-12">

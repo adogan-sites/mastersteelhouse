@@ -7,7 +7,7 @@ import DATA from "../../../data/data.json";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlus} from "@fortawesome/free-solid-svg-icons";
 
-const PostsHero = () => {
+const PostsHero = ({isDark}) => {
     const {
         posts,
         postsHero: { title, description, image }
@@ -17,6 +17,7 @@ const PostsHero = () => {
         <Section
             title={title}
             description={description}
+            isDark={isDark}
         >
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-12">

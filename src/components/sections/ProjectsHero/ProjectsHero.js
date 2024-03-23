@@ -4,13 +4,13 @@ import Image from "next/image";
 
 import DATA from "../../../data/data.json";
 
-const ProjectsHero = () => {
+const ProjectsHero = ({isDark}) => {
     const {title, description, projects} = DATA.projectsHero;
     return (
         <Section
             title={title}
             description={description}
-            isDark={true}
+            isDark={isDark}
         >
             <div className="row">
                 <div className="owl-carousel owl-theme d-flex" id="projects-carousel">

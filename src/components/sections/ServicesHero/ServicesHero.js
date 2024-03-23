@@ -7,7 +7,7 @@ import Link from "next/link";
 import {faPlus} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const ServicesHero = () => {
+const ServicesHero = ({ isDark }) => {
     const {
         servicesHero: { title },
         services
@@ -16,7 +16,7 @@ const ServicesHero = () => {
     return (
         <Section
             title={title}
-            isDark={true}
+            isDark={isDark}
         >
             <div className="row">
                 {
