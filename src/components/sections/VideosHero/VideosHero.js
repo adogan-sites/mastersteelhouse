@@ -1,5 +1,9 @@
+"use client"
+
 import React from 'react';
 import Col from "react-bootstrap/Col";
+import Youtube from "react-lazyload-youtube";
+import 'react-lazyload-youtube/dist/index.css'
 
 import {Section} from "@/components/ui";
 
@@ -20,20 +24,17 @@ const VideosHero = ({isDark}) => {
         >
             <div className="row">
                 {
-                    videos.map(videoUrl => (
+                    videos.map(videoID => (
                         <Col
-                            key={videoUrl}
+                            key={videoID}
                             md={videos.length > 1 ? 6 : 12}
+                            className="my-3"
                         >
-                            <iframe
+                            <Youtube
                                 width="100%"
-                                height="315"
-                                src={videoUrl}
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerPolicy="strict-origin-when-cross-origin"
-                                allowFullScreen
+                                height="315px"
+                                videoId={videoID}
+                                imgSize="hqdefault"
                             />
                         </Col>
                     ))
