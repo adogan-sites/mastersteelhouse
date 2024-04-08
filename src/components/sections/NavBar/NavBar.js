@@ -36,7 +36,13 @@ const NavBar = () => {
                 <Row className="flex-fill align-items-center">
                     <Col xs={2} className='navbar-header navbar-header-custom'>
                         <Link scroll={false} href="/">
-                            <Image width="168" height="70" src="/images/logo.png" alt="footer-logo"/>
+                            <Image
+                                loading='eager'
+                                width="168"
+                                height="70"
+                                src="/images/logo.png"
+                                alt="header-logo"
+                            />
                         </Link>
                         <NavbarToggle aria-controls="bs-example-navbar-collapse-1" className="menu-icon" onClick={() => setCollapseMenu(prev => !prev)}/>
                     </Col>
