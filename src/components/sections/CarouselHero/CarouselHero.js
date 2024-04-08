@@ -26,6 +26,7 @@ const CarouselHero = () => {
                         <div className="slide-image">
                             <Image
                                 src={image}
+                                loading={index === 0 ? 'eager' : 'lazy'}
                                 alt={imgAlt}
                                 fill
                                 sizes="100vw"
