@@ -19,12 +19,16 @@ const findMenuItem = ({ fieldName = 'href', searchKey, findIncludedKey, menu = D
     }
 }
 
+const findBlogItem = ({ href }) => DATA.posts.find(({ href: postHref }) => postHref === `/blog/${href}`);
+
 export const getMetaByPage = ({ href: pageHref }) => {
     const { metadata } = DATA;
     const { meta: pageMeta = {} } = findMenuItem({searchKey: pageHref, findIncludedKey: true}) || {};
+    const { meta: blogMeta } = findBlogItem({ href: pageHref }) || {};
 
     return {
         ...metadata,
-        ...pageMeta
+        ...pageMeta,
+        ...blogMeta
     };
 };
