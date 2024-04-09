@@ -23,12 +23,15 @@ const findBlogItem = ({ href }) => DATA.posts.find(({ href: postHref }) => postH
 
 export const getMetaByPage = ({ href: pageHref }) => {
     const { metadata } = DATA;
-    const { meta: pageMeta = {} } = findMenuItem({searchKey: pageHref, findIncludedKey: true}) || {};
-    const { meta: blogMeta } = findBlogItem({ href: pageHref }) || {};
+    const { meta: pageMeta = {}, href: pageHref_ } = findMenuItem({searchKey: pageHref, findIncludedKey: true}) || {};
+    const { meta: blogMeta = {}, href: blogHref } = findBlogItem({ href: pageHref }) || {};
 
     return {
         ...metadata,
         ...pageMeta,
-        ...blogMeta
+        ...blogMeta,
+        alternates: {
+            canonical: `https://www.mastersteelhouse.com${blogHref || pageHref_ || pageHref}`
+        }
     };
 };
