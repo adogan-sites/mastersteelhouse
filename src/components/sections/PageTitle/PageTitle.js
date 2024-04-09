@@ -17,9 +17,9 @@ const findPageFromMenuByPathname = (
             pageStack.push(item);
             return pageStack;
         }
-        if (item.children) {
+        if (item.children || item.href === '/blog') {
             pageStack.push(item);
-            const foundItem = findPageFromMenuByPathname(targetPathname, item.href, item.children, pageStack);
+            const foundItem = findPageFromMenuByPathname(targetPathname, item.href, item.children || DATA.posts, pageStack);
             if (foundItem) {
                 return pageStack;
             }
@@ -51,13 +51,13 @@ const PageTitle = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-6 col-xs-12">
-                            <h1>{pageStack[pageStack.length - 1].name}</h1>
+                            <h1>{pageStack[pageStack.length - 1].name || pageStack[pageStack.length - 1].title}</h1>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-12">
                             <ul>
                                 {
-                                    pageStack.map(({name, href}) => (
-                                        <li key={name}><Link scroll={false} href={href}>{name}</Link></li>
+                                    pageStack.map(({name, href, title}) => (
+                                        <li key={name}><Link scroll={false} href={href}>{name || title}</Link></li>
                                     ))
                                 }
                             </ul>

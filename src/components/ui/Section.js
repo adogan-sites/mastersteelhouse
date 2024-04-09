@@ -2,6 +2,7 @@ import React from 'react';
 
 const Section = ({
      title,
+     isH1Title,
      description,
     isDark,
      children
@@ -10,7 +11,11 @@ const Section = ({
         <div className={isDark ? "section-block-grey" : "section-block"}>
             <div className="container">
                 <div className="section-heading center-holder">
-                    <h2>{title}</h2>
+                    {
+                        isH1Title
+                            ? <h1>{title}</h1>
+                            : <h2>{title}</h2>
+                    }
                     {description && <p>{description}</p>}
                 </div>
                 {children}

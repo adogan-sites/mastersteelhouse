@@ -16,6 +16,7 @@ const AboutHero = ({isDark}) => {
     return (
         <Section
             title={title}
+            isH1Title={true}
             description={description}
             isDark={isDark}
         >
