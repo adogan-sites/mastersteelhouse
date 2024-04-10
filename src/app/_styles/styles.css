@@ -1470,7 +1470,7 @@ e) Color Control
 	content: "\f10d";
 	color: #ffc527;
 	font-size: 18px;
-	font-weight: 100;
+	font-weight: 300;
 	font-family: FontAwesome;
 	margin-right: 15px;
 }
@@ -2555,7 +2555,7 @@ e) Color Control
 	}
 	.slider-content h2{
 		font-size: 30px;
-		font-weight: 100;
+		font-weight: 300;
 		color: #fff;
 		line-height: 150%;
 		margin: 0px;
@@ -2563,7 +2563,7 @@ e) Color Control
 
 	.slider-content p{
 		font-size: 18px;
-		font-weight: 100;
+		font-weight: 300;
 		color: #fff;
 		text-align: justify;
 		line-height: 180%;
@@ -2582,14 +2582,14 @@ e) Color Control
 	}
 	.slider-content h2{
 		font-size: 30px;
-		font-weight: 100;
+		font-weight: 300;
 		color: #fff;
 		line-height: 150%;
 		margin: 0px;
 	}
 	.slider-content p{
 		font-size: 16px;
-		font-weight: 100;
+		font-weight: 300;
 		color: #fff;
 		text-align: justify;
 		line-height: 180%;
@@ -2607,14 +2607,14 @@ e) Color Control
 	}
 	.slider-content h2{
 		font-size: 30px;
-		font-weight: 100;
+		font-weight: 300;
 		color: #fff;
 		line-height: 150%;
 		margin: 0px;
 	}
 	.slider-content p{
 		font-size: 16px;
-		font-weight: 100;
+		font-weight: 300;
 		color: #fff;
 		text-align: justify;
 		line-height: 180%;
