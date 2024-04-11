@@ -13,7 +13,7 @@ const ProjectsHero = ({isDark}) => {
             isDark={isDark}
         >
             <div className="row">
-                <div className="owl-carousel owl-theme d-flex" id="projects-carousel">
+                <div className="owl-carousel owl-theme d-flex justify-content-center" id="projects-carousel">
                     {
                         projects.map(({title, image, href}) => {
                             return (

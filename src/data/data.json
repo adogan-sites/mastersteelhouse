@@ -346,17 +346,17 @@
     "projects": [
       {
         "title": "Celik Konut Projemiz",
-        "image": "/images/projects/celik-villa2.jpg",
+        "image": "/images/projects/celik-villa2.webp",
         "href": "/projeler/celik-konut-projesi"
       },
       {
         "title": "Celik Villa Projemiz",
-        "image": "/images/projects/celik-villa-tekirdag.jpg",
+        "image": "/images/projects/celik-villa-tekirdag.webp",
         "href": "/projeler/celik-villa-projesi"
       },
       {
         "title": "Celik Villa Projemiz 2",
-        "image": "/images/projects/celik-villa.jpg",
+        "image": "/images/projects/celik-villa.webp",
         "href": "/projeler/celik-villa-projesi"
       }
     ]
