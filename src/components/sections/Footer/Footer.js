@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import ScrollToTop from "react-scroll-up";
@@ -11,6 +11,8 @@ import {faMapMarker, faPhone, faEnvelopeOpen, faChevronUp} from "@fortawesome/fr
 import DATA from "../../../data/data.json";
 
 const Footer = () => {
+    const [showWhatsappIcon, setShowWhatsappIcon] = useState();
+
     const {
         metadata: {
             description
@@ -26,6 +28,11 @@ const Footer = () => {
     } = DATA;
 
     const year = new Date().getFullYear();
+
+    useEffect(() => {
+        const timeout = setTimeout(() => setShowWhatsappIcon(true), 2000);
+        return () => clearTimeout(timeout);
+    }, []);
 
     return (
         <footer>
@@ -129,14 +136,18 @@ const Footer = () => {
                     </i>
                 </div>
             </ScrollToTop>
-            <FloatingWhatsApp
-                accountName="Master Steel House"
-                phoneNumber="+905334903150"
-                statusMessage="Genellikle 1 saat içinde yanıt verir"
-                chatMessage="Merhabalar! Nasıl yardımcı olabiliriz? 🤝"
-                placeholder="Bir mesaj yazın..."
-                avatar="/images/avatar.webp"
-            />
+            {
+                showWhatsappIcon && (
+                    <FloatingWhatsApp
+                        accountName="Master Steel House"
+                        phoneNumber="+905334903150"
+                        statusMessage="Genellikle 1 saat içinde yanıt verir"
+                        chatMessage="Merhabalar! Nasıl yardımcı olabiliriz? 🤝"
+                        placeholder="Bir mesaj yazın..."
+                        avatar="/images/avatar.webp"
+                    />
+                )
+            }
         </footer>
     );
 };
