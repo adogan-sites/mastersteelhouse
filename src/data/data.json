@@ -263,7 +263,7 @@
     {
       "title": "Hafif Çelik Profil Üretimi",
       "heroDescription": "Master Steel House, hafif çelik profil ve konstrüksiyon projelerinde öncü bir firma olarak bilinir. En uygun hafif çelik profil fiyatlarıyla yüksek kaliteli çözümler sunuyoruz.",
-      "heroImage": "/images/services/konut.png",
+      "heroImage": "/images/services/celik-yapi-hero.webp",
       "images": [
         "/images/services/konut-409-272.webp",
         "/images/services/konut2-409-272.webp"
@@ -274,7 +274,7 @@
     {
       "title": "Konut",
       "heroDescription": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
-      "heroImage": "/images/services/konut.png",
+      "heroImage": "/images/services/konut-hero.webp",
       "images": [
         "/images/services/konut-409-272.webp",
         "/images/services/konut2-409-272.webp"
@@ -285,7 +285,7 @@
     {
       "title": "Villa",
       "heroDescription": "Çelik bir yapı betonarmeye göre çok daha elastik, depreme karşı yüksek dayanımlı ve imalat kontrolü kolay bir yapıdır.",
-      "heroImage": "/images/services/villa.png",
+      "heroImage": "/images/services/villa-hero.webp",
       "images": [
         "/images/services/villa-409-272.webp",
         "/images/services/villa2-409-272.webp"
@@ -304,7 +304,7 @@
   "aboutHero": {
     "title": "Master Steel House",
     "description": "Hayalini kurduğunuz mükemmel yaşam alanı için bize ulaşın ve Master Steel House farkını keşfedin!",
-    "image": "/images/carousel/celik-iskelet.png",
+    "image": "/images/carousel/celik-iskelet.webp",
     "paragraphs": [
       "Master Steel House, modern ve sürdürülebilir yaşam alanları sunan öncü bir hafif çelik villa inşaat firmasıdır. Biz, hafif çelik yapı teknolojisini kullanarak müşterilerimize kaliteli, estetik ve dayanıklı villa projeleri sunmayı hedefleyen bir ekibiz.",
       "Hafif çelik yapılarımız, hızlı ve kolay bir şekilde inşa edilebilir özelliklere sahiptir. Prefabrik ve modüler üretim yöntemleri sayesinde, projelerimizde zamandan ve maliyetten tasarruf sağlarken, kalite ve dayanıklılığı da garanti ediyoruz.",
@@ -320,23 +320,23 @@
         "description": "Tecrübeli mühendis ekiplerimizle, hafif çelik yapılarınızı en üst kalitede tasarlayıp üreterek hayata geçiriyoruz. Üstelik, yüksek üretim kapasitemizle, dayanıklı ve estetik çözümlerimizi hızla sunuyoruz. Sizler için özel üretim tesisimizde kaliteli işçilik ve profesyonel hizmet garantisiyle buluşuyoruz."
       },
       {
-        "image": "/images/carousel/villa.png",
-        "title": "Master Steel House",
-        "imgAlt": "Villa",
-        "description": "Villa",
-        "href": "/hizmetler/villa"
+        "image": "/images/carousel/celik-iskelet-yapi.webp",
+        "title": "Hafif Çelik Yapı Sistemleri",
+        "imgAlt": "Hafif Çelik Yapı Sistemleri",
+        "description": "Master Steel House, hafif çelik profil ve yapı projelerinde öncüdür. Kaliteli tasarım ve uygun fiyatlarla hizmetinizdeyiz.",
+        "href": "/hizmetler/hafif-celik-profil"
       },
       {
-        "image": "/images/carousel/konut.png",
-        "title": "Master Steel House",
+        "image": "/images/carousel/konut.webp",
+        "title": "Konut",
         "imgAlt": "Konut",
-        "description": "Konut",
+        "description": "Hafif çelik yapılarla inşa ettiğimiz konut projelerimizi keşfedin. Modern tasarımlar ve dayanıklı yapılar için bize ulaşın.",
         "href": "/hizmetler/konut"
       }
     ]
   },
   "postsHero": {
-    "image": "/images/carousel/celik-iskelet.png",
+    "image": "/images/carousel/celik-iskelet.webp",
     "title": "Sıkca Sorulan Sorular",
     "description": "Bize en çok gelen ve herkesin merak ettiği soruları burada bulabilirsiniz"
   },

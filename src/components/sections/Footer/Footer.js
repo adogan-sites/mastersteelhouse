@@ -36,7 +36,7 @@ const Footer = () => {
                             <div className="footer-content inner-footer">
                                 <h3 className="mb-25">{name}</h3>
                                 <Link href="/">
-                                    <Image width="168" height="70" src="/images/logoWhite.png" alt="footer-logo"/>
+                                    <Image width="168" height="70" src="/images/logo-white.webp" alt="footer-logo"/>
                                 </Link>
                                 <p className="mt-20">{description}</p>
                             </div>
@@ -135,7 +135,7 @@ const Footer = () => {
                 statusMessage="Genellikle 1 saat içinde yanıt verir"
                 chatMessage="Merhabalar! Nasıl yardımcı olabiliriz? 🤝"
                 placeholder="Bir mesaj yazın..."
-                avatar="/images/avatar.png"
+                avatar="/images/avatar.webp"
             />
         </footer>
     );

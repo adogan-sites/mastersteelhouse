@@ -40,7 +40,7 @@ const NavBar = () => {
                                 loading='eager'
                                 width="168"
                                 height="70"
-                                src="/images/logo.png"
+                                src="/images/logo-dark.webp"
                                 alt="header-logo"
                             />
                         </Link>
