@@ -140,7 +140,7 @@ const Footer = () => {
                 showWhatsappIcon && (
                     <FloatingWhatsApp
                         accountName="Master Steel House"
-                        phoneNumber="+905326033466"
+                        phoneNumber="+905334903150"
                         statusMessage="Genellikle 1 saat içinde yanıt verir"
                         chatMessage="Merhabalar! Nasıl yardımcı olabiliriz? 🤝"
                         placeholder="Bir mesaj yazın..."
