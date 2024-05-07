@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Villa = () => (
+const IkiKatliYapilar = () => (
     <>
         <div className="heading-sm">
             <h4>Hafif Çelik ile Konut Yapımı</h4>
@@ -65,4 +65,4 @@ const Villa = () => (
     </>
 );
 
-export default Villa;
+export default IkiKatliYapilar;

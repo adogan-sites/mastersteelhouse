@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Konut = () => (
+const TekKatliYapilar = () => (
     <>
         <div className="heading-sm">
-            <h4>Hafif Çelik ile Konut Yapımı</h4>
+            <h4>Hafif Çelik ile Ev, Ofis gibi Yapılar Yapmak</h4>
         </div>
         <div className="text-content">
             <p>Hafif çelik evler, modern mimarinin sunduğu teknolojik ve ekonomik çözümler arasında önemli
@@ -104,4 +104,4 @@ const Konut = () => (
     </>
 );
 
-export default Konut;
+export default TekKatliYapilar;

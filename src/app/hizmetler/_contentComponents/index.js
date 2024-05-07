@@ -1,5 +1,5 @@
 import {lazy} from "react";
 
-export const Konut = lazy(() => import('./Konut'));
-export const Villa = lazy(() => import('./Villa'));
+export const TekKatliYapilar = lazy(() => import('./tek-katli-yapilar'));
+export const IkiKatliYapilar = lazy(() => import('./iki-katli-yapilar'));
 export const HafifCelikProfil = lazy(() => import('./HafifCelikProfil'));

@@ -89,25 +89,10 @@
       "align": "start",
       "children": [
         {
-          "name": "Hafif Çelik Profil Üretimi",
-          "href": "/hizmetler/hafif-celik-profil",
+          "name": "Tek Katlı Yapılar",
+          "href": "/hizmetler/TekKatliYapilar",
           "meta": {
-            "title": "Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi | Master Steel House",
-            "description": "Master Steel House, hafif çelik profil ve yapı projelerinde öncüdür. Kaliteli tasarım ve uygun fiyatlarla hizmetinizdeyiz.",
-            "keywords": [
-              "çelik yapı",
-              "çelik ev",
-              "çelik yapı sistemleri",
-              "hafif çelik konstrüksiyon",
-              "hafif çelik profil üretimi"
-            ]
-          }
-        },
-        {
-          "name": "Konut",
-          "href": "/hizmetler/konut",
-          "meta": {
-            "title": "Konut | Master Steel House",
+            "title": "Tek Katlı Yapılar | Master Steel House",
             "description": "Hafif çelik yapılarla inşa ettiğimiz konut projelerimizi keşfedin. Modern tasarımlar ve dayanıklı yapılar için bize ulaşın.",
             "keywords": [
               "çelik ev",
@@ -119,10 +104,10 @@
           }
         },
         {
-          "name": "Villa",
-          "href": "/hizmetler/villa",
+          "name": "Iki Katlı Yapılar",
+          "href": "/hizmetler/IkiKatliYapilar",
           "meta": {
-            "title": "Villa | Master Steel House",
+            "title": "Iki Katlı Yapılar | Master Steel House",
             "description": "Hafif çelik yapılarla tasarladığımız villaları keşfedin. Estetik ve dayanıklı çelik yapılar için en iyi seçenekler.",
             "keywords": [
               "çelik yapı",
@@ -131,6 +116,21 @@
               "hafif çelik konstrüksiyon",
               "hafif çelik profil",
               "hafif çelik profil fiyatları"
+            ]
+          }
+        },
+        {
+          "name": "Özel Yapılar ve Profil Üretimi",
+          "href": "/hizmetler/hafif-celik-profil",
+          "meta": {
+            "title": "Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi | Master Steel House",
+            "description": "Master Steel House, hafif çelik profil ve yapı projelerinde öncüdür. Kaliteli tasarım ve uygun fiyatlarla hizmetinizdeyiz.",
+            "keywords": [
+              "çelik yapı",
+              "çelik ev",
+              "çelik yapı sistemleri",
+              "hafif çelik konstrüksiyon",
+              "hafif çelik profil üretimi"
             ]
           }
         }
@@ -261,7 +261,7 @@
   ],
   "services": [
     {
-      "title": "Hafif Çelik Profil Üretimi",
+      "title": "Özel Yapılar ve Profil Üretimi",
       "heroDescription": "Master Steel House, hafif çelik profil ve konstrüksiyon projelerinde öncü bir firma olarak bilinir. En uygun hafif çelik profil fiyatlarıyla yüksek kaliteli çözümler sunuyoruz.",
       "heroImage": "/images/services/celik-yapi-hero.webp",
       "images": [
@@ -272,26 +272,26 @@
       "href": "/hizmetler/hafif-celik-profil"
     },
     {
-      "title": "Konut",
+      "title": "Tek Katlı Yapılar",
       "heroDescription": "Yeni evinizin hem çok sağlam hem de çok estetik olmasını istiyorsanız, geleneksel inşa yöntemlerine meydan okuyan Master Steel House Hafif Çelik Evler tam size göre!",
       "heroImage": "/images/services/konut-hero.webp",
       "images": [
         "/images/services/konut-409-272.webp",
         "/images/services/konut2-409-272.webp"
       ],
-      "contentComponent": "Konut",
-      "href": "/hizmetler/konut"
+      "contentComponent": "TekKatliYapilar",
+      "href": "/hizmetler/TekKatliYapilar"
     },
     {
-      "title": "Villa",
+      "title": "Iki Katlı Yapılar",
       "heroDescription": "Çelik bir yapı betonarmeye göre çok daha elastik, depreme karşı yüksek dayanımlı ve imalat kontrolü kolay bir yapıdır.",
       "heroImage": "/images/services/villa-hero.webp",
       "images": [
         "/images/services/villa-409-272.webp",
         "/images/services/villa2-409-272.webp"
       ],
-      "contentComponent": "Villa",
-      "href": "/hizmetler/villa"
+      "contentComponent": "IkiKatliYapilar",
+      "href": "/hizmetler/IkiKatliYapilar"
     }
   ],
   "videosHero": {
@@ -329,10 +329,10 @@
       },
       {
         "image": "/images/carousel/konut.webp",
-        "title": "Konut",
-        "imgAlt": "Konut",
+        "title": "Tek Katlı Yapılar",
+        "imgAlt": "Tek Katlı Yapılar",
         "description": "Hafif çelik yapılarla inşa ettiğimiz konut projelerimizi keşfedin. Modern tasarımlar ve dayanıklı yapılar için bize ulaşın.",
-        "href": "/hizmetler/konut"
+        "href": "/hizmetler/TekKatliYapilar"
       }
     ]
   },
