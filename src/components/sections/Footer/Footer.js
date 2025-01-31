@@ -21,7 +21,6 @@ const Footer = () => {
             name,
             address,
             phoneNumber,
-            phoneNumber2,
             email
         },
         menu
@@ -91,14 +90,6 @@ const Footer = () => {
                                             Telefon:
                                             <Link style={{marginLeft: "4px"}}
                                                   href={`tel:${phoneNumber.replace(/ /g, '')}`}>{phoneNumber}</Link>
-                                        </li>
-                                        <li>
-                                            <i className="fa fa-phone">
-                                                <FontAwesomeIcon icon={faPhone}/>
-                                            </i>
-                                            Telefon:
-                                            <Link style={{marginLeft: "4px"}}
-                                                  href={`tel:${phoneNumber2.replace(/ /g, '')}`}>{phoneNumber2}</Link>
                                         </li>
                                         <li>
                                             <i className="fa fa-envelope-o">

@@ -10,7 +10,7 @@ import {faFacebook, faXTwitter, faInstagram, faYoutube} from '@fortawesome/free-
 import DATA from "../../../data/data.json";
 
 const TopBar = () => {
-    const {phoneNumber, phoneNumber2, email, facebookPage, twitterPage, instagramPage, youtubePage} = DATA.companyInfo;
+    const {phoneNumber, email, facebookPage, twitterPage, instagramPage, youtubePage} = DATA.companyInfo;
 
     return (
         <div id="top-bar">
@@ -22,11 +22,6 @@ const TopBar = () => {
                                 <i><FontAwesomeIcon icon={faPhone}/></i>
                                 <Link style={{marginLeft: "4px"}}
                                       href={`tel:${phoneNumber.replace(/ /g, '')}`}>{phoneNumber}</Link>
-                            </li>
-                            <li>
-                                <i><FontAwesomeIcon icon={faPhone}/></i>
-                                <Link style={{marginLeft: "4px"}}
-                                      href={`tel:${phoneNumber2.replace(/ /g, '')}`}>{phoneNumber2}</Link>
                             </li>
                             <li>
                                 <i><FontAwesomeIcon icon={faEnvelope}/></i>

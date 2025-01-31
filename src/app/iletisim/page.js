@@ -15,7 +15,6 @@ const Contact = () => {
         companyInfo: {
             address,
             phoneNumber,
-            phoneNumber2,
             workingHours,
             email
         }
@@ -51,9 +50,6 @@ const Contact = () => {
                                 <p>
                                     <Link style={{marginLeft: "4px"}}
                                           href={`tel:${phoneNumber.replace(/ /g, '')}`}>{phoneNumber}</Link>
-                                    <br/>
-                                    <Link style={{marginLeft: "4px"}}
-                                          href={`tel:${phoneNumber2.replace(/ /g, '')}`}>{phoneNumber2}</Link>
                                     <br/>
                                     <Link style={{marginLeft: "4px"}}
                                           href={`mailto:${email.replace(/ /g, '')}`}>{email}</Link>
