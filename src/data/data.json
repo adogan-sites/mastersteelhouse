@@ -54,23 +54,6 @@
       }
     },
     {
-      "name": "Blog",
-      "href": "/blog",
-      "meta": {
-        "title": "Blog | Master Steel House",
-        "description": "Master Steel House bloglarıyla çelik yapılar hakkında güncel bilgilere ulaşın. İnşaat dünyasında yenilikleri keşfedin.",
-        "keywords": [
-          "çelik yapı",
-          "çelik ev",
-          "çelik yapı sistemleri",
-          "master steel house blog",
-          "master steel house",
-          "hafif çelik konstrüksiyon"
-        ]
-      },
-      "align": "end"
-    },
-    {
       "name": "Hizmetlerimiz",
       "href": "/hizmetler",
       "meta": {
@@ -136,6 +119,24 @@
       ]
     },
     {
+      "name": "Sertifikalar",
+      "href": "/sertifikalar",
+      "meta": {
+        "title": "Sertifikalar | Master Steel House",
+        "description": "Master Steel House kalite ve güvenilirlik sertifikalarımızla tanışın. Sektördeki uzmanlığımızı belgeleyen sertifikalarımızı inceleyin.",
+        "keywords": [
+          "çelik yapı",
+          "çelik ev",
+          "çelik yapı sistemleri",
+          "master steel house sertifika",
+          "master steel house belgeler",
+          "hafif çelik konstrüksiyon",
+          "kalite sertifikaları",
+          "iso belgeleri"
+        ]
+      }
+    },
+    {
       "name": "Katalog",
       "href": "/Master Steel House Hafif Çelik Sistemleri Katalog.pdf",
       "target": "_blank",
@@ -151,6 +152,22 @@
           "hafif çelik yapı",
           "hafif çelik fiyatları",
           "master steel house"
+        ]
+      }
+    },
+    {
+      "name": "Blog",
+      "href": "/blog",
+      "meta": {
+        "title": "Blog | Master Steel House",
+        "description": "Master Steel House bloglarıyla çelik yapılar hakkında güncel bilgilere ulaşın. İnşaat dünyasında yenilikleri keşfedin.",
+        "keywords": [
+          "çelik yapı",
+          "çelik ev",
+          "çelik yapı sistemleri",
+          "master steel house blog",
+          "master steel house",
+          "hafif çelik konstrüksiyon"
         ]
       }
     },

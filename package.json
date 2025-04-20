@@ -25,7 +25,8 @@
     "react-floating-whatsapp": "^5.0.8",
     "react-lazyload-youtube": "^1.0.8",
     "react-responsive": "^9.0.2",
-    "react-scroll-up": "^1.4.0"
+    "react-scroll-up": "^1.4.0",
+    "yet-another-react-lightbox": "^3.22.0"
   },
   "devDependencies": {
     "eslint": "^8",

@@ -9,3 +9,4 @@ export { Footer } from './Footer';
 export { PageTitle } from './PageTitle';
 export { ContactForm } from './ContactForm';
 export { VideosHero } from './VideosHero';
+export { CertificatesDisplay } from './CertificatesDisplay';
