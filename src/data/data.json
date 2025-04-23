@@ -119,6 +119,21 @@
       ]
     },
     {
+      "name": "Projeler",
+      "href": "/projeler",
+      "meta": {
+        "title": "Projeler | Master Steel House",
+        "description": "Master Steel House'un tamamlanmış ve devam eden projelerini keşfedin. Çelik yapı alanında gerçekleştirdiğimiz başarılı projelerimizi inceleyin.",
+        "keywords": [
+          "çelik yapı projeleri",
+          "çelik ev projeleri",
+          "çelik yapı örnekleri",
+          "hafif çelik konstrüksiyon projeleri",
+          "tamamlanmış çelik yapı projeleri"
+        ]
+      }
+    },
+    {
       "name": "Sertifikalar",
       "href": "/sertifikalar",
       "meta": {
@@ -213,7 +228,14 @@
       "meta": {
         "title": "Hafif Çelik Yapıların Avantajı Nedir? | Master Steel House",
         "description": "Hafif çelik yapıların avantajları nelerdir? Dayanıklılığı ve esnekliğiyle hafif çelik yapıların faydalarını öğrenin. Master Steel House ile çelik yapı çözümleri.",
-        "keywords": ["hafif çelik yapılar", "çelik yapı avantajları", "esnek yapılar", "çelik yapı maliyeti", "hafif çelik yapı fiyatları", "dayanıklı yapılar"]
+        "keywords": [
+          "hafif çelik yapılar",
+          "çelik yapı avantajları",
+          "esnek yapılar",
+          "çelik yapı maliyeti",
+          "hafif çelik yapı fiyatları",
+          "dayanıklı yapılar"
+        ]
       },
       "title": "Hafif Çelik Yapıların Avantajı Nedir?",
       "description": "Hafif Çelik yapılar; betonarme binalara göre daha sağlam olduğu için tercih edilir.",
@@ -226,7 +248,14 @@
       "meta": {
         "title": "Betonarme ve Çelik Evlerin Farkı Nedir? | Master Steel House",
         "description": "Betonarme ve çelik evlerin farkı nedir? Hangi yapı türü sizin için uygun? Betonarme ve çelik yapılar arasındaki farkları öğrenin.",
-        "keywords": ["betonarme ev", "çelik ev", "yapı türleri", "yapı karşılaştırması", "yapı farkları", "yapı maliyetleri"]
+        "keywords": [
+          "betonarme ev",
+          "çelik ev",
+          "yapı türleri",
+          "yapı karşılaştırması",
+          "yapı farkları",
+          "yapı maliyetleri"
+        ]
       },
       "title": "Betonarme ve Çelik Evlerin Farkı Nedir?",
       "description": "Betonarme evler ve çelik evler arasında oldukça fazla ve kritik farklar vardır.",
@@ -239,7 +268,14 @@
       "meta": {
         "title": "Prefabrik ve Çelik Evlerin Farkı Nedir? | Master Steel House",
         "description": "Prefabrik ve çelik evlerin farkı nedir? Prefabrik ve çelik yapılar arasındaki avantajları karşılaştırın. En uygun ve kaliteli yapı çözümleri için Master Steel House.",
-        "keywords": ["prefabrik ev", "çelik ev", "prefabrik yapılar", "çelik yapılar", "yapı avantajları", "yapı maliyetleri"]
+        "keywords": [
+          "prefabrik ev",
+          "çelik ev",
+          "prefabrik yapılar",
+          "çelik yapılar",
+          "yapı avantajları",
+          "yapı maliyetleri"
+        ]
       },
       "title": "Prefabrik ve Çelik Evlerin Farkı Nedir?",
       "description": "Prefabrik evler ve çelik evler genellikle benzer gibi görünebilir, ancak aslında birkaç önemli farklılık vardır.",
@@ -252,7 +288,14 @@
       "meta": {
         "title": "Neden Master Steel House? | Master Steel House",
         "description": "Neden Master Steel House'u tercih etmelisiniz? Hafif çelik yapılar konusundaki uzmanlığımız ve kaliteli hizmet anlayışımız hakkında daha fazla bilgi edinin.",
-        "keywords": ["Master Steel House", "çelik yapılar", "hafif çelik evler", "çelik yapı avantajları", "yapı şirketi", "inşaat firması"]
+        "keywords": [
+          "Master Steel House",
+          "çelik yapılar",
+          "hafif çelik evler",
+          "çelik yapı avantajları",
+          "yapı şirketi",
+          "inşaat firması"
+        ]
       },
       "title": "Neden Master Steel House?",
       "description": "Müşteri memnuniyetini en üst düzeyde tutarak, her bir projemizde inovatif tasarımlar ve yüksek işçilik kalitesi sunmaktayız.",
@@ -265,7 +308,14 @@
       "meta": {
         "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor? | Master Steel House",
         "description": "Hafif çelik profil nedir ve neden tercih ediliyor? Avantajları ve kullanım alanları hakkında bilgi alın. Uygun fiyatlarla kaliteli çelik profil çözümleri için Master Steel House.",
-        "keywords": ["hafif çelik profil", "çelik profil avantajları", "çelik profil kullanım alanları", "çelik profil maliyeti", "yapı malzemeleri", "yapı profilleri"]
+        "keywords": [
+          "hafif çelik profil",
+          "çelik profil avantajları",
+          "çelik profil kullanım alanları",
+          "çelik profil maliyeti",
+          "yapı malzemeleri",
+          "yapı profilleri"
+        ]
       },
       "title": "Hafif Çelik Profil Nedir ve Neden Tercih Ediliyor?",
       "description": "Hafif çelik profil, çelikten üretilen ve genellikle belirli bir şekle sahip olan yapı elemanlarıdır.",
@@ -273,6 +323,188 @@
       "miniImage": "/images/services/blog-6-92-92.webp",
       "contentComponent": "NedenHafifCelik",
       "href": "/blog/hafif-celik-profil-nedir-ve-neden-tercih-ediliyor"
+    }
+  ],
+  "projects": [
+    {
+      "id": "avangart",
+      "title": "Avangart",
+      "href": "/projeler/avangart",
+      "description": "Modern tasarım ve yüksek kaliteli malzemelerle inşa edilmiş hafif çelik yapı projesi.",
+      "image": "/images/projects/avangart/photo01.png",
+      "katPlani": {
+        "image": "/images/projects/avangart/kat_plani.png",
+        "title": "Avangart Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/avangart/photo01.png",
+          "title": "Avangart Görünüm 1"
+        },
+        {
+          "image": "/images/projects/avangart/photo02.png",
+          "title": "Avangart Görünüm 2"
+        },
+        {
+          "image": "/images/projects/avangart/photo03.png",
+          "title": "Avangart Görünüm 3"
+        },
+        {
+          "image": "/images/projects/avangart/photo04.png",
+          "title": "Avangart Görünüm 4"
+        },
+        {
+          "image": "/images/projects/avangart/photo05.png",
+          "title": "Avangart Görünüm 5"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 120 m²",
+        "Oda sayısı: 3+1",
+        "Banyo sayısı: 2",
+        "Kullanılan çelik: S350GD",
+        "Çelik kalınlığı: 0.9mm - 2mm",
+        "Duvar kalınlığı: 15 cm",
+        "Isı yalıtımı: 10 cm taş yünü",
+        "Ses yalıtımı: 5 cm akustik panel",
+        "Çatı kaplama: Metal kiremit",
+        "Dış cephe: Fiber çimento levha"
+      ]
+    },
+    {
+      "id": "camlik",
+      "title": "Çamlık",
+      "href": "/projeler/camlik",
+      "description": "Doğayla iç içe tasarlanmış, estetik ve fonksiyonel hafif çelik ev projesi.",
+      "image": "/images/projects/camlik/photo01.png",
+      "katPlani": {
+        "image": "/images/projects/camlik/kat_plani.png",
+        "title": "Çamlık Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/camlik/photo01.png",
+          "title": "Çamlık Görünüm 1"
+        },
+        {
+          "image": "/images/projects/camlik/photo02.png",
+          "title": "Çamlık Görünüm 2"
+        },
+        {
+          "image": "/images/projects/camlik/photo03.png",
+          "title": "Çamlık Görünüm 3"
+        },
+        {
+          "image": "/images/projects/camlik/photo04.png",
+          "title": "Çamlık Görünüm 4"
+        },
+        {
+          "image": "/images/projects/camlik/photo05.png",
+          "title": "Çamlık Görünüm 5"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 160 m²",
+        "Oda sayısı: 4+1",
+        "Banyo sayısı: 2",
+        "Kullanılan çelik: S350GD",
+        "Çelik kalınlığı: 1.2mm - 2.5mm",
+        "Duvar kalınlığı: 20 cm",
+        "Isı yalıtımı: 12 cm taş yünü",
+        "Ses yalıtımı: 7 cm akustik panel",
+        "Çatı kaplama: Metal kiremit",
+        "Dış cephe: Kompozit panel"
+      ]
+    },
+    {
+      "id": "koru",
+      "title": "Koru",
+      "href": "/projeler/koru",
+      "description": "Geniş yaşam alanları sunan, dayanıklı ve yüksek kaliteli hafif çelik yapı projesi.",
+      "image": "/images/projects/koru/photo01.png",
+      "katPlani": {
+        "image": "/images/projects/koru/kat_plani.png",
+        "title": "Koru Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/koru/photo01.png",
+          "title": "Koru Görünüm 1"
+        },
+        {
+          "image": "/images/projects/koru/photo02.png",
+          "title": "Koru Görünüm 2"
+        },
+        {
+          "image": "/images/projects/koru/photo03.png",
+          "title": "Koru Görünüm 3"
+        },
+        {
+          "image": "/images/projects/koru/photo04.png",
+          "title": "Koru Görünüm 4"
+        },
+        {
+          "image": "/images/projects/koru/photo05.png",
+          "title": "Koru Görünüm 5"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 140 m²",
+        "Oda sayısı: 3+1",
+        "Banyo sayısı: 2",
+        "Kullanılan çelik: S320GD",
+        "Çelik kalınlığı: 1.0mm - 2mm",
+        "Duvar kalınlığı: 18 cm",
+        "Isı yalıtımı: 12 cm taş yünü",
+        "Ses yalıtımı: 6 cm akustik panel",
+        "Çatı kaplama: Shingle",
+        "Dış cephe: Ahşap kaplama"
+      ]
+    },
+    {
+      "id": "ladin",
+      "title": "Ladin",
+      "href": "/projeler/ladin",
+      "description": "Şık tasarımı ve optimum alan kullanımıyla öne çıkan hafif çelik konut projesi.",
+      "image": "/images/projects/ladin/photo01.png",
+      "katPlani": {
+        "image": "/images/projects/ladin/kat_plani.png",
+        "title": "Ladin Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/ladin/photo01.png",
+          "title": "Ladin Görünüm 1"
+        },
+        {
+          "image": "/images/projects/ladin/photo02.png",
+          "title": "Ladin Görünüm 2"
+        },
+        {
+          "image": "/images/projects/ladin/photo03.png",
+          "title": "Ladin Görünüm 3"
+        },
+        {
+          "image": "/images/projects/ladin/photo04.png",
+          "title": "Ladin Görünüm 4"
+        },
+        {
+          "image": "/images/projects/ladin/photo05.png",
+          "title": "Ladin Görünüm 5"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 110 m²",
+        "Oda sayısı: 3+1",
+        "Banyo sayısı: 1",
+        "Kullanılan çelik: S350GD",
+        "Çelik kalınlığı: 0.9mm - 2mm",
+        "Duvar kalınlığı: 15 cm",
+        "Isı yalıtımı: 10 cm taş yünü",
+        "Ses yalıtımı: 5 cm akustik panel",
+        "Çatı kaplama: Metal kiremit",
+        "Dış cephe: Fiber çimento levha"
+      ]
     }
   ],
   "services": [
@@ -362,19 +594,24 @@
     "description": "26 yıllık makine üretimi ve hafif çelik yapı tasarım-üretim-uygulama deneyimimizle yaptığımız projelerin bir kısmını buradan görebilirsiniz.",
     "projects": [
       {
-        "title": "Celik Konut Projemiz",
-        "image": "/images/projects/celik-villa2.webp",
-        "href": "/projeler/celik-konut-projesi"
+        "title": "Avangart Projemiz",
+        "image": "/images/projects/avangart/photo01.png",
+        "href": "/projeler/avangart"
       },
       {
-        "title": "Celik Villa Projemiz",
-        "image": "/images/projects/celik-villa-tekirdag.webp",
-        "href": "/projeler/celik-villa-projesi"
+        "title": "Çamlık Projemiz",
+        "image": "/images/projects/camlik/photo01.png",
+        "href": "/projeler/camlik"
       },
       {
-        "title": "Celik Villa Projemiz 2",
-        "image": "/images/projects/celik-villa.webp",
-        "href": "/projeler/celik-villa-projesi"
+        "title": "Koru Projemiz",
+        "image": "/images/projects/koru/photo01.png",
+        "href": "/projeler/koru"
+      },
+      {
+        "title": "Ladin Projemiz",
+        "image": "/images/projects/ladin/photo01.png",
+        "href": "/projeler/ladin"
       }
     ]
   },

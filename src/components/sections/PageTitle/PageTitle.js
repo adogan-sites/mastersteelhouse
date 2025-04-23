@@ -5,6 +5,9 @@ import {usePathname} from "next/navigation";
 import Link from "next/link";
 
 import DATA from "../../../data/data.json";
+
+const {menu, posts, projects} = DATA;
+
 const findPageFromMenuByPathname = (
     targetPathname,
     currentMenuPath,
@@ -17,9 +20,14 @@ const findPageFromMenuByPathname = (
             pageStack.push(item);
             return pageStack;
         }
-        if (item.children || item.href === '/blog') {
+        if (item.children || ['/blog', '/projeler'].includes(item.href)) {
             pageStack.push(item);
-            const foundItem = findPageFromMenuByPathname(targetPathname, item.href, item.children || DATA.posts, pageStack);
+            const foundItem = findPageFromMenuByPathname(
+                targetPathname,
+                item.href,
+                item.children || (item.href === '/blog' ? posts : projects),
+                pageStack
+            );
             if (foundItem) {
                 return pageStack;
             }
@@ -29,7 +37,6 @@ const findPageFromMenuByPathname = (
 };
 
 const PageTitle = () => {
-    const {menu} = DATA;
     const pathname = usePathname();
     const pageStack = findPageFromMenuByPathname(
         pathname,
