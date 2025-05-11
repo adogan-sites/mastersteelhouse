@@ -50,7 +50,9 @@ const NavBar = () => {
                         <NavbarCollapse id="bs-example-navbar-collapse-1" className="justify-content-end" in={collapseMenu}>
                             <Nav as="ul" className="nav navbar-nav navbar-right navbar-links-custom flex-nowrap" navbarScroll>
                                 {
-                                    menu.map(item => {
+                                    menu
+                                        .filter(item => !item.hideFromNavBar)
+                                        .map(item => {
                                         const {name, href, target, children, align} = item;
                                         if (children) {
                                             return (

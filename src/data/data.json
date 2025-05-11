@@ -41,6 +41,7 @@
     {
       "name": "Blog",
       "href": "/blog",
+      "hideFromNavBar": "true",
       "meta": {
         "title": "Blog | Master Steel House",
         "description": "Master Steel House bloglarıyla çelik yapılar hakkında güncel bilgilere ulaşın. İnşaat dünyasında yenilikleri keşfedin.",
@@ -136,8 +137,8 @@
       "align": "start",
       "children": [
         {
-          "name": "Alçı Köşe Profilleri",
-          "href": "/urunler/Alcikose",
+          "name": "Alçı Köşe Profili",
+          "href": "/urunler/alci-kose-profili",
           "meta": {
             "title": "Alçı Köşe Profilleri Üretimi | Master Steel House",
             "description": "Tesisimizde yüksek kaliteli hammaddeler ile ürettiğimiz alçı köşe profilleri ile yapınıza ekstra destek katın.",
@@ -150,8 +151,8 @@
           }
         },
         {
-          "name": "Metal Kaba Sıva Profilleri",
-          "href": "/urunler/KabaSiva",
+          "name": "Metal Kaba Sıva Profili",
+          "href": "/urunler/kaba-siva-profili",
           "meta": {
             "title": "Baklava Dilimli Metal Kaba Sıva Profilleri Üretimi | Master Steel House",
             "description": "Fabrikamızda yüksek kaliteli hammaddeler ile ürettiğimiz kaba sıva köşebent profilleri ile yapınıza ekstra destek katın.",
@@ -164,8 +165,8 @@
           }
         },
         {
-          "name": "Tavan U ve C Profilleri",
-          "href": "/urunler/tavan-u-c-profilleri",
+          "name": "Tavan U ve C Profili",
+          "href": "/urunler/tavan-u-ve-c-profili",
           "meta": {
             "title": "Tavan U ve C Profilleri Üretimi | Master Steel House",
             "description": "Yüksek kaliteli galvanizli hammaddeler ile ürettiğimiz tavan u ve c profilleri ile yapınıza kalite katın.",
@@ -566,6 +567,41 @@
         "Çatı kaplama: Metal kiremit",
         "Dış cephe: Fiber çimento levha"
       ]
+    }
+  ],
+  "products": [
+    {
+      "title": "Alçı Köşe Profili",
+      "heroDescription": "Master Steel House, alçı köşe profili üretiminde ve tedariğinde öncü bir firma olarak bilinir. Tesisimizde yüksek kaliteli hammaddeler ile ürettiğimiz alçı köşe profilleri ile yapınıza ekstra destek katın.",
+      "heroImage": "/images/services/celik-yapi-hero.webp",
+      "images": [
+        "/images/services/konut-409-272.webp",
+        "/images/services/konut2-409-272.webp"
+      ],
+      "contentComponent": "Alcikose",
+      "href": "/urunler/alci-kose-profili"
+    },
+    {
+      "title": "Kaba Sıva Profili",
+      "heroDescription": "Fabrikamızda yüksek kaliteli hammaddeler ile ürettiğimiz kaba sıva köşebent profilleri ile yapınıza ekstra destek katın.",
+      "heroImage": "/images/services/celik-yapi-hero.webp",
+      "images": [
+        "/images/services/konut-409-272.webp",
+        "/images/services/konut2-409-272.webp"
+      ],
+      "contentComponent": "Kabasiva",
+      "href": "/urunler/kaba-siva-profili"
+    },
+    {
+      "title": "Tavan U ve C Profili",
+      "heroDescription": "Yüksek kaliteli galvanizli hammaddeler ile ürettiğimiz tavan u ve c profilleri ile yapınıza kalite katın.",
+      "heroImage": "/images/services/celik-yapi-hero.webp",
+      "images": [
+        "/images/services/konut-409-272.webp",
+        "/images/services/konut2-409-272.webp"
+      ],
+      "contentComponent": "Tavanuc",
+      "href": "/urunler/tavan-u-ve-c-profili"
     }
   ],
   "services": [

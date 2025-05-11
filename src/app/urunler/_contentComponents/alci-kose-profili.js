@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Alcikose = () => (
+const AlciKoseProfili = () => (
     <>
         <div className="heading-sm">
             <h4>Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi</h4>
@@ -59,4 +59,4 @@ const Alcikose = () => (
     </>
 );
 
-export default Alcikose;
+export default AlciKoseProfili;

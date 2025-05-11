@@ -3,11 +3,11 @@ import Image from "next/image";
 
 import DATA from "@/data/data.json";
 
-const ServicePageLayout = ({ children, params: { service: serviceName } }) => {
+const ProductPageLayout = ({ children, params: { product: productName } }) => {
     const {
         title,
         images = []
-    } = DATA.services.find(({ href }) => href.includes(serviceName));
+    } = DATA.products.find(({ href }) => href.includes(productName));
 
     return (
         <div className="section-block">
@@ -38,4 +38,4 @@ const ServicePageLayout = ({ children, params: { service: serviceName } }) => {
     );
 };
 
-export default ServicePageLayout;
+export default ProductPageLayout;

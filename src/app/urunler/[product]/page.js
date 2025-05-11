@@ -7,16 +7,16 @@ import * as contentComponents from '../_contentComponents';
 
 import {getMetaByPage} from "@/utils";
 
-export const generateStaticParams = () => DATA.services.map(({href}) => ({
-    service: href.split('/').pop(),
+export const generateStaticParams = () => DATA.products.map(({href}) => ({
+    product: href.split('/').pop(),
 }));
 
-export const generateMetadata = ({ params: {service: serviceName} }) => {
-    return getMetaByPage({ href: serviceName });
+export const generateMetadata = ({ params: {product: productName} }) => {
+    return getMetaByPage({ href: productName });
 }
 
-const ServicePage = ({params: {service: serviceName}}) => {
-    const {contentComponent} = DATA.services.find(({href}) => href.includes(serviceName));
+const ProductPage = ({params: {product: productName}}) => {
+    const {contentComponent} = DATA.products.find(({href}) => href.includes(productName));
     const ContentComponent = contentComponents[contentComponent];
 
     return !ContentComponent
@@ -28,4 +28,4 @@ const ServicePage = ({params: {service: serviceName}}) => {
         );
 };
 
-export default ServicePage;
+export default ProductPage;

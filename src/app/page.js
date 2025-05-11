@@ -3,6 +3,8 @@ import {getMetaByPage} from "@/utils";
 
 export const metadata = getMetaByPage({ href: '/' });
 
+// TODO: ans sayfadaki projeleri güncelle, sayfa içindeki başlıkları aynı formata sok. Proje sayfasındaki tab UI değiştir.
+
 export default function Home() {
     return (
         <main>
