@@ -39,17 +39,18 @@
       }
     },
     {
-      "name": "Hakkımızda",
-      "href": "/hakkimizda",
+      "name": "Blog",
+      "href": "/blog",
       "meta": {
-        "title": "Hakkımızda | Master Steel House",
-        "description": "Master Steel House, çelik yapı sektöründe uzmanlaşmış bir firma. Hafif çelik ev ve yapı projelerinde lider konumda.",
+        "title": "Blog | Master Steel House",
+        "description": "Master Steel House bloglarıyla çelik yapılar hakkında güncel bilgilere ulaşın. İnşaat dünyasında yenilikleri keşfedin.",
         "keywords": [
           "çelik yapı",
           "çelik ev",
           "çelik yapı sistemleri",
-          "hafif çelik yapı",
-          "master steel house"
+          "master steel house blog",
+          "master steel house",
+          "hafif çelik konstrüksiyon"
         ]
       }
     },
@@ -119,6 +120,67 @@
       ]
     },
     {
+      "name": "Ürünlerimiz",
+      "href": "/urunler",
+      "meta": {
+        "title": "Ürünlerimiz | Master Steel House",
+        "description": "Alçı köşe profili, baklava dilimli metal kaba sıva profili, tavan u ve c gibi profil üretimlerimizle yüksek sayıdaki ihtiyaçlarınızı gideriyoruz.",
+        "keywords": [
+          "alci kose profili",
+          "kaba siva profili",
+          "baklava dilimli metal kaba siva profili",
+          "tavan u profili",
+          "tavan c profili"
+        ]
+      },
+      "align": "start",
+      "children": [
+        {
+          "name": "Alçı Köşe Profilleri",
+          "href": "/urunler/Alcikose",
+          "meta": {
+            "title": "Alçı Köşe Profilleri Üretimi | Master Steel House",
+            "description": "Tesisimizde yüksek kaliteli hammaddeler ile ürettiğimiz alçı köşe profilleri ile yapınıza ekstra destek katın.",
+            "keywords": [
+              "alci köse",
+              "alci kose profilleri",
+              "alci kösebent",
+              "alci kosebent profilleri"
+            ]
+          }
+        },
+        {
+          "name": "Metal Kaba Sıva Profilleri",
+          "href": "/urunler/KabaSiva",
+          "meta": {
+            "title": "Baklava Dilimli Metal Kaba Sıva Profilleri Üretimi | Master Steel House",
+            "description": "Fabrikamızda yüksek kaliteli hammaddeler ile ürettiğimiz kaba sıva köşebent profilleri ile yapınıza ekstra destek katın.",
+            "keywords": [
+              "kaba siva kosebent profili",
+              "kaba siva profili",
+              "kaba siva kose profili",
+              "kaba siva kosebenti"
+            ]
+          }
+        },
+        {
+          "name": "Tavan U ve C Profilleri",
+          "href": "/urunler/tavan-u-c-profilleri",
+          "meta": {
+            "title": "Tavan U ve C Profilleri Üretimi | Master Steel House",
+            "description": "Yüksek kaliteli galvanizli hammaddeler ile ürettiğimiz tavan u ve c profilleri ile yapınıza kalite katın.",
+            "keywords": [
+              "tavan u profili",
+              "tavan u profili fiyatları",
+              "tavan u c profil",
+              "tavan c profil",
+              "tavan c profili fiyatları"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "name": "Projeler",
       "href": "/projeler",
       "meta": {
@@ -171,18 +233,17 @@
       }
     },
     {
-      "name": "Blog",
-      "href": "/blog",
+      "name": "Hakkımızda",
+      "href": "/hakkimizda",
       "meta": {
-        "title": "Blog | Master Steel House",
-        "description": "Master Steel House bloglarıyla çelik yapılar hakkında güncel bilgilere ulaşın. İnşaat dünyasında yenilikleri keşfedin.",
+        "title": "Hakkımızda | Master Steel House",
+        "description": "Master Steel House, çelik yapı sektöründe uzmanlaşmış bir firma. Hafif çelik ev ve yapı projelerinde lider konumda.",
         "keywords": [
           "çelik yapı",
           "çelik ev",
           "çelik yapı sistemleri",
-          "master steel house blog",
-          "master steel house",
-          "hafif çelik konstrüksiyon"
+          "hafif çelik yapı",
+          "master steel house"
         ]
       }
     },
