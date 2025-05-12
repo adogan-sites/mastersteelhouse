@@ -3,58 +3,92 @@ import React from 'react';
 const AlciKoseProfili = () => (
     <>
         <div className="heading-sm">
-            <h4>Hafif Çelik Profil ve Hafif Çelik Yapı Proje Üretimi</h4>
+            <h4>Metal Alçı Köşe Profili: İç Mekanlarda Sağlamlığın ve Estetiğin Anahtarı</h4>
         </div>
 
         <div className="text-content">
-            <p>Günümüzde inşaat sektöründe önemli bir dönüşüm yaşanmaktadır ve bu dönüşümün en önemli
-                unsurlarından
-                biri hafif çelik profillerdir. Hafif çelik profiller, yapıların dayanıklılığını artıran,
-                maliyetleri
-                düşüren ve inşaat süreçlerini hızlandıran bir yapı malzemesi olarak öne çıkmaktadır. Master
-                Steel
-                House
-                olarak, hafif çelik profillerin üretimi ve panel haline getirilmesi olarak
-                hizmet veriyoruz.</p>
+            <p>İnşaat sektöründe her detay, yapıların ömrünü ve estetik değerini doğrudan etkiler. Özellikle duvar
+                köşeleri, zamanla en çok yıpranan, darbe alan ve bozulma riski taşıyan bölgelerdir. İşte bu gibi
+                durumlarda devreye giren metal alçı köşe profili, hem sağlamlığı hem de düzgün görünümü ile yapı
+                dünyasında vazgeçilmez bir çözümdür.</p>
 
-            <h5>Hafif Çelik Profil Tasarımı, Üretimi, Uygulaması ve daha fazlası !</h5>
+            <h5>Alçı Köşe Profili Nedir?</h5>
 
-            <p>Sizler için <b>tecrübeli mühendis</b> ekiplerimiz tarafından oluşturulacak olan çizimlerin, hafif çelik profil olarak üretimini
-                yapıyoruz. Varsa sizin çizimlerinizi de denetleyip, eğer deprem ve üretim standartlarına uyuyor ise gerçek hayata
-                dönüştürüyoruz. Yüksek üretim kapasitemiz ile çoklu işler alabilmekte olup, kaliteli işler yolundan sapmıyoruz.</p>
+            <p>Metal alçı köşe profili, alçı sıvalı duvar köşelerinin düzgün, simetrik ve darbelere karşı dayanıklı hale
+                getirilmesini sağlayan galvaniz kaplamalı çelikten üretilmiş yapı elemanıdır. Özellikle 90° iç köşelerde
+                kullanılır ve düzgün hatlar oluşturulmasını sağlar. İnce yapısı sayesinde alçı altında görünmez, fakat
+                içeride sağlam bir iskelet gibi görev yapar.</p>
 
-            <p>Hafif çelik profiller, çelik malzemenin hafifletilmiş versiyonlarıdır ve çeşitli inşaat projelerinde
-                kullanılmaktadır. Master Steel House olarak, son teknolojiye sahip tesislerimizde hafif çelik
-                profillerin üretimini gerçekleştiriyoruz. Yüksek kalite standartlarına uygun olarak
-                ürettiğimiz hafif çelik profiller, dayanıklılığı ve uzun ömürlü kullanımı ile öne çıkmaktadır. Ayrıca,
-                hafif çelik profillerin montajı kolay olduğu için inşaat süreçlerinde zaman tasarrufu sağlar ve iş
-                gücü maliyetlerini azaltır.</p>
+            <div className="row">
+                <div className="col-md-6 col-sm-6 col-xs-12">
+                    <div className="heading-sm">
+                        <h4>Metal Alçı Köşe Profilinin Avantajları</h4>
+                    </div>
+                    <ul className="primary-list">
+                        <li><i className="fa fa-check-square-o"></i><b>Yüksek Dayanıklılık:</b> Galvanizli çelik yapısı
+                            sayesinde darbelere karşı mükemmel koruma sağlar. Özellikle ev, okul, hastane gibi insan
+                            yoğunluğunun fazla olduğu alanlarda köşe deformasyonlarını önler.
+                        </li>
+                        <li><i className="fa fa-check-square-o"></i><b>Düzgün ve Simetrik Köşeler:</b> Alçı sıva
+                            ustalarının işini kolaylaştırır. Düz bir hat boyunca sıvayı yönlendirme imkânı tanır.
+                            Böylece estetik açıdan göz alıcı, hatasız duvar köşeleri elde edilir.
+                        </li>
+                        <li><i className="fa fa-check-square-o"></i><b>Zamandan ve İşçilikten Tasarruf:</b> Manuel
+                            olarak köşe düzeltmeye gerek kalmaz. Profil, alçı sıva sırasında kolayca yerleştirilir ve
+                            uygulama süresini ciddi şekilde kısaltır.
+                        </li>
+                        <li><i className="fa fa-check-square-o"></i><b>Ekonomik ve Uzun Ömürlü:</b> Bir kez
+                            uygulandığında yıllarca dayanır. Çatlama, kırılma ve sıva dökülmesi gibi sorunları ortadan
+                            kaldırır; bakım maliyetlerini düşürür.
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-            <p>Ürettiğimiz hafif çelik profilleri, panel haline getirerek müşterilerimize sunuyoruz. Panel
-                haline getirilen hafif çelik profiller, inşaat sürecini daha da hızlandırır ve projenin
-                maliyetini düşürür. Ayrıca, panel halindeki yapı elemanları, taşınabilirlikleri sayesinde kolayca
-                taşınabilir ve montajı hızlı bir şekilde gerçekleştirilebilir. Müşterilerimize sunduğumuz panel
-                çözümleri, çeşitli yapı tipleri için esneklik sağlar ve mimari tasarım özgürlüğü sunar.</p>
+            <div className="row">
+                <div className="col-md-6 col-sm-6 col-xs-12">
+                    <div className="heading-sm">
+                        <h4>Metal Alçı Köşe Profili Nerelerde Kullanılır?</h4>
+                    </div>
+                    <ul className="primary-list">
+                        <li><i className="fa fa-check-square-o"></i><b>İç cephe duvar köşelerinde</b></li>
+                        <li><i className="fa fa-check-square-o"></i><b>Kolon, kiriş kenarlarında</b></li>
+                        <li><i className="fa fa-check-square-o"></i><b>Merdiven boşluğu çevresinde</b></li>
+                        <li><i className="fa fa-check-square-o"></i><b>Geniş açıklıkların kenarlarında</b></li>
+                        <li><i className="fa fa-check-square-o"></i><b>Koridor ve dar geçiş alanlarında</b></li>
+                    </ul>
+                </div>
+            </div>
 
-            <h5>Hafif Çelik Profil Kurulum Hizmeti</h5>
+            <p>Özellikle okul, hastane, otel, alışveriş merkezi ve toplu konut projelerinde en çok tercih edilen
+                ürünlerden biridir.</p>
 
-            <p>Master Steel House olarak, müşterilerimize hafif çelik profil kurulum hizmeti de sunmaktayız. Deneyimli
-                ve uzman ekibimiz, hafif çelik profillerin montajını titizlikle gerçekleştirir ve
-                müşterilerin ihtiyaçlarına uygun çözümler sunar. </p>
+            <h5>Neden Sadece Metal Alçı Köşe Profili?</h5>
 
-            <h5>Hafif Çelik Profil Fiyatları ve Ekonomik Avantajlar</h5>
+            <p>Piyasada PVC gibi farklı malzemelerden üretilen köşe profilleri olsa da metal köşe profilleri, özellikle
+                mekanik dayanım ve yangın dayanımı açısından öne çıkar. Metal, yüksek ısıya ve darbelere karşı daha uzun
+                süre mukavemet gösterir. Ayrıca, düzgün kenar çizgileri sayesinde mimari detayların belirginliğini
+                artırır.</p>
 
-            <p>Master Steel House olarak, müşterilerimize rekabetçi fiyatlarla hafif çelik profil çözümleri
-                sunuyoruz. Hafif çelik profillerin ekonomik avantajları, uzun vadeli maliyet tasarrufu
-                sağlar ve yatırımların geri
-                dönüş süresini kısaltır. Ayrıca, hafif çelik profillerin dayanıklılığı ve düşük
-                bakım gereksinimi, yapı sahiplerine uzun vadeli güvenlik ve konfor sağlar.</p>
+            <div className="row">
+                <div className="col-md-6 col-sm-6 col-xs-12">
+                    <div className="heading-sm">
+                        <h4>Neden Bizi Tercih Etmelisiniz?</h4>
+                    </div>
+                    <ul className="primary-list">
+                        <li><i className="fa fa-check-square-o"></i><b>Kaliteli Üretim:</b> Yüksek standartlarda,
+                            galvanizli çelikten hammadeler kullanarak üretim yapıyoruz.
+                        </li>
+                        <li><i className="fa fa-check-square-o"></i><b>Hızlı Teslimat:</b> Siparişlerinizi kısa sürede
+                            hazırlayıp sevk ediyoruz.
+                        </li>
+                        <li><i className="fa fa-check-square-o"></i><b>Uygun Fiyat:</b> Kaliteden ödün vermeden
+                            rekabetçi fiyatlarla hizmet veriyoruz.
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-            <p>Master Steel House olarak, hafif çelik profillerin üretimi, panel haline getirilmesi ve kurulumu
-                konusunda uzmanlaşmış bir firma olarak müşterilerimize hizmet vermekteyiz. Yüksek kaliteli
-                ürünlerimiz, uzman ekibimiz ve rekabetçi fiyatlarımız ile müşteri memnuniyetini ön planda
-                tutuyoruz. Hafif çelik profillerin sunduğu avantajları en iyi şekilde değerlendirmek ve projelerinizi
-                güvenle tamamlamak için bize ulaşın!</p>
         </div>
     </>
 );

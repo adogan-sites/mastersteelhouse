@@ -3,100 +3,118 @@ import React from 'react';
 const Tavanuc = () => (
     <>
         <div className="heading-sm">
-            <h4>Hafif Çelik ile Ev, Ofis gibi Yapılar Yapmak</h4>
+            <h4>Tavan U ve C Profilleri Nedir? Kullanım Alanları, Teknik Özellikleri ve Avantajları</h4>
         </div>
         <div className="text-content">
-            <p>Hafif çelik evler, modern mimarinin sunduğu teknolojik ve ekonomik çözümler arasında önemli
-                bir yer
-                tutmaktadır. Geleneksel yapı yöntemlerine kıyasla daha hızlı inşa edilebilen ve çevre dostu
-                özellikleriyle dikkat çeken hafif çelik konutlar, günümüzde giderek artan bir ilgiyle
-                karşılanmaktadır.</p>
-
-            <p>Hafif çelik yapılar, çelik profillerin kullanılmasıyla oluşturulan sağlam ve dayanıklı
-                konstrüksiyonlardır. Bu yapılar, çeşitli avantajlarıyla öne çıkarlar. İlk olarak, hafif
-                çelik
-                evlerin inşası, geleneksel yöntemlere kıyasla daha hızlıdır. Modüler yapısı sayesinde
-                parçaların
-                fabrikada üretilip montajı sahada gerçekleştirilir, bu da inşaat süresini önemli ölçüde
-                kısaltır ve
-                maliyetleri azaltır.</p>
-
-            <p>Hafif çelik evler aynı zamanda çevre dostu bir seçenek sunar. Çelik, geri dönüştürülebilir
-                bir
-                malzeme olduğu için, bu tür yapılar sürdürülebilirlik ilkelerine uygun olarak inşa
-                edilebilir.
-                Ayrıca, hafif çelik yapıların enerji verimliliği de yüksektir. İyi bir yalıtım sistemi ile
-                desteklenen bu evler, enerji tüketimini azaltarak kullanıcılarına uzun vadede tasarruf
-                sağlar.</p>
-
-            <p>Hafif çelik ev fiyatları, birçok faktöre bağlı olarak değişiklik gösterebilir. Evlerin
-                büyüklüğü,
-                tasarımı, kullanılan malzemeler ve ekstralar gibi unsurlar fiyatları etkileyen önemli
-                faktörler
-                arasındadır. Ancak genel olarak, hafif çelik evlerin maliyeti, geleneksel yapı yöntemlerine
-                kıyasla
-                daha ekonomiktir.</p>
-
-            <p>Firmamız, hafif çelik evlerin tasarımından üretimine kadar her aşamada uzmanlaşmıştır.
-                Müşterilerimize özel ihtiyaçlarına ve tercihlerine uygun çözümler sunarak, sağlam, estetik
-                ve
-                ekonomik hafif çelik konutlar inşa etmekteyiz. Kaliteli çelik profiller ve malzemeler
-                kullanarak,
-                dayanıklı ve güvenli yapılar oluşturuyoruz.</p>
-
-            <p>Hafif çelik profil fiyatları da ev yapımının maliyetini belirleyen önemli unsurlardan
-                biridir.
-                Firmamız, rekabetçi fiyatlarla kaliteli çelik profiller sunarak müşterilerimize ekonomik
-                çözümler
-                sunmaktadır. Profil fiyatları, talep edilen özelliklere, miktarlara ve pazar koşullarına
-                göre
-                değişiklik gösterebilir.</p>
-
-            <p>Sonuç olarak, hafif çelik evler modern yaşamın gereksinimlerine uygun, çevre dostu ve
-                ekonomik konut
-                seçenekleri sunar. Firmamız, uzman ekibi ve kaliteli hizmet anlayışıyla müşterilerimize en
-                iyi
-                çözümleri sunmaya devam etmektedir.</p>
+            <p>İnşaat sektöründe hafif çelik yapı sistemlerinin kullanım alanı her geçen gün artıyor. Özellikle asma
+                tavan sistemleri, bölme duvarlar ve duvar kaplama uygulamalarında sıkça tercih edilen çözümlerden biri
+                de Tavan U ve C Profilleridir. Bu profiller, alçıpan sistemlerinin temel taşı niteliğindedir.</p>
         </div>
+
+        <h5>Tavan Profilleri Nedir?</h5>
+
+        <p>Tavan profilleri, alçıpan ve benzeri kaplama malzemelerinin taşıyıcı iskeletini oluşturmak için kullanılan,
+            galvanizli çelikten imal edilen yapı elemanlarıdır. Bu sistemde başlıca iki ana profil bulunur:</p>
+
+        <p>C Profili (Taşıyıcı profil): Tavan iskelet sisteminin ana taşıyıcısıdır.</p>
+
+        <p>U Profili (Kenar profil): C profillerinin yerleştirildiği kanal görevini görür.</p>
+
+        <p>Bu iki profil bir araya geldiğinde, sağlam ve düzgün bir tavan altyapısı oluşturur.</p>
+
+        <h5>Tavan U Profili Nedir?</h5>
+
+        <p>U Profili, genellikle duvar boyunca yatay olarak monte edilen ve C profillerin içine yerleştirildiği kenar
+            taşıyıcı profildir. Tavan sistemine yön verir, C profillerin sabitlenmesini sağlar.</p>
+
+        <p>Özellikleri:</p>
+
+        <p>Şekli "U" harfini andırır.</p>
+
+        <p>Duvar kenarlarına monte edilir.</p>
+
+        <p>Üzerine yük taşımaz ama yönlendirme sağlar.</p>
+
+        <h5>Tavan C Profili Nedir?</h5>
+
+        <p>C Profili, asma tavan sisteminin taşıyıcı elemanıdır. Alçıpanlar bu profillere vidalanır ve sistemin
+            ağırlığını taşır. U profillerin içine geçirilerek tavan boyunca uzatılır.</p>
+
+        <p>Özellikleri:</p>
+
+        <p>Şekli "C" harfini andırır.</p>
+
+        <p>Asıl taşıyıcı rolündedir.</p>
+
+        <p>Alçıpan montajı bu profil üzerine yapılır.</p>
+
         <div className="row">
             <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="heading-sm">
-                    <h4>Hafif Çelik Profilden Konut Yapmanın Avantajları</h4>
+                    <h4>Kullanım Alanları</h4>
+                </div>
+                <p>Tavan U ve C profilleri, birçok iç mekân projesinde kullanılır:</p>
+                <ul className="primary-list">
+                    <li><i className="fa fa-check-square-o"></i>Asma Tavan Sistemleri
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Alçıpan Duvar Bölme Sistemleri
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Duvar Kaplama Sistemleri (giydirme duvarlar)
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Işık bantları ve dekoratif tavan uygulamaları
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Ofis ve ticari alan iç dekorasyonları
+                    </li>
+                    <p>Özellikle AVM, otel, hastane, okul ve konut projelerinde hem estetik hem de işlevsel çözümler
+                        sunar.</p>
+                </ul>
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="heading-sm">
+                    <h4>Avantajları</h4>
                 </div>
                 <ul className="primary-list">
-                    <li><i className="fa fa-check-square-o"></i><b>Dayanıklılık:</b> Hafif çelik, yüksek
-                        mukavemeti
-                        sayesinde dayanıklı yapılar oluşturmak için ideal bir malzemedir. Bu da evin uzun
-                        ömürlü
-                        olmasını sağlar.
+                    <li><i className="fa fa-check-square-o"></i><b>💪 1. Hafif Ama Dayanıklı</b> HGalvanizli çelikten
+                        üretildiği için hem hafiftir hem de taşıma kapasitesi yüksektir. Uygulama alanlarında yük
+                        bindirmeden sağlam bir yapı oluşturur.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Hızlı İnşaat:</b> Hafif çelik yapılar,
-                        geleneksel
-                        yöntemlere göre daha hızlı bir şekilde inşa edilebilir. Bu da projenin zamanında
-                        tamamlanmasını ve müşteri memnuniyetini artırır.
+                    <li><i className="fa fa-check-square-o"></i><b>🛠️ 2. Kolay Montaj</b> Tavan profilleri, kolay
+                        kesilir ve şekillendirilir. Usta dostudur ve zaman kazandırır.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Esnek Tasarım:</b> Hafif çelik profiller,
-                        farklı
-                        tasarım
-                        gereksinimlerine uyum sağlayabilme esnekliği sunar. Müşterilerin isteklerine ve
-                        ihtiyaçlarına göre özelleştirilebilir yaşam alanları oluşturulabilir.
+                    <li><i className="fa fa-check-square-o"></i><b>🔩 3. Vidalamaya Uygun</b> Alçıpan ve diğer levha
+                        malzemeler, C profillere doğrudan vidalanabilir. Bu, uygulamayı hızlı ve sağlam hale getirir.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Ekonomiklik:</b> Hafif çelik, genellikle
-                        daha
-                        ekonomik
-                        bir seçenektir. Hem inşaat malzemelerinin maliyeti hem de işçilik açısından tasarruf
-                        sağlar.
-                        Ayrıca, uzun vadede bakım maliyetlerinde de ekonomik olabilir.
+                    <li><i className="fa fa-check-square-o"></i><b>🔧 4. Esnek Uygulama</b> Projenin gerektirdiği şekil
+                        ve ölçülere kolayca uyarlanabilir. Özellikle eğimli, kademeli ya da kavisli tavanlarda C
+                        profiller esneklik sunar.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Güvenlik:</b> Hafif çelik yapılar, deprem
-                        gibi
-                        doğal
-                        afetlere karşı daha dayanıklıdır. Ayrıca, yangın gibi acil durumlarda da daha
-                        güvenli bir
-                        ortam sağlar.
+                    <li><i className="fa fa-check-square-o"></i><b>🔒 5. Paslanmaz ve Uzun Ömürlü</b> Galvanizli sac
+                        kullanımı, paslanmayı önler. Bu sayede tavan sistemleri yıllarca dayanıklılığını korur.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Çevre Dostu:</b> Hafif çelik malzeme geri
-                        dönüştürülebilir özelliktedir, bu da çevre dostu bir yapı malzemesi olmasını sağlar.
+                    <li><i className="fa fa-check-square-o"></i><b>🧱 6. Yangına Dayanıklı Sistemler</b> Doğru alçıpan ve
+                        yalıtım malzemeleriyle birlikte kullanıldığında yangına dayanıklı sistemler oluşturulabilir.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="heading-sm">
+                    <h4>Neden Bizi Tercih Etmelisiniz?</h4>
+                </div>
+                <ul className="primary-list">
+                    <li><i className="fa fa-check-square-o"></i><b>Kaliteli Üretim:</b> Yüksek standartlarda,
+                        galvanizli çelikten hammadeler kullanarak üretim yapıyoruz.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i><b>Hızlı Teslimat:</b> Siparişlerinizi kısa sürede
+                        hazırlayıp sevk ediyoruz.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i><b>Uygun Fiyat:</b> Kaliteden ödün vermeden
+                        rekabetçi fiyatlarla hizmet veriyoruz.
                     </li>
                 </ul>
             </div>

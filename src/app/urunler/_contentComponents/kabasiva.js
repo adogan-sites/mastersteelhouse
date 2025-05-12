@@ -3,61 +3,112 @@ import React from 'react';
 const Kabasiva = () => (
     <>
         <div className="heading-sm">
-            <h4>Hafif Çelik ile Konut Yapımı</h4>
+            <h4>Metal Kaba Sıva Profili (Baklava Dilimli Profil) Nedir? Uygulama Alanları ve Avantajları</h4>
         </div>
         <div className="text-content">
-            <p>Hafif çelik yapılar, modern mimarinin dinamik ihtiyaçlarına yanıt veren ve inşaat sektöründe önemli
-                bir yer edinen yenilikçi bir çözümdür. Özellikle son yıllarda artan talep, hafif çelik ev ve villa
-                üretimini popüler hale getirmiştir. Master Steel House olarak, hafif çelik yapıların avantajlarını
-                maksimum düzeyde kullanarak, müşterilerimize kaliteli ve dayanıklı evler sunuyoruz.</p>
-
-            <p>Hafif çelik evler, geleneksel yapıların sağladığı dayanıklılığı ve güvenliği, ancak daha hızlı
-                montaj süreleri ve esnek tasarım seçenekleri ile birleştirir. Bu evler, çelik profillerin
-                kullanılmasıyla yüksek mukavemet ve uzun ömür sunar. Ayrıca, hafif çelik profil fiyatları da diğer
-                yapı malzemelerine göre genellikle daha ekonomiktir, bu da maliyet açısından avantajlı bir seçenek
-                sunar.</p>
-
-            <p>Hafif çelik yapıların esnek tasarım özellikleri, her türlü arazi ve coğrafi yapıya uyum
-                sağlamalarını sağlar. Bu da hafif çelik villaların çeşitli konumlarda rahatlıkla inşa edilebilmesini
-                mümkün kılar. Ayrıca, çevre dostu olmaları ve geri dönüştürülebilir malzemeler kullanılarak
-                üretilmeleri, sürdürülebilirlik açısından da önemli bir avantajdır.</p>
-
-            <p>Master Steel House olarak, müşterilerimize en uygun hafif çelik ev çözümlerini sunmak için geniş bir
-                ürün yelpazesi ve uzman ekibimizle hizmet vermekteyiz. İhtiyaçlarınıza ve bütçenize uygun
-                çözümlerimizle, hayalinizdeki eve kavuşmanızı sağlıyoruz. Hafif çelik yapıların dayanıklılığı,
-                estetiği ve ekonomik avantajlarıyla tanışmak için bizi ziyaret etmeyi unutmayın.</p>
+            <p>İnşaat ve yapı dekorasyon süreçlerinde yüzey düzgünlüğü ve sağlamlık en kritik konular arasında yer alır.
+                Bu noktada, kaba sıva uygulamalarının vazgeçilmezi olan metal kaba sıva profili, bir diğer adıyla
+                baklava dilimli profil, işin hem estetik hem de teknik yönünü kusursuz hale getirir. Gelin, bu özel
+                profilin ne işe yaradığını, nerelerde kullanıldığını ve neden projelerinizde mutlaka yer alması
+                gerektiğini detaylıca inceleyelim.</p>
         </div>
+
+        <h5>Metal Kaba Sıva Profili Nedir?</h5>
+
+        <p>Metal kaba sıva profili, alçı veya çimento bazlı sıvaların düzgün şekilde uygulanmasını sağlamak amacıyla
+            kullanılan, galvanizli çelikten imal edilmiş yapı elemanıdır. Adını, üzerindeki baklava şeklindeki delik
+            deseninden alır. Bu desen sayesinde sıva, profil ile bütünleşir ve yüzeyde çatlama, dökülme gibi sorunların
+            önüne geçilir.</p>
+
+        <p>Genellikle 6 mm, 10 mm veya 12 mm sıva kalınlığına uygun olarak üretilir ve kaba sıva işlemi sırasında
+            mastar görevini görür.</p>
+
         <div className="row">
             <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="heading-sm">
-                    <h4>Hafif Çelik Profilden Villa Yapmanın Avantajları</h4>
+                    <h4>Neden “Baklava Dilimli” Profil?</h4>
+                </div>
+                <p>Profil yüzeyindeki baklava formundaki delikler, yalnızca görsel bir detay değildir. Bu delikler:</p>
+                <ul className="primary-list">
+                    <li><i className="fa fa-check-square-o"></i>Sıvanın profil yüzeyine tutunmasını sağlar.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Profille sıva arasında mekanik bütünlük oluşturur.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Sıva kurudukça çatlamasını ve kabarmasını önler.
+                    </li>
+                    <p>Yani bu baklava dilimli yapı, profilin hem sağlamlığını hem de uygulama başarısını doğrudan
+                        etkiler.</p>
+                </ul>
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="heading-sm">
+                    <h4>Kullanım Alanları</h4>
+                </div>
+                <p>Metal kaba sıva profili, inşaat sektörünün birçok alanında aktif olarak kullanılır:</p>
+                <ul className="primary-list">
+                    <li><i className="fa fa-check-square-o"></i>İç ve dış cephe sıvalarında
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Betonarme kolon ve kiriş yüzeylerinde
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Duvar düzeltme uygulamalarında
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Şap altı düzeltmelerinde
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i>Dış cephe mantolama öncesi kaba tesviyelerde
+                    </li>
+                    <p>Özellikle yüksek metrajlı projelerde uygulama kolaylığı ve düzgünlük sağladığı için tercih
+                        edilir.</p>
+                </ul>
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="heading-sm">
+                    <h4>Avantajları Nelerdir?</h4>
+                </div>
+                <p>Metal kaba sıva profili, inşaat sektörünün birçok alanında aktif olarak kullanılır:</p>
+                <ul className="primary-list">
+                    <li><i className="fa fa-check-square-o"></i><b>1. Uygulama Kolaylığı</b> Kaba sıva ustaları için
+                        büyük bir zaman tasarrufu sağlar. Ustalar, profil üzerinden mastar çekerek sıva yüzeyini rahatça
+                        düzleştirebilir.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i><b>2. Yüzey Düzgünlüğü</b> Duvar yüzeyleri hem daha
+                        düzgün hem de hizalı olur. Bu da sonraki ince sıva ve boya uygulamaları için sağlam bir zemin
+                        oluşturur.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i><b>3. Yüksek Dayanım</b> Galvanizli metal yapısı
+                        sayesinde hem iç hem dış mekânda uzun yıllar paslanmadan, bozulmadan kalabilir.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i><b>4. Sıvayla Bütünleşme</b> Baklava desenli delikler,
+                        sıvanın profili tam sarmasını sağlar. Bu da çatlak riskini azaltır, yapının genel mukavemetini
+                        artırır.
+                    </li>
+                    <li><i className="fa fa-check-square-o"></i><b>5. Maliyet Avantajı</b> Uygulama kolaylığı sayesinde
+                        işçilik maliyetini düşürür. Aynı zamanda düz ve düzgün sıvalar sayesinde boya ve ince işçilikte
+                        de tasarruf sağlar.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="heading-sm">
+                    <h4>Neden Bizi Tercih Etmelisiniz?</h4>
                 </div>
                 <ul className="primary-list">
-                    <li><i className="fa fa-check-square-o"></i><b>Dayanıklılık:</b> Hafif çelik, yüksek mukavemeti
-                        sayesinde dayanıklı yapılar oluşturmak için ideal bir malzemedir. Bu da evin uzun ömürlü
-                        olmasını sağlar.
+                    <li><i className="fa fa-check-square-o"></i><b>Kaliteli Üretim:</b> Yüksek standartlarda,
+                        galvanizli çelikten hammadeler kullanarak üretim yapıyoruz.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Hızlı İnşaat:</b> Hafif çelik yapılar, geleneksel
-                        yöntemlere göre daha hızlı bir şekilde inşa edilebilir. Bu da projenin zamanında
-                        tamamlanmasını ve müşteri memnuniyetini artırır.
+                    <li><i className="fa fa-check-square-o"></i><b>Hızlı Teslimat:</b> Siparişlerinizi kısa sürede
+                        hazırlayıp sevk ediyoruz.
                     </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Esnek Tasarım:</b> Hafif çelik profiller, farklı
-                        tasarım
-                        gereksinimlerine uyum sağlayabilme esnekliği sunar. Müşterilerin isteklerine ve
-                        ihtiyaçlarına göre özelleştirilebilir yaşam alanları oluşturulabilir.
-                    </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Ekonomiklik:</b> Hafif çelik, genellikle daha
-                        ekonomik
-                        bir seçenektir. Hem inşaat malzemelerinin maliyeti hem de işçilik açısından tasarruf sağlar.
-                        Ayrıca, uzun vadede bakım maliyetlerinde de ekonomik olabilir.
-                    </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Güvenlik:</b> Hafif çelik yapılar, deprem gibi
-                        doğal
-                        afetlere karşı daha dayanıklıdır. Ayrıca, yangın gibi acil durumlarda da daha güvenli bir
-                        ortam sağlar.
-                    </li>
-                    <li><i className="fa fa-check-square-o"></i><b>Çevre Dostu:</b> Hafif çelik malzeme geri
-                        dönüştürülebilir özelliktedir, bu da çevre dostu bir yapı malzemesi olmasını sağlar.
+                    <li><i className="fa fa-check-square-o"></i><b>Uygun Fiyat:</b> Kaliteden ödün vermeden
+                        rekabetçi fiyatlarla hizmet veriyoruz.
                     </li>
                 </ul>
             </div>
