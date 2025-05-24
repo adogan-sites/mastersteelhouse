@@ -19,10 +19,9 @@ export default function RootLayout({ children }) {
         <PageTitle />
         {children}
         <Footer />
-      </body>
-      <GoogleTagManager gtmId="GTM-MPM92G8X" />
-      <Script id="facebook-pixel" strategy="afterInteractive">
-          {`
+        <GoogleTagManager gtmId="GTM-MPM92G8X" />
+        <Script id="facebook-pixel" strategy="afterInteractive">
+            {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -34,16 +33,16 @@ export default function RootLayout({ children }) {
             fbq('init', '676681505166093');
             fbq('track', 'PageView');
           `}
-      </Script>
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          style={{display: 'none'}}
-          src="https://www.facebook.com/tr?id=676681505166093&ev=PageView&noscript=1"
-        />
-      </noscript>
-
+        </Script>
+        <noscript>
+            <img
+                height="1"
+                width="1"
+                style={{display: 'none'}}
+                src="https://www.facebook.com/tr?id=676681505166093&ev=PageView&noscript=1"
+            />
+        </noscript>
+      </body>
     </html>
   );
 }
