@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <PageTitle />
         {children}
         <Footer />
-        <GoogleTagManager gtmId="GTM-MPM92G8X" />
+        <GoogleTagManager gtmId="GTM-PZRWQN9W" />
         <Script id="facebook-pixel" strategy="afterInteractive">
             {`
             !function(f,b,e,v,n,t,s)
