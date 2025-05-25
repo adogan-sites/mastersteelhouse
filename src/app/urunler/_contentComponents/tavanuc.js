@@ -29,7 +29,7 @@ const Tavanuc = () => (
 
         <p>Özellikleri:</p>
 
-        <p>Şekli &quot;U&quot; harfini andırır.</p>
+        <p>Şekli U harfini andırır.</p>
 
         <p>Duvar kenarlarına monte edilir.</p>
 
@@ -42,7 +42,7 @@ const Tavanuc = () => (
 
         <p>Özellikleri:</p>
 
-        <p>Şekli &quot;C&quot; harfini andırır.</p>
+        <p>Şekli C harfini andırır.</p>
 
         <p>Asıl taşıyıcı rolündedir.</p>
 
