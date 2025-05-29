@@ -389,183 +389,615 @@
   ],
   "projects": [
     {
-      "id": "avangart",
-      "title": "Avangart",
-      "href": "/projeler/avangart",
-      "description": "Modern tasarım ve yüksek kaliteli malzemelerle inşa edilmiş hafif çelik yapı projesi.",
-      "image": "/images/projects/avangart/photo01.png",
+      "id": "86m2",
+      "title": "86 m2",
+      "href": "/projeler/86m2",
+      "description": "Modern tasarım ve yüksek kaliteli malzemelerle inşa edilmiş 86m2 hafif çelik yapı projesi.",
+      "image": "/images/projects/86m2/86f1.png",
       "katPlani": {
-        "image": "/images/projects/avangart/kat_plani.png",
-        "title": "Avangart Kat Planı"
+        "image": "/images/projects/86m2/86f3.png",
+        "title": "86 m2 Kat Planı"
       },
       "uygulanmisHali": [
         {
-          "image": "/images/projects/avangart/photo01.png",
-          "title": "Avangart Görünüm 1"
+          "image": "/images/projects/86m2/86f1.png",
+          "title": "86m2 Görünüm 1"
         },
         {
-          "image": "/images/projects/avangart/photo02.png",
-          "title": "Avangart Görünüm 2"
+          "image": "/images/projects/86m2/86f2.png",
+          "title": "86m2 Görünüm 2"
         },
         {
-          "image": "/images/projects/avangart/photo03.png",
-          "title": "Avangart Görünüm 3"
+          "image": "/images/projects/86m2/86f4.png",
+          "title": "86m2 Görünüm 3"
         },
         {
-          "image": "/images/projects/avangart/photo04.png",
-          "title": "Avangart Görünüm 4"
+          "image": "/images/projects/86m2/86f5.png",
+          "title": "86m2 Görünüm 4"
         },
         {
-          "image": "/images/projects/avangart/photo05.png",
-          "title": "Avangart Görünüm 5"
+          "image": "/images/projects/86m2/86f6.png",
+          "title": "86m2 Görünüm 5"
+        },
+        {
+          "image": "/images/projects/86m2/86f7.png",
+          "title": "86m2 Görünüm 6"
+        },
+        {
+          "image": "/images/projects/86m2/86f8.png",
+          "title": "86m2 Görünüm 7"
         }
       ],
       "genelOzellikler": [
-        "Toplam alan: 120 m²",
-        "Oda sayısı: 3+1",
-        "Banyo sayısı: 2",
-        "Kullanılan çelik: S350GD",
-        "Çelik kalınlığı: 0.9mm - 2mm",
-        "Duvar kalınlığı: 15 cm",
-        "Isı yalıtımı: 10 cm taş yünü",
-        "Ses yalıtımı: 5 cm akustik panel",
-        "Çatı kaplama: Metal kiremit",
-        "Dış cephe: Fiber çimento levha"
+        "Toplam alan: 86 m²",
+        "Oda sayısı: 2+1",
+        "Banyo sayısı: 1",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
       ]
     },
     {
-      "id": "camlik",
-      "title": "Çamlık",
-      "href": "/projeler/camlik",
-      "description": "Doğayla iç içe tasarlanmış, estetik ve fonksiyonel hafif çelik ev projesi.",
-      "image": "/images/projects/camlik/photo01.png",
-      "katPlani": {
-        "image": "/images/projects/camlik/kat_plani.png",
-        "title": "Çamlık Kat Planı"
-      },
-      "uygulanmisHali": [
-        {
-          "image": "/images/projects/camlik/photo01.png",
-          "title": "Çamlık Görünüm 1"
-        },
-        {
-          "image": "/images/projects/camlik/photo02.png",
-          "title": "Çamlık Görünüm 2"
-        },
-        {
-          "image": "/images/projects/camlik/photo03.png",
-          "title": "Çamlık Görünüm 3"
-        },
-        {
-          "image": "/images/projects/camlik/photo04.png",
-          "title": "Çamlık Görünüm 4"
-        },
-        {
-          "image": "/images/projects/camlik/photo05.png",
-          "title": "Çamlık Görünüm 5"
-        }
-      ],
-      "genelOzellikler": [
-        "Toplam alan: 160 m²",
-        "Oda sayısı: 4+1",
-        "Banyo sayısı: 2",
-        "Kullanılan çelik: S350GD",
-        "Çelik kalınlığı: 1.2mm - 2.5mm",
-        "Duvar kalınlığı: 20 cm",
-        "Isı yalıtımı: 12 cm taş yünü",
-        "Ses yalıtımı: 7 cm akustik panel",
-        "Çatı kaplama: Metal kiremit",
-        "Dış cephe: Kompozit panel"
-      ]
-    },
-    {
-      "id": "koru",
-      "title": "Koru",
-      "href": "/projeler/koru",
+      "id": "112m2",
+      "title": "112m2",
+      "href": "/projeler/112m2",
       "description": "Geniş yaşam alanları sunan, dayanıklı ve yüksek kaliteli hafif çelik yapı projesi.",
-      "image": "/images/projects/koru/photo01.png",
+      "image": "/images/projects/112m2/112f1.png",
       "katPlani": {
-        "image": "/images/projects/koru/kat_plani.png",
-        "title": "Koru Kat Planı"
+        "image": "/images/projects/112m2/112f3.png",
+        "title": "112m2 Kat Planı"
       },
       "uygulanmisHali": [
         {
-          "image": "/images/projects/koru/photo01.png",
-          "title": "Koru Görünüm 1"
+          "image": "/images/projects/112m2/112f1.png",
+          "title": "112m2 Görünüm 1"
         },
         {
-          "image": "/images/projects/koru/photo02.png",
-          "title": "Koru Görünüm 2"
+          "image": "/images/projects/112m2/112f2.png",
+          "title": "112m2 Görünüm 2"
         },
         {
-          "image": "/images/projects/koru/photo03.png",
-          "title": "Koru Görünüm 3"
+          "image": "/images/projects/112m2/112f4.png",
+          "title": "112m2 Görünüm 4"
         },
         {
-          "image": "/images/projects/koru/photo04.png",
-          "title": "Koru Görünüm 4"
+          "image": "/images/projects/112m2/112f5.png",
+          "title": "112m2 Görünüm 5"
         },
         {
-          "image": "/images/projects/koru/photo05.png",
-          "title": "Koru Görünüm 5"
+          "image": "/images/projects/112m2/112f6.png",
+          "title": "112m2 Görünüm 6"
+        },
+        {
+          "image": "/images/projects/112m2/112f7.png",
+          "title": "112m2 Görünüm 7"
+        },
+        {
+          "image": "/images/projects/112m2/112f8.png",
+          "title": "112m2 Görünüm 8"
         }
       ],
       "genelOzellikler": [
-        "Toplam alan: 140 m²",
-        "Oda sayısı: 3+1",
-        "Banyo sayısı: 2",
-        "Kullanılan çelik: S320GD",
-        "Çelik kalınlığı: 1.0mm - 2mm",
-        "Duvar kalınlığı: 18 cm",
-        "Isı yalıtımı: 12 cm taş yünü",
-        "Ses yalıtımı: 6 cm akustik panel",
-        "Çatı kaplama: Shingle",
-        "Dış cephe: Ahşap kaplama"
-      ]
-    },
-    {
-      "id": "ladin",
-      "title": "Ladin",
-      "href": "/projeler/ladin",
-      "description": "Şık tasarımı ve optimum alan kullanımıyla öne çıkan hafif çelik konut projesi.",
-      "image": "/images/projects/ladin/photo01.png",
-      "katPlani": {
-        "image": "/images/projects/ladin/kat_plani.png",
-        "title": "Ladin Kat Planı"
-      },
-      "uygulanmisHali": [
-        {
-          "image": "/images/projects/ladin/photo01.png",
-          "title": "Ladin Görünüm 1"
-        },
-        {
-          "image": "/images/projects/ladin/photo02.png",
-          "title": "Ladin Görünüm 2"
-        },
-        {
-          "image": "/images/projects/ladin/photo03.png",
-          "title": "Ladin Görünüm 3"
-        },
-        {
-          "image": "/images/projects/ladin/photo04.png",
-          "title": "Ladin Görünüm 4"
-        },
-        {
-          "image": "/images/projects/ladin/photo05.png",
-          "title": "Ladin Görünüm 5"
-        }
-      ],
-      "genelOzellikler": [
-        "Toplam alan: 110 m²",
+        "Toplam alan: 112 m²",
         "Oda sayısı: 3+1",
         "Banyo sayısı: 1",
-        "Kullanılan çelik: S350GD",
-        "Çelik kalınlığı: 0.9mm - 2mm",
-        "Duvar kalınlığı: 15 cm",
-        "Isı yalıtımı: 10 cm taş yünü",
-        "Ses yalıtımı: 5 cm akustik panel",
-        "Çatı kaplama: Metal kiremit",
-        "Dış cephe: Fiber çimento levha"
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "125m2",
+      "title": "125m2 Dubleks",
+      "href": "/projeler/125m2",
+      "description": "Hafif çelik teknolojisiyle inşa edilmiş, modern ve fonksiyonel villa projesi.",
+      "image": "/images/projects/125m2/125f1.png",
+      "katPlani": {
+        "image": "/images/projects/125m2/125f4.png",
+        "title": "125m2 Dubleks Zemin Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/125m2/125f1.png",
+          "title": "125m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/125m2/125f2.png",
+          "title": "125m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/125m2/125f3.png",
+          "title": "125m2 Görünüm 3"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 125 m²",
+        "Oda sayısı: 3+1",
+        "Banyo sayısı: 2",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "130m2",
+      "title": "130 m2",
+      "href": "/projeler/130m2",
+      "description": "Estetik ve dayanıklılığı bir araya getiren hafif çelik villa evlerimizin en iyi modellerinden",
+      "image": "/images/projects/130m2/130f2.png",
+      "katPlani": {
+        "image": "/images/projects/130m2/130f1.png",
+        "title": "130 m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/130m2/130f2.png",
+          "title": "130m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/130m2/130f3.png",
+          "title": "130m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/130m2/130f4.png",
+          "title": "130m2 Görünüm 3"
+        },
+        {
+          "image": "/images/projects/130m2/130f5.png",
+          "title": "130m2 Görünüm 4"
+        },
+        {
+          "image": "/images/projects/130m2/130f6.png",
+          "title": "130m2 Görünüm 5"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 130 m²",
+        "Oda sayısı: 3+1",
+        "Banyo sayısı: 2",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "165m2",
+      "title": "165 m2",
+      "href": "/projeler/165m2",
+      "description": "Modern yaşamın ihtiyaçlarına uygun, hafif çelikten üretilmiş şık villamız.",
+      "image": "/images/projects/165m2/165f2.png",
+      "katPlani": {
+        "image": "/images/projects/165m2/165f1.png",
+        "title": "165m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/165m2/165f2.png",
+          "title": "165 m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/165m2/165f3.png",
+          "title": "165 m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/165m2/165f4.png",
+          "title": "165 m2 Görünüm 3"
+        },
+        {
+          "image": "/images/projects/165m2/165f5.png",
+          "title": "165 m2 Görünüm 4"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 165 m²",
+        "Oda sayısı: 4+1",
+        "Banyo sayısı: 3",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "174m2",
+      "title": "174 m2",
+      "href": "/projeler/174m2",
+      "description": "Yüksek kaliteli malzemelerle tamamlanan, hafif çelik konstrüksiyonlu villalarımızdan diğer bir örnek yapımız",
+      "image": "/images/projects/174m2/174f2.png",
+      "katPlani": {
+        "image": "/images/projects/174m2/174f1.png",
+        "title": "174 m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/174m2/174f2.png",
+          "title": "174m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/174m2/174f3.png",
+          "title": "174m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/174m2/174f4.png",
+          "title": "174m2 Görünüm 3"
+        },
+        {
+          "image": "/images/projects/174m2/174f5.png",
+          "title": "174m2 Görünüm 4"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 174 m²",
+        "Oda sayısı: 3+2",
+        "Banyo sayısı: 3",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "175m2",
+      "title": "175 m2",
+      "href": "/projeler/175m2",
+      "description": "Uzun ömürlü hafif çelik sistemlerle inşa edilen konforlu villa projesi",
+      "image": "/images/projects/175m2/175f2.png",
+      "katPlani": {
+        "image": "/images/projects/175m2/175f1.png",
+        "title": "175 m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/175m2/175f2.png",
+          "title": "175m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/175m2/175f3.png",
+          "title": "175m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/175m2/175f4.png",
+          "title": "175m2 Görünüm 3"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 175 m²",
+        "Oda sayısı: 3+1",
+        "Banyo sayısı: 3",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "203m2",
+      "title": "203 m2",
+      "href": "/projeler/203m2",
+      "description": "Diğer evlerimiz gibi depreme dayanıklı, hafif çelik konstrüksiyonla tasarlanmış villa projemiz",
+      "image": "/images/projects/203m2/203f2.png",
+      "katPlani": {
+        "image": "/images/projects/203m2/203f1.png",
+        "title": "203 m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/203m2/203f2.png",
+          "title": "203m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/203m2/203f3.png",
+          "title": "203m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/203m2/203f4.png",
+          "title": "203m2 Görünüm 3"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 203 m²",
+        "Oda sayısı: 4+2",
+        "Banyo sayısı: 3",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "256m2",
+      "title": "256 m2",
+      "href": "/projeler/256m2",
+      "description": "Dayanıklı ve hızlı inşa avantajına sahip hafif çelik villalarımızdan başka bir model",
+      "image": "/images/projects/256m2/256f2.png",
+      "katPlani": {
+        "image": "/images/projects/256m2/256f1.png",
+        "title": "256 m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/256m2/256f2.png",
+          "title": "256m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/256m2/256f3.png",
+          "title": "256m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/256m2/256f4.png",
+          "title": "256m2 Görünüm 3"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 256 m²",
+        "Oda sayısı: 6+1",
+        "Banyo sayısı: 4",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "277m2",
+      "title": "277 m2",
+      "href": "/projeler/277m2",
+      "description": "Modern mimariye sahip, hafif çelik taşıyıcı sistemli villamızdan örnek",
+      "image": "/images/projects/277m2/277f2.png",
+      "katPlani": {
+        "image": "/images/projects/277m2/277f1.png",
+        "title": "277 m2 Kat Planı"
+      },
+      "uygulanmisHali": [
+        {
+          "image": "/images/projects/277m2/277f2.png",
+          "title": "277m2 Görünüm 1"
+        },
+        {
+          "image": "/images/projects/277m2/277f3.png",
+          "title": "277m2 Görünüm 2"
+        },
+        {
+          "image": "/images/projects/277m2/277f4.png",
+          "title": "277m2 Görünüm 3"
+        },
+        {
+          "image": "/images/projects/277m2/277f5.png",
+          "title": "277m2 Görünüm 4"
+        }
+      ],
+      "genelOzellikler": [
+        "Toplam alan: 277 m²",
+        "Oda sayısı: 5+2",
+        "Banyo sayısı: 3",
+        "",
+        "TEKLİFİMİZE DAHİL KONULAR:",
+        "Hafif Çelik konstrüksiyon Çelik S280 (kat h: 2,70-3,00 m projede gösterildiği gibi) malzeme ve montaj işçiliği,",
+        "Dış duvar: Bordex + Nem Bariyeri + OSB + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan ( Fileli Isı Yalıtım Sıvası+ 2 mm Mineral Sıva + Boya)",
+        "İç Duvar: 12,5 mm Alçıpan (Saten Alçı + Boya) + Çelik Konstrüksiyon + İzolasyon + 12,5 mm Alçıpan (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya)",
+        "Tavan: Alçıpan tavan, (Fileli Isı Yalıtım Sıvası+ 1,5 mm Mineral Sıva + Boya),",
+        "Çatı: Çelik çatı üzeri 11 mm OSB  + Shingle  ( Kiremit Çatı olduğunda Fiyat Farkı oluşmaktadır. ) Saçaklar Bordex",
+        "Elektrik tesisatı kablolama,",
+        "Sıhhi Tesisat borulama ( Sıcak ve Soğuk Su Hatları )",
+        "Dış Çelik Kapı, İç kapılar amerikan panel kapı (Projede gösterildiği ölçülerde) malzeme ve montaj işçiliği, ",
+        "PVC doğrama pencere (4+16+4 ısıcamlı) malzeme ve montaj işçiliği,",
+        "Nakliye ve nakliye sigortası,",
+        "Montaj ekibi ibate, iaşe, şantiye arası ulaşım, şantiye içi ulaşım,",
+        "Adet Fiyatlandırmasında Seçme hakkı bulunan malzemelerin Fiyat Farkları müşteriden talep edilecektir.",
+        "",
+        "TEKLİFİMİZE DAHİL OLMAYANLAR:",
+        "Her türlü resmi işlemler, Ruhsatlandırma,vergi, resim ve harçlar,",
+        "Her türlü temel, beton, şap, çevre düzenlemesi, tretuvar işleri ve izolasyon işleri,",
+        "Her türlü rampa ve korkuluk malzeme ve işçiliği,",
+        "Vitrifiyeler ve Bataryalar, Tefrişat, mefruşat ve aksesuarları,",
+        "Priz ve Anahtarlar",
+        "Mutfak dolapları malzeme ve montaj işçiliği,",
+        "Zemin kaplamaları malzeme ve işçiliği",
+        "Sıhhi tesisat bina dışı ana bağlantıları, vanaları ve şartnamede bulunmayan tüm işler teklifimize dahil değildir",
+        "",
+        "Kendinize göre dahil olmasını istediğiniz işçilikler ve detaylar için bize ulaşabilirsiniz."
       ]
     }
   ],
