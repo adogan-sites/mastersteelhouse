@@ -266,6 +266,26 @@
     }
   ],
   "posts": [
+     {
+      "meta": {
+        "title": "Hafif Çelik Ev Ömrü Ne Kadar? | Master Steel House",
+        "description": "Hafif çelik ev ömrü ne kadardır? Avantajları nelerdir? Master Steel House'un uzmanlığıyla hafif çelik evlerin özelliklerini ve faydalarını keşfedin.",
+        "keywords": [
+          "hafif çelik ev",
+          "çelik ev avantajları",
+          "hafif çelik ev ömrü",
+          "dayanıklı yapılar",
+          "çelik ev dayanıklılığı",
+          "hafif çelik ev fiyatları"
+        ]
+      },
+      "title": "Hafif Çelik Ev Ömrü Ne Kadar?",
+      "description": "Kaliteli malzeme ve doğru mühendislik uygulamaları ile inşa edilen bir hafif çelik evin ömrü minimum 50 yıl, doğru bakım ve kullanım ile 100 yıla kadar çıkabilir.",
+      "image": "/images/services/blog-1-846-448.webp",
+      "miniImage": "/images/services/blog-1-92-92.webp",
+      "contentComponent": "HafifCelikEvOmruNekadar",
+      "href": "/blog/hafif-celik-omru-ne-kadar"
+    },
     {
       "meta": {
         "title": "Hafif Çelik Ev Nedir? | Master Steel House",
