@@ -403,9 +403,9 @@
       "description": "Kaliteli malzeme ve doğru mühendislik uygulamaları ile inşa edilen bir hafif çelik evin ömrü minimum 50 yıl, doğru bakım ve kullanım ile 100 yıla kadar çıkabilir.",
       "image": "/images/services/blog-7-846-448.webp",
       "miniImage": "/images/services/blog-7-92-92.webp",
-      "contentComponent": "HafifCelikEvOmruNekadar",
+      "contentComponent": "HafifCelikEvOmruNeKadar",
       "href": "/blog/hafif-celik-ev-omru-ne-kadar"
-    }  
+    }
   ],
   "projects": [
     {
@@ -1143,24 +1143,24 @@
     "description": "26 yıllık makine üretimi ve hafif çelik yapı tasarım-üretim-uygulama deneyimimizle yaptığımız projelerin bir kısmını buradan görebilirsiniz.",
     "projects": [
       {
-        "title": "Avangart Projemiz",
-        "image": "/images/projects/avangart/photo01.png",
-        "href": "/projeler/avangart"
+        "title": "86m2 Projemiz",
+        "image": "/images/projects/86m2/86f1.png",
+        "href": "/projeler/86m2"
       },
       {
-        "title": "Çamlık Projemiz",
-        "image": "/images/projects/camlik/photo01.png",
-        "href": "/projeler/camlik"
+        "title": "130m2 Projemiz",
+        "image": "/images/projects/130m2/130f2.png",
+        "href": "/projeler/130m2"
       },
       {
-        "title": "Koru Projemiz",
-        "image": "/images/projects/koru/photo01.png",
-        "href": "/projeler/koru"
+        "title": "203m2 Projemiz",
+        "image": "/images/projects/203m2/203f2.png",
+        "href": "/projeler/203m2"
       },
       {
-        "title": "Ladin Projemiz",
-        "image": "/images/projects/ladin/photo01.png",
-        "href": "/projeler/ladin"
+        "title": "277m2 Projemiz",
+        "image": "/images/projects/277m2/277f2.png",
+        "href": "/projeler/277m2"
       }
     ]
   },

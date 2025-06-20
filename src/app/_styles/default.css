@@ -9,7 +9,7 @@ TABLE OF CONTENT
 4. Margins, Paddings
 5. Owl Carousel Dots
 6. Clearfix
- 
+
 ==============================================
 [END] TABLE OF CONTENT
 ==============================================
@@ -23,7 +23,7 @@ TABLE OF CONTENT
 -------------------------------------------*/
 html, body {
   font-family: 'Raleway', sans-serif;
-  color: #1c303e;        
+  color: #1c303e;
   height: auto;
   margin: 0;
   padding: 0;
@@ -56,8 +56,9 @@ h6 {
 img{
 	max-width: 100%;
 	height: auto;
+    width: 100%;
 	-webkit-transition-duration: .3s;
-	transition-duration: .3s;		
+	transition-duration: .3s;
 }
 a{
   color: #1c303e;
@@ -127,7 +128,7 @@ input, textarea{
   height: 100%;
   vertical-align: middle;
   margin-right: -4px;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 .modal-dialog {
@@ -229,7 +230,7 @@ input, textarea{
 @media screen and (max-width:767px) {
   .mr-30-md{
     margin-right: 0px;
-  } 
+  }
 }
 
 
@@ -268,9 +269,9 @@ input, textarea{
   display: block;
   border: 1px solid #fff;
   -webkit-backface-visibility: visible;
-  border-radius: 30px;  
+  border-radius: 30px;
   -webkit-transition-duration: .3s;
-  transition-duration: .3s;      
+  transition-duration: .3s;
 }
 .custom-dot span:hover {
     background: #aaa;
@@ -282,7 +283,7 @@ input, textarea{
   height: 12px;
   background: #ffc527;
   -webkit-transition-duration: .3s;
-  transition-duration: .3s;    
+  transition-duration: .3s;
 }
 
 
