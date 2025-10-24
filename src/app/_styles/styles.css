@@ -2682,3 +2682,19 @@ e) Color Control
 		font-size: 13px;
 	}
 }
+
+@media (min-width: 576px) {
+	.floating-whatsapp .floating-whatsapp-button {
+		bottom: 6rem;
+	}
+
+	div:has(> div.scroll-to-top) {
+		bottom: 180px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.embedded-agent-container:has(.chat-button-variant-2):not(.square) {
+		justify-content: start;
+	}
+}
