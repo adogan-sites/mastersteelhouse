@@ -113,6 +113,7 @@ const Footer = () => {
                 showUnder={160}
                 style={{
                     position: 'fixed',
+                    bottom: '180px',
                     right: 44,
                     cursor: 'pointer',
                     transitionDuration: '0.2s',
