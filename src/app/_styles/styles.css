@@ -2683,7 +2683,7 @@ e) Color Control
 	}
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 	.floating-whatsapp .floating-whatsapp-button {
 		bottom: 6rem;
 	}
@@ -2695,6 +2695,6 @@ e) Color Control
 
 @media screen and (max-width: 768px) {
 	.embedded-agent-container:has(.chat-button-variant-2):not(.square) {
-		justify-content: start;
+		justify-content: start !important;
 	}
 }
