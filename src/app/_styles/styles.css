@@ -2683,6 +2683,10 @@ e) Color Control
 	}
 }
 
+div:has(> div.scroll-to-top) {
+	bottom: 112px,
+}
+
 @media (min-width: 768px) {
 	.floating-whatsapp .floating-whatsapp-button {
 		bottom: 6rem;
