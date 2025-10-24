@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
                 src="https://www.facebook.com/tr?id=676681505166093&ev=PageView&noscript=1"
             />
         </noscript>
+        <Script src='https://www.noupe.com/embed/019a11c3937c7cb4894668d496018ff95940.js'></Script>
       </body>
     </html>
   );
