@@ -2,18 +2,14 @@
   "metadata": {
     "title": "Master Steel House | Hafif Çelik Ev, Hafif Çelik Yapı",
     "description": "Master Steel House, mükemmel tasarımı ve dayanıklılığıyla hafif çelik ev ve yapı çözümleri sunar. En uygun fiyatlarla kaliteyi bulun.",
-    "keywords": [
-      "hafif çelik",
-      "çelik konstrüksiyon",
-      "çelik yapı"
-    ]
+    "keywords": ["hafif çelik", "çelik konstrüksiyon", "çelik yapı"]
   },
   "companyInfo": {
     "baseUrl": "https://www.mastersteelhouse.com",
     "name": "Master Steel House",
     "address": "Saray mahallesi, Gökkuşağı caddesi 16/B Kahramankazan/Ankara",
     "workingHours": "Haftaiçi: 9:00-18:00, Cumartesi: 9:30-14:00",
-    "phoneNumber": "+90 532 603 34 66",
+    "phoneNumber": "+90 533 498 15 40",
     "email": "info@mastersteelhouse.com",
     "facebookPage": "https://www.facebook.com/mastersteelhous/",
     "twitterPage": "https://twitter.com/mastersteelhous",
@@ -123,6 +119,7 @@
     {
       "name": "Ürünlerimiz",
       "href": "/urunler",
+      "disableDropdown": true,
       "meta": {
         "title": "Ürünlerimiz | Master Steel House",
         "description": "Alçı köşe profili, baklava dilimli metal kaba sıva profili, tavan u ve c gibi profil üretimlerimizle yüksek sayıdaki ihtiyaçlarınızı gideriyoruz.",
@@ -1094,9 +1091,7 @@
   "videosHero": {
     "title": "Videolarımız",
     "description": "",
-    "videos": [
-      "UAaaWYoi38Y"
-    ]
+    "videos": ["UAaaWYoi38Y"]
   },
   "aboutHero": {
     "title": "Neler yapıyoruz? Hizmetlerimiz neler?",

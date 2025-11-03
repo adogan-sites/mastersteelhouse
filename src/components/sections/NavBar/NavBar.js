@@ -53,14 +53,16 @@ const NavBar = () => {
                                     menu
                                         .filter(item => !item.hideFromNavBar)
                                         .map(item => {
-                                        const {name, href, target, children, align} = item;
-                                        if (children) {
+                                        const {name, href, target, children, align, disableDropdown} = item;
+                                        const isActive = pathname === href || children?.some(({href: childHref}) => childHref === pathname);
+
+                                        if (children && !disableDropdown) {
                                             return (
                                                 <HoverControlledDropdown
                                                     key={`menu-${name}`}
                                                     as="li"
                                                     title={name}
-                                                    className={(pathname === href) || children.map(c => c.href).includes(pathname) ? 'active-link' : ''}
+                                                    className={isActive ? 'active-link' : ''}
                                                     align={align}
                                                     autoClose={false}
                                                     item={item}
@@ -69,7 +71,7 @@ const NavBar = () => {
                                         } else {
                                             return (
                                                 <NavItem key={`menu-${name}`} as="li"
-                                                         className={pathname === href ? 'active-link' : ''}>
+                                                         className={isActive ? 'active-link' : ''}>
                                                     <Link
                                                         scroll={false}
                                                         href={href}
