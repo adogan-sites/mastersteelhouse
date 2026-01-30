@@ -30,7 +30,7 @@ const ProductsPage = () => {
               height="800px"
             >
               <p>
-                PDF'yi görüntüleyemiyorsanız dosyayı indirmek için{" "}
+                PDF&apos;yi görüntüleyemiyorsanız dosyayı indirmek için{" "}
                 <a
                   href="/MasterProfilKatalog2.pdf"
                   target="_blank"

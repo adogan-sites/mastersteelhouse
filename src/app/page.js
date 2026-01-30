@@ -26,7 +26,7 @@ export default function Home() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                PDF'yi Aç
+                                PDF&apos;yi Aç
                             </a>
                         </div>
                     </div>
