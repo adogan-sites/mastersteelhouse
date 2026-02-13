@@ -13,7 +13,7 @@ export const generateStaticParams = () => DATA.projects.map(({href}) => ({
 }));
 
 export const generateMetadata = ({ params: { project: projectId } }) => {
-    return getMetaByPage({ href: projectId });
+    return getMetaByPage({ href: `/projeler/${projectId}` });
 }
 
 const ProjectDetailsPage = ({ params: { project: projectId } }) => {

@@ -32,7 +32,9 @@ export const getMetaByPage = ({href: pageHref}) => {
         ...pageMeta,
         ...blogMeta,
     };
-    const canonical = `https://www.mastersteelhouse.com${blogHref || pageHref_ || pageHref}`;
+    const canonicalPath = blogHref || pageHref_ || pageHref || '/';
+    const normalizedPath = canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`;
+    const canonical = `https://www.mastersteelhouse.com${normalizedPath}`;
     const openGraph = {
         title: meta.title,
         description: meta.description,
